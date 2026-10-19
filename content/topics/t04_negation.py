@@ -4,6 +4,7 @@ TOPIC = {'id': 'negation',
  'nr': 4,
  'title': 'Отрицание: nicht и kein',
  'short': 'Отрицание nicht/kein',
+ 'short_de': 'Negation',
  'title_de': 'Negation: nicht/kein',
  'location': 'Кёльн, у собора',
  'location_de': 'Köln, am Dom',
@@ -25,7 +26,18 @@ TOPIC = {'id': 'negation',
                      'Der Barde hat kein Geld. Ich sehe keinen Wirt. Sie singt keine Lieder.\n'
                      '\n'
                      'Если перед существительным стоит определённый артикль, kein уже невозможен: '
-                     'Ich kenne den Mann — Ich kenne den Mann nicht.'},
+                     'Ich kenne den Mann — Ich kenne den Mann nicht.',
+             'body_de': 'kein steht vor einem Substantiv, wenn im Bejahungssatz ein oder gar kein '
+                        'Artikel stehen würde. Es wird wie ein dekliniert:\n'
+                        '\n'
+                        'Nominativ: kein Sack, keine Kiste, kein Haus\n'
+                        'Akkusativ: keinen Sack, keine Kiste, kein Haus\n'
+                        'Plural: keine Säcke, keine Kisten, keine Häuser\n'
+                        '\n'
+                        'Der Barde hat kein Geld. Ich sehe keinen Wirt. Sie singt keine Lieder.\n'
+                        '\n'
+                        'Wenn vor dem Substantiv ein bestimmter Artikel steht, ist kein nicht '
+                        'möglich: Ich kenne den Mann — Ich kenne den Mann nicht.'},
             {'title': 'nicht — для всего остального',
              'body': 'nicht отрицает глаголы, прилагательные, наречия, имена и целые предложения:\n'
                      '\n'
@@ -37,7 +49,18 @@ TOPIC = {'id': 'negation',
                      'собственное) — nicht.\n'
                      '\n'
                      'Сравни: Ich sehe keinen Wirt (существительное без артикля) — Ich sehe den '
-                     'Wirt nicht (существительное с артиклем den).'},
+                     'Wirt nicht (существительное с артиклем den).',
+             'body_de': 'nicht negiert Verben, Adjektive, Adverbien, Namen und ganze Sätze:\n'
+                        '\n'
+                        'Der Barde singt nicht. Der Dom ist nicht alt. Ich heiße nicht Peter. Wir '
+                        'fahren nicht nach Köln.\n'
+                        '\n'
+                        'Kurzregel: Wenn vor dem Substantiv kein Artikel oder ein steht, nimmt man '
+                        'kein; in allen anderen Fällen (Verb, Adjektiv, Eigenname) nimmt man '
+                        'nicht.\n'
+                        '\n'
+                        'Vergleiche: Ich sehe keinen Wirt (Substantiv ohne Artikel) — Ich sehe den '
+                        'Wirt nicht (Substantiv mit dem Artikel den).'},
             {'title': 'Где стоит nicht',
              'body': 'nicht стоит в конце предложения или перед тем словом, которое отрицает:\n'
                      '\n'
@@ -49,7 +72,18 @@ TOPIC = {'id': 'negation',
                      '\n'
                      'kein стоит только перед существительным и никогда не отрицает прилагательное '
                      'или глагол: «Der Dom ist kein alt» — ошибка, правильно Der Dom ist nicht '
-                     'alt.'}],
+                     'alt.',
+             'body_de': 'nicht steht am Satzende oder vor dem Wort, das es negiert:\n'
+                        '\n'
+                        'Der Barde singt nicht. Ich singe heute nicht. Ich singe nicht im Dom. Der '
+                        'Dom ist nicht alt. Nicht heute, sondern morgen.\n'
+                        '\n'
+                        'Vor dem konjugierten Verb im Präsens kann nicht nicht stehen: „Ich nicht '
+                        'singe“ ist falsch, richtig ist Ich singe nicht.\n'
+                        '\n'
+                        'kein steht nur vor einem Substantiv und negiert nie ein Adjektiv oder '
+                        'Verb: „Der Dom ist kein alt“ ist falsch, richtig ist Der Dom ist nicht '
+                        'alt.'}],
  'song_line': 'Am Kölner Dom bleibt meine Stimme still,\n'
               'kein Geld, kein Lied — doch ich lerne, was ich will.',
  'exercises': [{'id': 'negation_1',

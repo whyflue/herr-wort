@@ -233,12 +233,20 @@ class Engine:
         return None
 
     def _match_topic(self, text: str):
+        """Ищет тему по номеру или подписи — русской, немецкой или двуязычной."""
         norm = texts.normalize(text)
         if not norm:
             return None
         for topic in content.TOPICS:
-            label = "{}. {}".format(topic["nr"], topic["short"])
-            if norm in (texts.normalize(label), str(topic["nr"])):
+            variants = {
+                str(topic["nr"]),
+                "{}. {}".format(topic["nr"], topic["short"]),
+            }
+            if topic.get("short_de"):
+                variants.add("{}. {} / {}".format(
+                    topic["nr"], topic["short"], topic["short_de"]))
+                variants.add("{}. {}".format(topic["nr"], topic["short_de"]))
+            if norm in {texts.normalize(variant) for variant in variants}:
                 return topic["id"]
         return None
 

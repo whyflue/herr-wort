@@ -3,7 +3,8 @@
 TOPIC = {'id': 'nebensaetze',
  'nr': 10,
  'title': 'Придаточные с weil, dass, wenn',
- 'short': 'Nebensätze: weil, dass',
+ 'short': 'Придаточные',
+ 'short_de': 'Nebensätze',
  'title_de': 'Nebensätze: weil, dass, wenn',
  'location': 'Гейдельберг, библиотека',
  'location_de': 'Heidelberg, Bibliothek',
@@ -24,7 +25,16 @@ TOPIC = {'id': 'nebensaetze',
                      'wenn — когда? если? условие: Wenn es regnet, lese ich zu Hause.\n'
                      '\n'
                      'Союз всегда стоит на первом месте в придаточном и не считается членом '
-                     'предложения: подлежащее идёт сразу после него.'},
+                     'предложения: подлежащее идёт сразу после него.',
+             'body_de': 'Ein Nebensatz beginnt mit einer Konjunktion und antwortet auf eine '
+                        'Frage:\n'
+                        '\n'
+                        'weil — warum? Grund: Ich lese, weil ich Zeit habe.\n'
+                        'dass — was? Tatsache: Ich weiß, dass das Buch alt ist.\n'
+                        'wenn — wann? wenn? Bedingung: Wenn es regnet, lese ich zu Hause.\n'
+                        '\n'
+                        'Die Konjunktion steht immer am Anfang des Nebensatzes und zählt nicht als '
+                        'Satzglied: Das Subjekt folgt direkt nach ihr.'},
             {'title': 'Глагол уходит в конец',
              'body': 'Главное правило придаточного: спрягаемый глагол стоит в самом конце.\n'
                      '\n'
@@ -37,7 +47,18 @@ TOPIC = {'id': 'nebensaetze',
                      '(придаточное).\n'
                      '\n'
                      'Союз denn не меняет порядок слов — это тоже частая ошибка: ..., weil der Tag '
-                     'lang war, но ..., denn der Tag war lang.'},
+                     'lang war, но ..., denn der Tag war lang.',
+             'body_de': 'Die Hauptregel des Nebensatzes: Das konjugierte Verb steht ganz am Ende.\n'
+                        '\n'
+                        'Ich lese, weil das Buch alt ist.\n'
+                        'Ich weiß, dass der Barde gut singen kann.\n'
+                        'Wenn es regnet, bleiben wir hier.\n'
+                        '\n'
+                        'Vergleiche die Wortstellung:\n'
+                        'Der Tag war lang (Hauptsatz) — ..., weil der Tag lang war (Nebensatz).\n'
+                        '\n'
+                        'Die Konjunktion denn ändert die Wortstellung nicht — das ist ein häufiger '
+                        'Fehler: ..., weil der Tag lang war, aber ..., denn der Tag war lang.'},
             {'title': 'Придаточное в начале предложения',
              'body': 'Если придаточное стоит первым, то в главном предложении глагол идёт сразу '
                      'после запятой, а потом подлежащее:\n'
@@ -48,7 +69,48 @@ TOPIC = {'id': 'nebensaetze',
                      'Схема: союз … , глагол (главного) + подлежащее …\n'
                      '\n'
                      'Типичная ошибка: «Ich lese, weil das Buch ist gut.» — глагол ist должен '
-                     'стоять в конце: ..., weil das Buch gut ist.'}],
+                     'стоять в конце: ..., weil das Buch gut ist.',
+             'body_de': 'Steht der Nebensatz am Anfang, folgt im Hauptsatz das Verb direkt nach '
+                        'dem Komma, dann das Subjekt:\n'
+                        '\n'
+                        'Wenn es regnet, bleiben wir im Haus.\n'
+                        'Weil ich müde bin, lese ich ruhig.\n'
+                        '\n'
+                        'Schema: Konjunktion … , Verb (des Hauptsatzes) + Subjekt …\n'
+                        '\n'
+                        'Ein typischer Fehler: „Ich lese, weil das Buch ist gut.“ — Das Verb ist '
+                        'muss am Ende stehen: ..., weil das Buch gut ist.'},
+            {'title': 'Другие союзы: als, obwohl, während, nachdem…',
+             'body': 'Кроме weil, dass и wenn придаточное вводят и другие союзы — спрягаемый '
+                     'глагол тоже стоит в конце.\n'
+                     'als — однократное событие в прошлом.\n'
+                     'obwohl — уступка (Obwohl es regnet, gehe ich spazieren).\n'
+                     'während — одновременность (Während ich lese, hört er Musik).\n'
+                     'bevor — до того как (Bevor ich gehe, rufe ich an).\n'
+                     'nachdem — после того как; времена разные (Nachdem ich gegessen hatte, ging '
+                     'ich).\n'
+                     'indem — средство или образ действия (Ich lerne Deutsch, indem ich Vokabeln '
+                     'wiederhole).\n'
+                     'sodass — следствие (Es regnet stark, sodass wir zu Hause bleiben).\n'
+                     'falls и sofern — условие (Falls du kommst, bring Kuchen mit).\n'
+                     'da и zumal — причина (письменная речь и усиление).\n'
+                     'es sei denn, dass — исключение (Ich komme nicht, es sei denn, dass ich Zeit '
+                     'habe).',
+             'body_de': 'Neben weil, dass und wenn leiten auch andere Konjunktionen einen '
+                        'Nebensatz ein — das konjugierte Verb steht am Ende.\n'
+                        'als — ein einmaliges Ereignis in der Vergangenheit.\n'
+                        'obwohl — Konzession (Obwohl es regnet, gehe ich spazieren).\n'
+                        'während — Gleichzeitigkeit (Während ich lese, hört er Musik).\n'
+                        'bevor — Vorzeitigkeit (Bevor ich gehe, rufe ich an).\n'
+                        'nachdem — Nachzeitigkeit; verschiedene Zeiten (Nachdem ich gegessen '
+                        'hatte, ging ich).\n'
+                        'indem — Mittel oder Art und Weise (Ich lerne Deutsch, indem ich Vokabeln '
+                        'wiederhole).\n'
+                        'sodass — Folge (Es regnet stark, sodass wir zu Hause bleiben).\n'
+                        'falls und sofern — Bedingung (Falls du kommst, bring Kuchen mit).\n'
+                        'da und zumal — Grund (schriftlich und verstärkend).\n'
+                        'es sei denn, dass — Ausnahme (Ich komme nicht, es sei denn, dass ich Zeit '
+                        'habe).'}],
  'song_line': 'Ich lese die Bücher, weil ich verstehen will,\n'
               'und wenn ich es weiß, dann werde ich still.',
  'exercises': [{'id': 'nebensaetze_1',

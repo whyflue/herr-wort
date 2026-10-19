@@ -4,6 +4,7 @@ TOPIC = {'id': 'artikel',
  'nr': 1,
  'title': 'Артикли: der/die/das, ein/eine',
  'short': 'Артикли',
+ 'short_de': 'Artikel',
  'title_de': 'Bestimmter und unbestimmter Artikel',
  'location': 'Любек, рыночная площадь',
  'location_de': 'Lübeck, Marktplatz',
@@ -21,7 +22,15 @@ TOPIC = {'id': 'artikel',
                      '\n'
                      'der Barde — бард, der Apfel — яблоко, der Markt — рынок\n'
                      'die Laute — лютня, die Stadt — город, die Nacht — ночь\n'
-                     'das Lied — песня, das Brot — хлеб, das Wasser — вода'},
+                     'das Lied — песня, das Brot — хлеб, das Wasser — вода',
+             'body_de': 'Jedes deutsche Substantiv hat ein Genus, und der Artikel zeigt es: der '
+                        '(maskulin), die (feminin), das (neutrum). Das Genus stimmt oft nicht mit '
+                        'dem russischen überein, deshalb lernt man ein Wort immer zusammen mit dem '
+                        'Artikel.\n'
+                        '\n'
+                        'der Barde, der Apfel, der Markt\n'
+                        'die Laute, die Stadt, die Nacht\n'
+                        'das Lied, das Brot, das Wasser'},
             {'title': 'Неопределённый артикль: говорю впервые',
              'body': 'Если предмет упоминается впервые и мы не знаем, какой именно, ставим ein '
                      '(для der и das) или eine (для die).\n'
@@ -29,7 +38,15 @@ TOPIC = {'id': 'artikel',
                      'Ein Barde kommt in die Stadt. Das ist ein Apfel. Auf dem Markt singt eine '
                      'Verkäuferin.\n'
                      '\n'
-                     'Множественное число артикля не имеет: Bäcker, Lieder, Städte.'},
+                     'Множественное число артикля не имеет: Bäcker, Lieder, Städte.',
+             'body_de': 'Wenn ein Gegenstand zum ersten Mal genannt wird und wir nicht wissen, '
+                        'welcher genau gemeint ist, steht ein (bei der und das) oder eine (bei '
+                        'die).\n'
+                        '\n'
+                        'Ein Barde kommt in die Stadt. Das ist ein Apfel. Auf dem Markt singt eine '
+                        'Verkäuferin.\n'
+                        '\n'
+                        'Im Plural gibt es keinen unbestimmten Artikel: Bäcker, Lieder, Städte.'},
             {'title': 'Определённый артикль и Akkusativ',
              'body': 'der/die/das ставим, когда предмет уже назван или единственный в своём роде: '
                      'Der Barde ist müde. Die Sonne scheint.\n'
@@ -37,7 +54,14 @@ TOPIC = {'id': 'artikel',
                      'В винительном падеже (Akkusativ) меняется только мужской род: der → den, ein '
                      '→ einen. Женский и средний не меняются.\n'
                      '\n'
-                     'Ich sehe den Barden. Ich stimme die Laute. Ich singe ein Lied.'}],
+                     'Ich sehe den Barden. Ich stimme die Laute. Ich singe ein Lied.',
+             'body_de': 'der/die/das steht, wenn der Gegenstand schon genannt oder der einzige '
+                        'seiner Art ist: Der Barde ist müde. Die Sonne scheint.\n'
+                        '\n'
+                        'Im Akkusativ ändert sich nur das Maskulinum: der → den, ein → einen. '
+                        'Femininum und Neutrum bleiben gleich.\n'
+                        '\n'
+                        'Ich sehe den Barden. Ich stimme die Laute. Ich singe ein Lied.'}],
  'song_line': 'Am Markt von Lübeck, im Morgenlicht,\n'
               'kauf ich ein Brot und ein Lied — mehr braucht ein Barde nicht.',
  'exercises': [{'id': 'artikel_1',

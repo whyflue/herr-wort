@@ -8,31 +8,34 @@
 import re
 
 # ---------- подписи кнопок ----------
+# Навигация подписана на двух языках: русском и немецком. Так студент видит
+# немецкий эквивалент команды, а бот по-прежнему понимает и старые подписи
+# (они перечислены в ALIASES ниже).
 
-BTN_MENU = "🏠 Меню"
-BTN_HELP = "❓ Помощь"
-BTN_STATS = "📊 Статистика"
-BTN_STORY = "📖 Сюжет"
-BTN_TRAIN = "🎯 Тренировка по темам"
-BTN_NOSTALGIA = "🏰 Побывать в местах"
-BTN_LISTEN = "🎧 Прислушаться"
-BTN_TO_TASKS = "✍️ К заданиям"
-BTN_SHOW_RULE = "📖 Показать правило"
-BTN_START_NO_RULE = "✍️ Начать без правила"
-BTN_NEXT = "➡️ Дальше"
-BTN_NEXT_LOCATION = "➡️ Следующая локация"
-BTN_FINALE = "🏁 Финал"
-BTN_RETRY_MISTAKES = "🔁 Отработать сложные места"
-BTN_SKIP_RETRY = "➡️ Продолжить путь"
-BTN_RESTART = "🔄 Начать сюжет заново"
-BTN_RESTART_YES = "✅ Да, начать заново"
-BTN_RESTART_NO = "↩️ Отмена"
-BTN_TO_TOPICS = "🎯 К списку тем"
-BTN_TO_PLACES = "🏰 К местам"
-BTN_AGAIN = "🔄 Пройти тему заново"
-BTN_CHECK = "✅ Проверить"
-BTN_UNDO = "⬅️ Убрать слово"
-BTN_CLEAR = "🔄 Сбросить"
+BTN_MENU = "🏠 Меню / Menü"
+BTN_HELP = "❓ Помощь / Hilfe"
+BTN_STATS = "📊 Статистика / Statistik"
+BTN_STORY = "📖 Сюжет / Handlung"
+BTN_TRAIN = "🎯 Тренировка по темам / Themen üben"
+BTN_NOSTALGIA = "🏰 Побывать в местах / Orte besuchen"
+BTN_LISTEN = "🎧 Прислушаться / Zuhören"
+BTN_TO_TASKS = "✍️ К заданиям / Zu den Aufgaben"
+BTN_SHOW_RULE = "📖 Показать правило / Regel zeigen"
+BTN_START_NO_RULE = "✍️ Начать без правила / Ohne Regel"
+BTN_NEXT = "➡️ Дальше / Weiter"
+BTN_NEXT_LOCATION = "➡️ Следующая локация / Nächste Station"
+BTN_FINALE = "🏁 Финал / Finale"
+BTN_RETRY_MISTAKES = "🔁 Отработать ошибки / Fehler üben"
+BTN_SKIP_RETRY = "➡️ Продолжить путь / Weitergehen"
+BTN_RESTART = "🔄 Начать сюжет заново / Neu starten"
+BTN_RESTART_YES = "✅ Да, начать заново / Ja, neu starten"
+BTN_RESTART_NO = "↩️ Отмена / Abbrechen"
+BTN_TO_TOPICS = "🎯 К списку тем / Zur Themenliste"
+BTN_TO_PLACES = "🏰 К местам / Zu den Orten"
+BTN_AGAIN = "🔄 Пройти заново / Wiederholen"
+BTN_CHECK = "✅ Проверить / Prüfen"
+BTN_UNDO = "⬅️ Убрать слово / Wort entfernen"
+BTN_CLEAR = "🔄 Сбросить / Zurücksetzen"
 
 #: Подписи кнопок-команд: нормализованный текст -> ключ команды.
 COMMANDS = {
@@ -63,22 +66,81 @@ COMMANDS = {
 }
 
 #: Дополнительные слова, которые пользователь может набрать руками.
+#: Сюда же добавлены старые русские подписи кнопок, чтобы кнопки в уже
+#: отправленных сообщениях продолжали работать после перехода на двуязычие.
 ALIASES = {
     "начать": "start",
     "start": "start",
     "старт": "start",
     "привет": "start",
     "помоги": "help",
+    "меню": "menu",
+    "помощь": "help",
+    "статистика": "stats",
+    "результаты": "stats",
+    "сюжет": "story",
     "сюжетный режим": "story",
     "история": "story",
     "тренировка": "train",
+    "тренировка по темам": "train",
     "темы": "train",
-    "статистика": "stats",
-    "результаты": "stats",
+    "побывать в местах": "nostalgia",
+    "прислушаться": "listen",
+    "к заданиям": "to_tasks",
     "правило": "show_rule",
     "показать правило": "show_rule",
     "без правила": "skip_rule",
     "начать без правила": "skip_rule",
+    "дальше": "next",
+    "следующая локация": "next_location",
+    "финал": "finale",
+    "отработать сложные места": "retry_mistakes",
+    "отработать ошибки": "retry_mistakes",
+    "продолжить путь": "skip_retry",
+    "начать сюжет заново": "restart",
+    "да начать заново": "restart_yes",
+    "отмена": "restart_no",
+    "к списку тем": "to_topics",
+    "к местам": "to_places",
+    "пройти тему заново": "again",
+    "пройти заново": "again",
+    "проверить": "check",
+    "убрать слово": "undo",
+    "сбросить": "clear",
+    # немецкие команды: можно набрать вручную, без кнопок
+    "menü": "menu",
+    "menue": "menu",
+    "hilfe": "help",
+    "statistik": "stats",
+    "handlung": "story",
+    "geschichte": "story",
+    "themen üben": "train",
+    "themen ueben": "train",
+    "training": "train",
+    "orte besuchen": "nostalgia",
+    "zuhören": "listen",
+    "zuhoeren": "listen",
+    "zu den aufgaben": "to_tasks",
+    "regel zeigen": "show_rule",
+    "ohne regel": "skip_rule",
+    "weiter": "next",
+    "nächste station": "next_location",
+    "naechste station": "next_location",
+    "finale": "finale",
+    "fehler üben": "retry_mistakes",
+    "fehler ueben": "retry_mistakes",
+    "weitergehen": "skip_retry",
+    "neu starten": "restart",
+    "ja neu starten": "restart_yes",
+    "abbrechen": "restart_no",
+    "zur themenliste": "to_topics",
+    "zu den orten": "to_places",
+    "wiederholen": "again",
+    "prüfen": "check",
+    "pruefen": "check",
+    "wort entfernen": "undo",
+    "zurücksetzen": "clear",
+    "zuruecksetzen": "clear",
 }
 
 #: Команды, которые всегда обрабатываются, даже если похожий текст есть

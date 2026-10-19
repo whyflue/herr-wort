@@ -4,6 +4,7 @@ TOPIC = {'id': 'plural',
  'nr': 2,
  'title': 'Множественное число существительных',
  'short': 'Множественное число',
+ 'short_de': 'Plural',
  'title_de': 'Plural der Substantive',
  'location': 'Гамбург, порт',
  'location_de': 'Hamburg, Hafen',
@@ -26,7 +27,21 @@ TOPIC = {'id': 'plural',
                      'без окончания: der Anker → die Anker, der Hafen → die Häfen, das Mädchen → '
                      'die Mädchen\n'
                      '\n'
-                     'Окончание запоминают вместе со словом: der Sack — die Säcke.'},
+                     'Окончание запоминают вместе со словом: der Sack — die Säcke.',
+             'body_de': 'Im Plural bekommt das Substantiv eine der Endungen -e, -en/-n, -er, -s — '
+                        'oder es bleibt unverändert.\n'
+                        '\n'
+                        '-e: der Tisch → die Tische, das Schiff → die Schiffe, das Seil → die '
+                        'Seile\n'
+                        '-en/-n: die Frau → die Frauen, die Kiste → die Kisten, der Matrose → die '
+                        'Matrosen\n'
+                        '-er (oft mit Umlaut): das Kind → die Kinder, das Fass → die Fässer, das '
+                        'Buch → die Bücher\n'
+                        '-s: das Auto → die Autos, das Foto → die Fotos\n'
+                        'ohne Endung: der Anker → die Anker, der Hafen → die Häfen, das Mädchen → '
+                        'die Mädchen\n'
+                        '\n'
+                        'Die Endung lernt man zusammen mit dem Wort: der Sack — die Säcke.'},
             {'title': 'Артикль во множественном числе — всегда die',
              'body': 'Во множественном числе у всех существительных артикль die, независимо от '
                      'рода в единственном числе:\n'
@@ -40,7 +55,20 @@ TOPIC = {'id': 'plural',
                      'Schiffe, viele Matrosen, zwei Kisten.\n'
                      '\n'
                      'Глагол тоже ставят во множественное число: Das Schiff kommt. → Die Schiffe '
-                     'kommen. Der Matrose trägt. → Die Matrosen tragen.'},
+                     'kommen. Der Matrose trägt. → Die Matrosen tragen.',
+             'body_de': 'Im Plural haben alle Substantive den Artikel die, unabhängig vom Genus im '
+                        'Singular:\n'
+                        '\n'
+                        'der Sack → die Säcke, die Kiste → die Kisten, das Fass → die Fässer.\n'
+                        '\n'
+                        'Einen unbestimmten Artikel gibt es im Plural nicht: ein Sack → Säcke. '
+                        'Nach mein, dein, kein steht kein Artikel: meine Säcke, keine Fässer.\n'
+                        '\n'
+                        'Zahlwörter und viele, wenige zeigen den Plural selbst: drei Schiffe, '
+                        'viele Matrosen, zwei Kisten.\n'
+                        '\n'
+                        'Auch das Verb steht im Plural: Das Schiff kommt. → Die Schiffe kommen. '
+                        'Der Matrose trägt. → Die Matrosen tragen.'},
             {'title': 'Как выбрать окончание',
              'body': 'Женские слова чаще всего берут -(e)n: die Frau → die Frauen, die Möwe → die '
                      'Möwen, die Kiste → die Kisten. Слова на -in удваивают n: die Sängerin → die '
@@ -58,7 +86,23 @@ TOPIC = {'id': 'plural',
                      'Hobbys.\n'
                      '\n'
                      'Сомневаешься — проверь словарь: слово учат сразу с формой множественного '
-                     'числа.'}],
+                     'числа.',
+             'body_de': 'Feminine Wörter nehmen meist -(e)n: die Frau → die Frauen, die Möwe → die '
+                        'Möwen, die Kiste → die Kisten. Wörter auf -in verdoppeln das n: die '
+                        'Sängerin → die Sängerinnen.\n'
+                        '\n'
+                        'Wörter auf -er, -en, -el bleiben oft unverändert: der Anker → die Anker, '
+                        'der Kuchen → die Kuchen; manchmal kommt ein Umlaut dazu: der Hafen → die '
+                        'Häfen, der Garten → die Gärten.\n'
+                        '\n'
+                        'Einsilbige Wörter nehmen oft -e oder -er: das Boot → die Boote, der Tag → '
+                        'die Tage, das Netz → die Netze, der Mann → die Männer, das Fass → die '
+                        'Fässer.\n'
+                        '\n'
+                        'Fremdwörter nehmen -s: das Auto → die Autos, das Hobby → die Hobbys.\n'
+                        '\n'
+                        'Bei Zweifeln hilft das Wörterbuch: Man lernt das Wort gleich mit der '
+                        'Pluralform.'}],
  'song_line': 'Am Hamburger Kai, wo die Möwen schrein,\nzähl ich die Fässer und reim sie mir ein.',
  'exercises': [{'id': 'plural_1',
                 'kind': 'mc',

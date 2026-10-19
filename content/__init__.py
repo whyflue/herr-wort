@@ -1,6 +1,9 @@
 """Банк грамматических материалов: 12 тем A1–A2 для чат-бота «Бард».
 
 Каждая тема — отдельный модуль в пакете `content.topics` с словарём TOPIC.
+Материалы двуязычны, как в exercises.txt: у каждой страницы правила есть
+русский (`body`) и немецкий (`body_de`) текст, у каждого задания — русское
+(`explain`) и немецкое (`explain_de`) объяснение.
 Здесь темы собираются в единый список, к ним добавлены утилиты поиска и
 валидатор schema (см. `content/SCHEMA.md` и `check_content.py`).
 """
@@ -105,6 +108,11 @@ def variant(exercise: dict, retry: bool) -> dict:
     merged.setdefault("kind", exercise["kind"])
     merged["id"] = exercise["id"]
     merged["retry_of"] = exercise["id"]
+    # Двуязычность сохраняется и в отработке: если в retry нет prompt или
+    # объяснений, берём их у исходного задания.
+    for field in ("prompt", "explain", "explain_de"):
+        if not merged.get(field) and exercise.get(field):
+            merged[field] = exercise[field]
     return merged
 
 
@@ -226,6 +234,10 @@ def _check_exercise(exercise: dict, topic_id: str, where: str, problems: list) -
         problems.append("{}: пустой prompt".format(where))
     if not isinstance(exercise.get("explain"), str) or not exercise["explain"].strip():
         problems.append("{}: пустое explain".format(where))
+    if not isinstance(exercise.get("explain_de"), str) or not exercise["explain_de"].strip():
+        problems.append(
+            "{}: пустое explain_de (как в exercises.txt, объяснение нужно "
+            "на двух языках)".format(where))
     mechanics = KINDS[kind]
     if mechanics == "choice":
         _check_choice(exercise, where, problems)
@@ -240,6 +252,7 @@ def _check_exercise(exercise: dict, topic_id: str, where: str, problems: list) -
         clone = dict(retry)
         clone.setdefault("kind", kind)
         clone.setdefault("explain", exercise.get("explain", ""))
+        clone.setdefault("explain_de", exercise.get("explain_de", ""))
         clone.setdefault("prompt", exercise.get("prompt", ""))
         _check_exercise(clone, topic_id, where + "/retry", problems)
 
@@ -250,8 +263,8 @@ def validate() -> list:
     seen_ids, seen_nrs = set(), set()
     for topic in TOPICS:
         required = (
-            "id", "nr", "title", "short", "title_de", "location", "location_de",
-            "intro", "listen", "theory", "song_line", "exercises",
+            "id", "nr", "title", "short", "short_de", "title_de", "location",
+            "location_de", "intro", "listen", "theory", "song_line", "exercises",
         )
         for field in required:
             if not topic.get(field):
@@ -266,6 +279,8 @@ def validate() -> list:
         seen_ids.add(topic["id"])
         if len(topic.get("short", "")) > 30:
             problems.append("Тема {}: short длиннее 30 символов".format(topic["id"]))
+        if len(topic.get("short_de", "")) > 30:
+            problems.append("Тема {}: short_de длиннее 30 символов".format(topic["id"]))
         theory = topic.get("theory") or []
         if not theory:
             problems.append("Тема {}: нет страниц теории".format(topic["id"]))
@@ -274,6 +289,15 @@ def validate() -> list:
             if len(body) > 900:
                 problems.append("Тема {}: страница теории длиннее 900 символов: {}".format(
                     topic["id"], page.get("title")))
+            body_de = (page or {}).get("body_de", "")
+            if not body_de.strip():
+                problems.append(
+                    "Тема {}: у страницы {!r} нет немецкого текста body_de".format(
+                        topic["id"], page.get("title")))
+            elif len(body_de) > 900:
+                problems.append(
+                    "Тема {}: немецкая страница теории длиннее 900 символов: {}".format(
+                        topic["id"], page.get("title")))
         exercises = topic.get("exercises") or []
         if len(exercises) < 5:
             problems.append("Тема {}: меньше 5 заданий".format(topic["id"]))

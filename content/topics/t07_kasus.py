@@ -4,6 +4,7 @@ TOPIC = {'id': 'kasus',
  'nr': 7,
  'title': 'Аккузатив и датив',
  'short': 'Akkusativ и Dativ',
+ 'short_de': 'Akk./Dativ',
  'title_de': 'Akkusativ und Dativ',
  'location': 'Вена, императорский двор',
  'location_de': 'Wien, Kaiserhof',
@@ -28,7 +29,22 @@ TOPIC = {'id': 'kasus',
                      '\n'
                      'Личные местоимения: mich, dich, ihn, sie, es, uns, euch, sie.\n'
                      '\n'
-                     'Ich sehe ihn. Kennst du mich?'},
+                     'Ich sehe ihn. Kennst du mich?',
+             'body_de': 'Der Akkusativ antwortet auf die Frage „wen? was?“. Viele Verben verlangen '
+                        'ihn: sehen, kaufen, haben, singen, suchen, finden, essen, trinken.\n'
+                        '\n'
+                        'Nur das Maskulinum ändert sich:\n'
+                        'der → den, ein → einen.\n'
+                        '\n'
+                        'Die anderen Formen sind wie im Nominativ: die, das, die (Plural), eine, '
+                        'ein, eine.\n'
+                        '\n'
+                        'Ich sehe den Kaiser. Der Barde kauft einen Wein. Die Frau hat eine '
+                        'Laute.\n'
+                        '\n'
+                        'Personalpronomen: mich, dich, ihn, sie, es, uns, euch, sie.\n'
+                        '\n'
+                        'Ich sehe ihn. Kennst du mich?'},
             {'title': 'Dativ: кому?',
              'body': 'Дательный падеж отвечает на вопрос «кому?». С ним идут глаголы helfen, '
                      'danken, geben, schenken, gefallen, gehören, antworten.\n'
@@ -42,7 +58,20 @@ TOPIC = {'id': 'kasus',
                      '\n'
                      'Личные местоимения: mir, dir, ihm, ihr, ihm, uns, euch, ihnen.\n'
                      '\n'
-                     'Helft ihr mir? Ich danke dir.'},
+                     'Helft ihr mir? Ich danke dir.',
+             'body_de': 'Der Dativ antwortet auf die Frage „wem?“. Mit ihm stehen die Verben '
+                        'helfen, danken, geben, schenken, gefallen, gehören, antworten.\n'
+                        '\n'
+                        'Artikelformen:\n'
+                        'der → dem, die → der, das → dem, die (Plural) → den (und das Substantiv '
+                        'bekommt -n: den Kindern).\n'
+                        '\n'
+                        'Ich helfe dem Sänger. Der Barde dankt der Kaiserin. Er gibt den Kindern '
+                        'Brot.\n'
+                        '\n'
+                        'Personalpronomen: mir, dir, ihm, ihr, ihm, uns, euch, ihnen.\n'
+                        '\n'
+                        'Helft ihr mir? Ich danke dir.'},
             {'title': 'Два дополнения в предложении',
              'body': 'Если при глаголе стоят оба дополнения, сначала идёт Dativ (кому), потом '
                      'Akkusativ (что):\n'
@@ -55,7 +84,20 @@ TOPIC = {'id': 'kasus',
                      'dem Kaiser.\n'
                      '\n'
                      'Запомни пару: den Kaiser — вижу, dem Kaiser — пою и дарю. Одна буква меняет '
-                     'роль слова в предложении.'}],
+                     'роль слова в предложении.',
+             'body_de': 'Wenn beim Verb beide Ergänzungen stehen, kommt zuerst der Dativ (wem), '
+                        'dann der Akkusativ (was):\n'
+                        '\n'
+                        'Der Barde schenkt dem Kaiser ein Lied. Ich gebe dem Wirt das Brot.\n'
+                        '\n'
+                        'Zuerst die Person, dann die Sache — das ist die normale Reihenfolge im '
+                        'deutschen Satz.\n'
+                        '\n'
+                        'Ist der Akkusativ ein Pronomen, steht er vorn: Der Barde schenkt es dem '
+                        'Kaiser.\n'
+                        '\n'
+                        'Merke das Paar: den Kaiser — ich sehe ihn, dem Kaiser — ich singe und '
+                        'schenke. Ein Buchstabe ändert die Rolle des Wortes im Satz.'}],
  'song_line': 'Der Kaiser in Wien trinkt den Wein,\ndem Sänger am Hof schenk ich den Reim.',
  'exercises': [{'id': 'kasus_1',
                 'kind': 'mc',

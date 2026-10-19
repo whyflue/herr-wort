@@ -3,7 +3,8 @@
 TOPIC = {'id': 'adjektiv',
  'nr': 11,
  'title': 'Склонение прилагательных',
- 'short': 'Склонение прилагательных',
+ 'short': 'Прилагательные',
+ 'short_de': 'Adjektive',
  'title_de': 'Adjektivdeklination (schwach, stark, gemischt)',
  'location': 'Страсбург, площадь у собора',
  'location_de': 'Straßburg, Platz am Münster',
@@ -27,7 +28,18 @@ TOPIC = {'id': 'adjektiv',
                      '\n'
                      'Правило простое: если артикль уже показал род и падеж (das, die, der), '
                      'прилагательному достаточно слабого окончания -e или -en. Если артикля нет, '
-                     'прилагательное берёт окончание артикля: -er, -es, -e.'},
+                     'прилагательное берёт окончание артикля: -er, -es, -e.',
+             'body_de': 'Ein Adjektiv vor einem Nomen hat immer eine Endung, und diese Endung '
+                        'zeigt Genus und Kasus: das alte Buch, die alte Laute, der alte Meister.\n'
+                        '\n'
+                        'Den Deklinationstyp bestimmt das Wort vor dem Adjektiv:\n'
+                        '— schwach: nach der/die/das, dieser — das alte Buch;\n'
+                        '— gemischt: nach ein/eine/kein/mein — ein altes Buch;\n'
+                        '— stark: ohne Artikel — altes Brot, kalte Nächte.\n'
+                        '\n'
+                        'Die Regel ist einfach: Wenn der Artikel Genus und Kasus schon zeigt (das, '
+                        'die, der), genügt dem Adjektiv die schwache Endung -e oder -en. Ohne '
+                        'Artikel übernimmt das Adjektiv die Endung des Artikels: -er, -es, -e.'},
             {'title': 'Слабое склонение: только -e и -en',
              'body': 'После определённого артикля у прилагательного всего два окончания: -e и '
                      '-en.\n'
@@ -42,7 +54,21 @@ TOPIC = {'id': 'adjektiv',
                      'Запомни: -e стоит только в Nominativ единственного числа (все три рода) и '
                      'там, где Akkusativ совпадает с Nominativ (женский и средний род). Во всех '
                      'остальных формах, включая всё множественное число, — -en: mit dem jungen '
-                     'Meister, mit der alten Laute.'},
+                     'Meister, mit der alten Laute.',
+             'body_de': 'Nach dem bestimmten Artikel hat das Adjektiv nur zwei Endungen: -e und '
+                        '-en.\n'
+                        '\n'
+                        'Nominativ: der alte Meister, die alte Laute, das alte Buch, die alten '
+                        'Bücher\n'
+                        'Akkusativ: den alten Meister, die alte Laute, das alte Buch, die alten '
+                        'Bücher\n'
+                        'Dativ: dem alten Meister, der alten Laute, dem alten Buch, den alten '
+                        'Büchern\n'
+                        '\n'
+                        'Merke: -e steht nur im Nominativ Singular (alle drei Genera) und dort, wo '
+                        'der Akkusativ mit dem Nominativ übereinstimmt (Femininum und Neutrum). In '
+                        'allen anderen Formen, auch im ganzen Plural, steht -en: mit dem jungen '
+                        'Meister, mit der alten Laute.'},
             {'title': 'Смешанное и сильное склонение',
              'body': 'Смешанное склонение (ein, eine, kein, mein). Артикль показывает род не '
                      'всегда, поэтому прилагательное берёт сильное окончание там, где у ein '
@@ -58,7 +84,22 @@ TOPIC = {'id': 'adjektiv',
                      'Dativ: altem Wein, alter Laute, altem Brot, kalten Nächten\n'
                      '\n'
                      'Во множественном числе без артикля окончание -e (kalte Nächte), а в Dativ — '
-                     '-en (mit kalten Nächten).'}],
+                     '-en (mit kalten Nächten).',
+             'body_de': 'Gemischt (ein, eine, kein, mein): Der Artikel zeigt das Genus nicht '
+                        'immer, deshalb nimmt das Adjektiv die starke Endung dort, wo ein keine '
+                        'Endung hat.\n'
+                        '\n'
+                        'ein alter Meister (Nominativ, -er), einen alten Meister (Akkusativ, -en), '
+                        'eine alte Laute, ein altes Buch; im Dativ immer -en: einem alten Meister, '
+                        'mit einer alten Laute.\n'
+                        '\n'
+                        'Stark (ohne Artikel): Das Adjektiv übernimmt die Rolle des Artikels.\n'
+                        'Nominativ: alter Wein, alte Laute, altes Brot, kalte Nächte\n'
+                        'Akkusativ: alten Wein, alte Laute, altes Brot, kalte Nächte\n'
+                        'Dativ: altem Wein, alter Laute, altem Brot, kalten Nächten\n'
+                        '\n'
+                        'Im Plural ohne Artikel steht -e (kalte Nächte), im Dativ -en (mit kalten '
+                        'Nächten).'}],
  'song_line': 'Das alte Buch, das schöne Lied im Wind,\n'
               'die kalte Nacht — sie alle sing ich, wie sie sind.',
  'exercises': [{'id': 'adjektiv_1',

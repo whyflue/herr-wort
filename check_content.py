@@ -7,7 +7,7 @@
 import sys
 
 import content
-from bot import texts, keyboards
+from bot import texts, keyboards, render
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -43,6 +43,24 @@ def _keyboard_problems() -> list:
     return problems
 
 
+def _label_problems() -> list:
+    """Проверяет подписи всех кнопок навигации и тем (лимит VK — 40 символов)."""
+    problems = []
+    for label in texts.COMMANDS:
+        try:
+            keyboards.build([[label]])
+        except keyboards.KeyboardError as exc:
+            problems.append("кнопка-команда {}: {}".format(label, exc))
+    for topic in content.TOPICS:
+        for done in (False, True):
+            label = render.topic_label(topic, done)
+            try:
+                keyboards.build([[label]])
+            except keyboards.KeyboardError as exc:
+                problems.append("кнопка темы {}: {}".format(topic["id"], exc))
+    return problems
+
+
 def build_keyboard(exercise: dict) -> dict:
     """Собирает клавиатуру задания так же, как это делает движок бота."""
     mechanics = content.kind_mechanics(exercise["kind"])
@@ -65,7 +83,7 @@ def build_keyboard(exercise: dict) -> dict:
 
 def main() -> int:
     print_overview()
-    problems = content.validate() + _keyboard_problems()
+    problems = content.validate() + _keyboard_problems() + _label_problems()
     print()
     if not problems:
         print("Проверки пройдены: проблем не найдено.")

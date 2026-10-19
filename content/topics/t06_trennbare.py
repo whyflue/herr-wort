@@ -3,7 +3,8 @@
 TOPIC = {'id': 'trennbare',
  'nr': 6,
  'title': 'Отделяемые и неотделяемые приставки',
- 'short': 'Отделяемые приставки',
+ 'short': 'Приставки',
+ 'short_de': 'Trennbare Verben',
  'title_de': 'Trennbare und nicht trennbare Verben',
  'location': 'Веймар, мельница у реки',
  'location_de': 'Weimar, Mühle am Fluss',
@@ -29,7 +30,21 @@ TOPIC = {'id': 'trennbare',
                      'Вопрос: Stehst du früh auf? Приказ: Steh auf!\n'
                      '\n'
                      'Смысл глагола при этом не теряется: aufstehen — «вставать», stehen — просто '
-                     '«стоять».'},
+                     '«стоять».',
+             'body_de': 'Viele deutsche Verben haben ein Präfix: aufstehen, aufmachen, mitkommen, '
+                        'anfangen, einkaufen.\n'
+                        '\n'
+                        'Ist das Präfix trennbar, geht es im Satz ganz ans Ende, das Verb bleibt '
+                        'an zweiter Stelle:\n'
+                        '\n'
+                        'Ich stehe um sechs Uhr auf. Der Müller macht das Tor auf.\n'
+                        '\n'
+                        'Die Präfixe auf-, an-, aus-, ein-, mit-, zu-, los-, vor- werden fast '
+                        'immer abgetrennt.\n'
+                        '\n'
+                        'Frage: Stehst du früh auf? Befehl: Steh auf!\n'
+                        '\n'
+                        'Die Bedeutung bleibt erkennbar: aufstehen = stehen + auf.'},
             {'title': 'Неотделяемые приставки',
              'body': 'Приставки be-, ge-, er-, ver-, zer-, ent-, emp-, miss- не отделяются '
                      'никогда, они остаются с глаголом:\n'
@@ -41,7 +56,18 @@ TOPIC = {'id': 'trennbare',
                      'ver» сказать нельзя.\n'
                      '\n'
                      'Проверить помогает ударение: отделяемая приставка ударная (ÁUFstehen, '
-                     'MÍTkommen), неотделяемая — безударная (verSTÉHen, erzÄHlen).'},
+                     'MÍTkommen), неотделяемая — безударная (verSTÉHen, erzÄHlen).',
+             'body_de': 'Die Präfixe be-, ge-, er-, ver-, zer-, ent-, emp-, miss- werden nie '
+                        'abgetrennt, sie bleiben beim Verb:\n'
+                        '\n'
+                        'Ich verstehe den Müller. Der Barde erzählt eine Geschichte. Wir besuchen '
+                        'die Mühle.\n'
+                        '\n'
+                        'Vergleiche: aufstehen — trennbar (Ich stehe auf), verstehen — nicht: „Ich '
+                        'stehe ver“ ist falsch.\n'
+                        '\n'
+                        'Die Betonung hilft: Ein trennbares Präfix ist betont (ÁUFstehen, '
+                        'MÍTkommen), ein untrennbares unbetont (verSTÉHen, erzÄHlen).'},
             {'title': 'Что делать с модальным глаголом',
              'body': 'Если рядом модальный глагол, он занимает второе место, а основной глагол '
                      'встаёт в конец инфинитивом — и приставка остаётся на месте:\n'
@@ -55,7 +81,20 @@ TOPIC = {'id': 'trennbare',
                      'Ich stehe früh auf. — приставка в конце;\n'
                      'Ich muss früh aufstehen. — глагол целиком в конце.\n'
                      '\n'
-                     'Так же с частицей zu: aufzustehen, mitzukommen — приставка стоит перед zu.'}],
+                     'Так же с частицей zu: aufzustehen, mitzukommen — приставка стоит перед zu.',
+             'body_de': 'Steht ein Modalverb dabei, nimmt es die zweite Stelle ein, und das '
+                        'Vollverb steht als Infinitiv am Ende — das Präfix bleibt beim Verb:\n'
+                        '\n'
+                        'Ich muss früh aufstehen. Der Müller will das Tor zumachen.\n'
+                        '\n'
+                        '„Ich muss früh stehen auf“ ist falsch: Mit einem Modalverb wird das '
+                        'Präfix nicht abgetrennt.\n'
+                        '\n'
+                        'Vergleiche die beiden Sätze:\n'
+                        'Ich stehe früh auf. — Das Präfix steht am Ende.\n'
+                        'Ich muss früh aufstehen. — Das ganze Verb steht am Ende.\n'
+                        '\n'
+                        'Mit zu bleibt das Präfix davor: aufzustehen, mitzukommen.'}],
  'song_line': 'Die Mühle in Weimar dreht sich im Wind,\nich steh früh auf und lerne geschwind.',
  'exercises': [{'id': 'trennbare_1',
                 'kind': 'mc',

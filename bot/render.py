@@ -21,8 +21,11 @@ from content import (
 BAR = "─" * 18
 
 
-def _topic_label(topic: dict, done: bool) -> str:
+def topic_label(topic: dict, done: bool) -> str:
+    """Подпись темы для кнопок: русское и немецкое названия."""
     label = "{}. {}".format(topic["nr"], topic["short"])
+    if topic.get("short_de"):
+        label += " / {}".format(topic["short_de"])
     if done:
         label += " ✅"
     return label
@@ -57,9 +60,10 @@ def help_screen() -> tuple:
         "В боте два режима.\n\n"
         "📖 СЮЖЕТ — путь барда по городам. В каждой локации можно сначала "
         "«прислушаться» и прочитать правило, а перед заданиями бот сам "
-        "предлагает выбрать: показать правило или начать без него. Ошибка "
+        "предлагает выбрать: показать правило или начать без него. Правила "
+        "и объяснения даются на двух языках — по-русски и по-немецки. Ошибка "
         "звучит как фальшивая нота: бот показывает верный ответ и объясняет "
-        "его по-русски и по-немецки. "
+        "его на обоих языках. "
         "Перед новой локацией бард предлагает повторить задания, где были "
         "ошибки. За пройденную тему бард дописывает строчку баллады.\n\n"
         "🎯 ТРЕНИРОВКА ПО ТЕМАМ — то же самое, но без сюжета: выбираешь тему "
@@ -143,7 +147,8 @@ def rule_choice(topic: dict, ctx: str) -> tuple:
         "📖 ПРАВИЛО ПЕРЕД ЗАДАНИЯМИ\n"
         "{}\n\n"
         "Тема: {} ({})\n\n"
-        "Можно сначала освежить правило — или сразу перейти к заданиям: "
+        "Правило откроется сразу на двух языках — по-русски и по-немецки. "
+        "Можно сначала освежить его — или сразу перейти к заданиям: "
         "объяснение всё равно появится, если ответ окажется неверным.".format(
             BAR, topic["title"], topic["title_de"])
     )
@@ -159,14 +164,20 @@ def theory_page(topic: dict, page_index: int, ctx: str) -> tuple:
     pages = topic["theory"]
     page = pages[page_index]
     total = len(pages)
-    head = "📖 ТЕОРИЯ: {} — {}\n{}".format(topic["title"], page["title"], BAR)
+    head = "📖 ТЕОРИЯ: {}\n🇩🇪 {}\n{}".format(
+        topic["title"], topic["title_de"], BAR)
     if page_index == 0:
         head = "🎧 {}\n\n{}".format(topic["listen"], head)
     last = page_index + 1 >= total
     tail = ("Правило записано — можно пробовать." if last
             else "Листай дальше, чтобы узнать правило целиком.")
-    text = "{}\n📄 Страница {} из {}\n\n{}\n\n{}\n\n{}".format(
-        head, page_index + 1, total, page["body"], BAR, tail)
+    text = (
+        "{}\n📄 Страница {} из {}\n\n{}\n\n"
+        "🇷🇺 {}\n\n"
+        "🇩🇪 {}\n\n"
+        "{}\n{}"
+    ).format(head, page_index + 1, total, page["title"],
+             page["body"], page["body_de"], BAR, tail)
     rows = []
     if not last:
         rows.append([texts.BTN_NEXT])
@@ -261,8 +272,10 @@ def feedback(exercise: dict, kind: str, ok: bool, right: str,
     else:
         head = ("🎼 Фальшивая нота!\n\n"
                 "Ладонь барда сбивается со струн. Правильный ответ: {}".format(right))
-    body = exercise.get("explain", "")
-    if not ok and exercise.get("explain_de"):
+    # Как и в exercises.txt, объяснение показываем на двух языках:
+    # сначала русское, затем немецкое — и при верном, и при неверном ответе.
+    body = "🇷🇺 {}".format(exercise.get("explain", ""))
+    if exercise.get("explain_de"):
         body = "{}\n\n🇩🇪 {}".format(body, exercise["explain_de"])
     text = "{}\n{}\n\n{}\n\n{}".format(head, BAR, body, BAR)
     rows = [[texts.BTN_NEXT], [texts.BTN_MENU]]
@@ -355,7 +368,7 @@ def topic_list(done_ids: list) -> tuple:
         "Сюжет здесь не нужен: выбирай тему, слушай правило и решай задания. "
         "Отметкой ✅ помечены темы, пройденные в сюжете.".format(BAR)
     )
-    labels = [_topic_label(topic, topic["id"] in done_ids) for topic in TOPICS]
+    labels = [topic_label(topic, topic["id"] in done_ids) for topic in TOPICS]
     rows = [labels[i:i + 2] for i in range(0, len(labels), 2)]
     rows.append([texts.BTN_MENU])
     return text, keyboards.build(rows)
@@ -369,7 +382,7 @@ def place_list(done_ids: list) -> tuple:
         "колокола. Выбери место — и вспомни правило, которое в нём родилось.".format(BAR)
     )
     labels = [
-        _topic_label(topic, True)
+        topic_label(topic, True)
         for topic in TOPICS if topic["id"] in done_ids
     ]
     rows = [labels[i:i + 2] for i in range(0, len(labels), 2)]

@@ -4,6 +4,7 @@ TOPIC = {'id': 'praesens',
  'nr': 3,
  'title': 'Личные местоимения и глагол в Präsens',
  'short': 'Глаголы в Präsens',
+ 'short_de': 'Präsens',
  'title_de': 'Personalpronomen und Verben im Präsens',
  'location': 'Бремен, трактир у ратуши',
  'location_de': 'Bremen, Wirtshaus am Rathaus',
@@ -26,7 +27,21 @@ TOPIC = {'id': 'praesens',
                      'sie значит и «она», и «они»; форма глагола подскажет: sie singt — она поёт, '
                      'sie singen — они поют.\n'
                      '\n'
-                     'Вежливое Sie подходит и одному человеку, и нескольким: Wie heißen Sie?'},
+                     'Вежливое Sie подходит и одному человеку, и нескольким: Wie heißen Sie?',
+             'body_de': 'Personalpronomen im Nominativ: ich, du, er, sie, es, wir, ihr, sie, Sie.\n'
+                        '\n'
+                        'du ist die vertraute Anrede an eine Person, ihr an mehrere vertraute '
+                        'Personen; Sie ist die Höflichkeitsform für eine Person oder mehrere und '
+                        'wird immer großgeschrieben.\n'
+                        '\n'
+                        'er/sie/es wählt man nach dem Genus des deutschen Wortes: der Wirt → er, '
+                        'die Laute → sie, das Lied → es.\n'
+                        '\n'
+                        'Wichtig: das Mädchen ist neutrum, deshalb es, obwohl es um ein Mädchen '
+                        'geht.\n'
+                        '\n'
+                        'sie kann „sie“ (Singular) oder „sie“ (Plural) bedeuten; die Verbform '
+                        'zeigt es: sie singt (Sg.) — sie singen (Pl.).'},
             {'title': 'Окончания в Präsens',
              'body': 'Слабые глаголы меняются по образцу machen:\n'
                      '\n'
@@ -44,7 +59,24 @@ TOPIC = {'id': 'praesens',
                      'sitzt.\n'
                      '\n'
                      'Глагол стоит в предложении на втором месте: Der Barde singt ein Lied. Heute '
-                     'singt der Barde ein Lied.'},
+                     'singt der Barde ein Lied.',
+             'body_de': 'Schwache Verben folgen dem Muster von machen:\n'
+                        '\n'
+                        'ich mache\n'
+                        'du machst\n'
+                        'er/sie/es macht\n'
+                        'wir machen\n'
+                        'ihr macht\n'
+                        'sie/Sie machen\n'
+                        '\n'
+                        'Endungen: -e, -st, -t, -en, -t, -en.\n'
+                        '\n'
+                        'Stämme auf -t oder -d bekommen ein e: du arbeitest, er arbeitet.\n'
+                        'Stämme auf -s, -ß, -z nehmen in der 2. Person nur -t: du tanzt, du heißt, '
+                        'du sitzt.\n'
+                        '\n'
+                        'Das Verb steht im Aussagesatz an zweiter Stelle: Der Barde singt ein '
+                        'Lied. Heute singt der Barde ein Lied.'},
             {'title': 'Сильные глаголы меняют гласную',
              'body': 'Во 2-м и 3-м лице единственного числа у многих сильных глаголов меняется '
                      'гласная в корне:\n'
@@ -59,7 +91,21 @@ TOPIC = {'id': 'praesens',
                      'lest.\n'
                      '\n'
                      'У du и er формы часто различаются только окончанием -st/-t: du nimmst, er '
-                     'nimmt.'}],
+                     'nimmt.',
+             'body_de': 'In der 2. und 3. Person Singular ändern viele starke Verben den '
+                        'Stammvokal:\n'
+                        '\n'
+                        'fahren: du fährst, er fährt (a → ä)\n'
+                        'lesen: du liest, er liest (e → ie)\n'
+                        'nehmen: du nimmst, er nimmt (e → i)\n'
+                        'sehen: du siehst, er sieht\n'
+                        'essen: du isst, er isst\n'
+                        '\n'
+                        'In den Formen wir und ihr gibt es keine Änderung: wir fahren, ihr fahrt, '
+                        'wir lesen, ihr lest.\n'
+                        '\n'
+                        'Bei du und er unterscheiden sich die Formen oft nur durch die Endung '
+                        '-st/-t: du nimmst, er nimmt.'}],
  'song_line': 'In Bremen sing ich, wer ich bin,\nund du, mein Wirt, hörst freundlich hin.',
  'exercises': [{'id': 'praesens_1',
                 'kind': 'mc',

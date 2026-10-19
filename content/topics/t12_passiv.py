@@ -3,7 +3,8 @@
 TOPIC = {'id': 'passiv',
  'nr': 12,
  'title': 'Пассив (Präsens, Präteritum)',
- 'short': 'Passiv: Präsens/Präteritum',
+ 'short': 'Пассив',
+ 'short_de': 'Passiv',
  'title_de': 'Passiv (Präsens, Präteritum)',
  'location': 'Аахен, собор Карла Великого',
  'location_de': 'Aachen, Dom Karls des Großen',
@@ -27,7 +28,21 @@ TOPIC = {'id': 'passiv',
                      '\n'
                      'werden спрягается по лицу и числу: ich werde, du wirst, er/sie/es wird, wir '
                      'werden, ihr werdet, sie werden. В Präteritum: ich wurde, er wurde; wir '
-                     'wurden, sie wurden. Partizip II при этом не меняется.'},
+                     'wurden, sie wurden. Partizip II при этом не меняется.',
+             'body_de': 'Das Passiv antwortet auf die Frage „Was geschieht mit der Sache?“, nicht '
+                        'auf „Wer macht das?“.\n'
+                        '\n'
+                        'Formel: werden + Partizip II.\n'
+                        'Präsens: Der Dom wird gebaut. Die Glocken werden geläutet.\n'
+                        'Präteritum: Der Dom wurde gebaut. Die Glocken wurden geläutet.\n'
+                        '\n'
+                        'Im Passiv steht die Handlung im Vordergrund, der Handelnde wird oft gar '
+                        'nicht genannt: Der Stein wird gelegt.\n'
+                        '\n'
+                        'werden wird nach Person und Zahl konjugiert: ich werde, du wirst, '
+                        'er/sie/es wird, wir werden, ihr werdet, sie werden. Im Präteritum: ich '
+                        'wurde, er wurde; wir wurden, sie wurden. Das Partizip II bleibt '
+                        'unverändert.'},
             {'title': 'Порядок слов, время и исполнитель',
              'body': 'В простом предложении werden (wurde) стоит на втором месте, Partizip II — в '
                      'самом конце: Der Dom wird von den Meistern gebaut.\n'
@@ -42,7 +57,21 @@ TOPIC = {'id': 'passiv',
                      '-n).\n'
                      '\n'
                      'Aktiv → Passiv: Der Baumeister baut den Dom. → Der Dom wird gebaut. '
-                     'Дополнение в Akkusativ становится подлежащим.'},
+                     'Дополнение в Akkusativ становится подлежащим.',
+             'body_de': 'Im einfachen Satz steht werden (wurde) an zweiter Stelle, das Partizip II '
+                        'ganz am Ende: Der Dom wird von den Meistern gebaut.\n'
+                        '\n'
+                        'Beginnt der Satz nicht mit dem Subjekt, bleibt werden trotzdem an zweiter '
+                        'Stelle, das Subjekt folgt danach:\n'
+                        'Im Jahr 800 wurde der Dom gebaut. Jeden Tag werden die Glocken geläutet.\n'
+                        '\n'
+                        'Der Handelnde wird mit von + Dativ genannt (von dem → vom): Der Dom wurde '
+                        'von Karl dem Großen gebaut. Die Glocken wurden von den Meistern geläutet. '
+                        'Im Plural Dativ: von den Meistern (Artikel den, das Substantiv bekommt '
+                        '-n).\n'
+                        '\n'
+                        'Aktiv → Passiv: Der Baumeister baut den Dom. → Der Dom wird gebaut. Das '
+                        'Akkusativobjekt wird zum Subjekt.'},
             {'title': 'Präsens или Präteritum: выбирает werden',
              'body': 'Время в пассиве показывает вспомогательный глагол — форма Partizip II не '
                      'меняется.\n'
@@ -58,7 +87,22 @@ TOPIC = {'id': 'passiv',
                      'ч.).\n'
                      '\n'
                      'Частая ошибка: вместо Partizip II поставить инфинитив. «Der Dom wird bauen» '
-                     '— неверно, нужно Der Dom wird gebaut.'}],
+                     '— неверно, нужно Der Dom wird gebaut.',
+             'body_de': 'Die Zeit im Passiv zeigt das Hilfsverb — das Partizip II ändert sich '
+                        'nicht.\n'
+                        '\n'
+                        'Präsens (wird / werden): die Handlung geschieht jetzt, regelmäßig oder '
+                        'als Regel.\n'
+                        'Der Dom wird restauriert. Die Glocken werden am Morgen geläutet.\n'
+                        '\n'
+                        'Präteritum (wurde / wurden): eine Erzählung über die Vergangenheit.\n'
+                        'Der Dom wurde gebaut. Die Glocken wurden geläutet.\n'
+                        '\n'
+                        'Kongruenz mit dem Subjekt: der Dom wird/wurde — Singular; die Glocken '
+                        'werden/wurden — Plural. Verwechsle wurde (Sg.) und wurden (Pl.) nicht.\n'
+                        '\n'
+                        'Häufiger Fehler: statt des Partizips II den Infinitiv setzen. „Der Dom '
+                        'wird bauen“ ist falsch, richtig ist Der Dom wird gebaut.'}],
  'song_line': 'Nun wird das Lied gebaut aus Stein und Zeit,\n'
               'der Dom steht fest — der Barde ist bereit.',
  'exercises': [{'id': 'passiv_1',

@@ -4,6 +4,7 @@ TOPIC = {'id': 'perfekt',
  'nr': 8,
  'title': 'Perfekt с haben и sein',
  'short': 'Perfekt: haben/sein',
+ 'short_de': 'Perfekt',
  'title_de': 'Perfekt mit haben/sein',
  'location': 'Ротенбург-на-Таубере, городская стена',
  'location_de': 'Rothenburg ob der Tauber, Stadtmauer',
@@ -28,7 +29,20 @@ TOPIC = {'id': 'perfekt',
                      'wir haben/sind.\n'
                      '\n'
                      'Все остальные слова стоят между ними: Ich habe gestern auf der Mauer '
-                     'gesungen.'},
+                     'gesungen.',
+             'body_de': 'Das Perfekt ist die Vergangenheitsform für Gespräch und Erzählung. Das '
+                        'Prädikat besteht aus zwei Teilen, sie bilden einen Rahmen:\n'
+                        '\n'
+                        'haben oder sein — an zweiter Stelle;\n'
+                        'Partizip II — ganz am Ende.\n'
+                        '\n'
+                        'Ich habe ein Lied gesungen. Der Barde ist zur Mauer gegangen.\n'
+                        '\n'
+                        'Das Hilfsverb wird konjugiert: ich habe/bin, du hast/bist, er hat/ist, '
+                        'wir haben/sind.\n'
+                        '\n'
+                        'Alle anderen Wörter stehen dazwischen: Ich habe gestern auf der Mauer '
+                        'gesungen.'},
             {'title': 'haben или sein?',
              'body': 'С sein идут глаголы движения и смены состояния: gehen, fahren, kommen, '
                      'laufen, aufstehen, einschlafen.\n'
@@ -42,7 +56,20 @@ TOPIC = {'id': 'perfekt',
                      'Ich habe die Stadt gesehen. Er hat mir geholfen. Wir haben Brot gekauft.\n'
                      '\n'
                      'Подсказка: движение «куда-то» и смена состояния — sein, обычное действие — '
-                     'haben.'},
+                     'haben.',
+             'body_de': 'Mit sein stehen Verben der Bewegung und der Zustandsänderung: gehen, '
+                        'fahren, kommen, laufen, aufstehen, einschlafen.\n'
+                        '\n'
+                        'Der Barde ist nach Rothenburg gefahren. Ich bin früh aufgestanden. Die '
+                        'Stadt ist schön geworden.\n'
+                        '\n'
+                        'Die übrigen Verben stehen mit haben: machen, singen, kaufen, sehen, '
+                        'finden, helfen, lesen.\n'
+                        '\n'
+                        'Ich habe die Stadt gesehen. Er hat mir geholfen. Wir haben Brot gekauft.\n'
+                        '\n'
+                        'Tipp: Bewegung „wohin“ und Zustandsänderung — sein; eine gewöhnliche '
+                        'Handlung — haben.'},
             {'title': 'Partizip II: как построить',
              'body': 'Слабые глаголы: ge- + основа + -t: machen → gemacht, kaufen → gekauft, sagen '
                      '→ gesagt.\n'
@@ -53,7 +80,17 @@ TOPIC = {'id': 'perfekt',
                      'Без ge-: глаголы с неотделяемыми приставками be-, ver-, er- и глаголы на '
                      '-ieren: besuchen → besucht, verlieren → verloren, studieren → studiert.\n'
                      '\n'
-                     'Partizip II всегда стоит в конце: Wir haben lange gesungen.'}],
+                     'Partizip II всегда стоит в конце: Wir haben lange gesungen.',
+             'body_de': 'Schwache Verben: ge- + Stamm + -t: machen → gemacht, kaufen → gekauft, '
+                        'sagen → gesagt.\n'
+                        '\n'
+                        'Starke Verben ändern den Vokal und enden auf -en: singen → gesungen, '
+                        'sehen → gesehen, kommen → gekommen, gehen → gegangen, finden → gefunden.\n'
+                        '\n'
+                        'Ohne ge-: Verben mit untrennbaren Präfixen be-, ver-, er- und Verben auf '
+                        '-ieren: besuchen → besucht, verlieren → verloren, studieren → studiert.\n'
+                        '\n'
+                        'Das Partizip II steht immer am Ende: Wir haben lange gesungen.'}],
  'song_line': 'Ich bin durch Täler und Städte gegangen,\n'
               'habe am Rothenburger Tor ein Lied angefangen.',
  'exercises': [{'id': 'perfekt_1',

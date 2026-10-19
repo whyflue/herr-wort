@@ -4,6 +4,7 @@ TOPIC = {'id': 'modalverben',
  'nr': 5,
  'title': 'Модальные глаголы: können, müssen, wollen',
  'short': 'Модальные глаголы',
+ 'short_de': 'Modalverben',
  'title_de': 'Modalverben: können, müssen, wollen',
  'location': 'Нюрнберг, замок мастера',
  'location_de': 'Nürnberg, Burg des Meisters',
@@ -30,7 +31,22 @@ TOPIC = {'id': 'modalverben',
                      '\n'
                      'В вопросе модальный глагол выходит на первое место: Kannst du mir helfen?\n'
                      '\n'
-                     'Отрицание nicht стоит перед инфинитивом: Ich will nicht warten.'},
+                     'Отрицание nicht стоит перед инфинитивом: Ich will nicht warten.',
+             'body_de': 'Modalverben sagen nicht, was geschieht, sondern wie man dazu steht: '
+                        'können, müssen, wollen.\n'
+                        '\n'
+                        'können — Fähigkeit oder Möglichkeit;\n'
+                        'müssen — Notwendigkeit;\n'
+                        'wollen — Absicht.\n'
+                        '\n'
+                        'Das Prädikat besteht aus zwei Teilen, sie bilden einen Rahmen: Das '
+                        'Modalverb steht an zweiter Stelle, der Infinitiv ganz am Ende.\n'
+                        '\n'
+                        'Ich will den Meister sehen. Wir müssen heute arbeiten.\n'
+                        '\n'
+                        'In der Frage steht das Modalverb an erster Stelle: Kannst du mir helfen?\n'
+                        '\n'
+                        'Die Negation nicht steht vor dem Infinitiv: Ich will nicht warten.'},
             {'title': 'Спряжение: у ich и er одна форма',
              'body': 'ich kann / muss / will\n'
                      'du kannst / musst / willst\n'
@@ -45,7 +61,21 @@ TOPIC = {'id': 'modalverben',
                      '\n'
                      'В единственном числе меняется корневой гласный: können → kann, müssen → '
                      'muss, а у wollen меняется только форма du: du willst. Во множественном числе '
-                     'формы обычные: wir können, ihr könnt.'},
+                     'формы обычные: wir können, ihr könnt.',
+             'body_de': 'ich kann / muss / will\n'
+                        'du kannst / musst / willst\n'
+                        'er, sie, es kann / muss / will\n'
+                        'wir können / müssen / wollen\n'
+                        'ihr könnt / müsst / wollt\n'
+                        'sie, Sie können / müssen / wollen\n'
+                        '\n'
+                        'Wichtig: Bei ich und er/sie/es ist die Form gleich, ohne Endung -t. Ich '
+                        'kann, er kann — nicht „er kannt“. Ebenso: ich muss, er muss; ich will, er '
+                        'will.\n'
+                        '\n'
+                        'Im Singular ändert sich der Stammvokal: können → kann, müssen → muss; bei '
+                        'wollen ändert sich nur du: du willst. Im Plural sind die Formen '
+                        'regelmäßig: wir können, ihr könnt.'},
             {'title': 'Что значит какой глагол',
              'body': 'können — уметь или иметь возможность: Ich kann singen. Kann ich hier '
                      'bleiben?\n'
@@ -59,7 +89,19 @@ TOPIC = {'id': 'modalverben',
                      'работать». А запрет передают словами nicht dürfen: Du darfst nicht laut '
                      'singen.\n'
                      '\n'
-                     'Вопрос о разрешении обычно с können: Kann ich hier bleiben?'}],
+                     'Вопрос о разрешении обычно с können: Kann ich hier bleiben?',
+             'body_de': 'können — etwas können oder die Möglichkeit haben: Ich kann singen. Kann '
+                        'ich hier bleiben?\n'
+                        '\n'
+                        'müssen — müssen oder nötig sein: Ich muss arbeiten. Du musst leise sein.\n'
+                        '\n'
+                        'wollen — wollen: Ich will schlafen. Wir wollen nach Wien fahren.\n'
+                        '\n'
+                        'Negationen ändern die Bedeutung: Ich muss nicht arbeiten — es ist nicht '
+                        'nötig. Ich will nicht arbeiten — ich habe keine Lust. Ein Verbot drückt '
+                        'nicht dürfen aus: Du darfst nicht laut singen.\n'
+                        '\n'
+                        'Bei einer Erlaubnis fragt man meist mit können: Kann ich hier bleiben?'}],
  'song_line': 'In Nürnberg auf der Burg, da kann ich viel,\n'
               'ich muss nur üben, und ich will mein Ziel.',
  'exercises': [{'id': 'modalverben_1',

@@ -3,7 +3,8 @@
 TOPIC = {'id': 'praeteritum',
  'nr': 9,
  'title': 'Претеритум: sein, haben, модальные глаголы',
- 'short': 'Präteritum: sein/haben',
+ 'short': 'Претеритум',
+ 'short_de': 'Präteritum',
  'title_de': 'Präteritum von sein, haben, Modalverben',
  'location': 'Вартбург, замок легенд',
  'location_de': 'Wartburg, Schloss der Legenden',
@@ -26,7 +27,20 @@ TOPIC = {'id': 'praeteritum',
                      'Es war einmal ein König. Er hatte eine schöne Tochter. Wir waren müde.\n'
                      '\n'
                      'Формы ich и er совпадают: ich war, er war; ich hatte, er hatte. Отличается '
-                     'только du: du warst, du hattest.'},
+                     'только du: du warst, du hattest.',
+             'body_de': 'In der Erzählung über die Vergangenheit sind zwei Tabellen am '
+                        'wichtigsten.\n'
+                        '\n'
+                        'sein: ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie '
+                        'waren.\n'
+                        '\n'
+                        'haben: ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, '
+                        'sie/Sie hatten.\n'
+                        '\n'
+                        'Es war einmal ein König. Er hatte eine schöne Tochter. Wir waren müde.\n'
+                        '\n'
+                        'Die Formen von ich und er sind gleich: ich war, er war; ich hatte, er '
+                        'hatte. Nur du unterscheidet sich: du warst, du hattest.'},
             {'title': 'Модальные глаголы в Präteritum',
              'body': 'Модальные глаголы теряют умляут и получают окончания как у sein и haben:\n'
                      '\n'
@@ -37,7 +51,18 @@ TOPIC = {'id': 'praeteritum',
                      'spielen.\n'
                      '\n'
                      'У ich и er окончания нет: ich musste, er musste. У du — -st: du musstest. У '
-                     'wir, sie — -en: wir mussten.'},
+                     'wir, sie — -en: wir mussten.',
+             'body_de': 'Modalverben verlieren den Umlaut und bekommen Endungen wie sein und '
+                        'haben:\n'
+                        '\n'
+                        'können → konnte, müssen → musste, wollen → wollte, dürfen → durfte, '
+                        'sollen → sollte, mögen → mochte.\n'
+                        '\n'
+                        'Ich konnte nicht singen. Der König musste bleiben. Die Sänger wollten '
+                        'spielen.\n'
+                        '\n'
+                        'Bei ich und er gibt es keine Endung: ich musste, er musste. Bei du steht '
+                        '-st: du musstest. Bei wir und sie steht -en: wir mussten.'},
             {'title': 'Präteritum в рассказе',
              'body': 'Präteritum — время рассказчика: так звучат легенды, сказки и старые истории. '
                      'В разговоре чаще говорят в Perfekt.\n'
@@ -47,7 +72,16 @@ TOPIC = {'id': 'praeteritum',
                      '\n'
                      'Сначала назови, когда это было и что было (war, hatte), потом скажи, что '
                      'герой мог, должен был или хотел (konnte, musste, wollte). После модального '
-                     'глагола стоит инфинитив: er wollte singen.'}],
+                     'глагола стоит инфинитив: er wollte singen.',
+             'body_de': 'Das Präteritum ist die Zeit des Erzählers: So klingen Legenden, Märchen '
+                        'und alte Geschichten. Im Gespräch verwendet man häufiger das Perfekt.\n'
+                        '\n'
+                        'Es war einmal ein Barde. Er hatte eine Laute und wollte singen. Aber er '
+                        'konnte die Worte nicht finden.\n'
+                        '\n'
+                        'Nenne zuerst, wann es war und was war (war, hatte), dann, was der Held '
+                        'konnte, musste oder wollte (konnte, musste, wollte). Nach dem Modalverb '
+                        'steht der Infinitiv: er wollte singen.'}],
  'song_line': 'Ich saß auf der Wartburg im Kerzenschein,\ndie alten Sagen waren mein.',
  'exercises': [{'id': 'praeteritum_1',
                 'kind': 'mc',
