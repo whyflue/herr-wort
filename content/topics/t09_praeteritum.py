@@ -1,297 +1,225 @@
-"""Тема 9. Präteritum von sein, haben und Modalverben."""
+"""Тема 9: Präteritum von sein, haben, Modalverben."""
 
-TOPIC = {
-    "id": "praeteritum",
-    "nr": 9,
-    "title": "Претеритум: sein, haben, модальные глаголы",
-    "short": "Präteritum: sein/haben",
-    "title_de": "Präteritum von sein, haben, Modalverben",
-    "location": "Вартбург, замок легенд",
-    "location_de": "Wartburg, Schloss der Legenden",
-    "intro": (
-        "Дорога ведёт барда в Вартбург — замок, где стены помнят легенды. В зале "
-        "у очага старики рассказывают о королях и певцах: кто здесь жил, чего "
-        "хотел и что мог. Бард слушает и пересказывает истории дальше, а для "
-        "рассказа о прошлом нужны самые частые формы: war, hatte, konnte, "
-        "musste, wollte."
-    ),
-    "listen": (
-        "Бард слушает, как гудят своды Вартбурга. У очага старик ведёт рассказ: "
-        "«Es war einmal ein König. Er hatte eine Tochter. Sie wollte singen, aber "
-        "sie konnte nicht.» Каждое слово о прошлом — это war, hatte, wollte, "
-        "konnte; их форма зависит от того, кто действует."
-    ),
-    "theory": [
-        {
-            "title": "Präteritum: sein и haben",
-            "body": (
-                "В рассказе о прошлом важнее всего две таблицы.\n\n"
-                "sein: ich war, du warst, er/sie/es war, wir waren, ihr wart, "
-                "sie/Sie waren.\n\n"
-                "haben: ich hatte, du hattest, er/sie/es hatte, wir hatten, "
-                "ihr hattet, sie/Sie hatten.\n\n"
-                "Es war einmal ein König. Er hatte eine schöne Tochter. Wir waren "
-                "müde.\n\n"
-                "Формы ich и er совпадают: ich war, er war; ich hatte, er hatte. "
-                "Отличается только du: du warst, du hattest."
-            ),
-        },
-        {
-            "title": "Модальные глаголы в Präteritum",
-            "body": (
-                "Модальные глаголы теряют умляут и получают окончания как у sein "
-                "и haben:\n\n"
-                "können → konnte, müssen → musste, wollen → wollte, dürfen → "
-                "durfte, sollen → sollte, mögen → mochte.\n\n"
-                "Ich konnte nicht singen. Der König musste bleiben. Die Sänger "
-                "wollten spielen.\n\n"
-                "У ich и er окончания нет: ich musste, er musste. У du — -st: "
-                "du musstest. У wir, sie — -en: wir mussten."
-            ),
-        },
-        {
-            "title": "Präteritum в рассказе",
-            "body": (
-                "Präteritum — время рассказчика: так звучат легенды, сказки и "
-                "старые истории. В разговоре чаще говорят в Perfekt.\n\n"
-                "Es war einmal ein Barde. Er hatte eine Laute und wollte singen. "
-                "Aber er konnte die Worte nicht finden.\n\n"
-                "Сначала назови, когда это было и что было (war, hatte), потом "
-                "скажи, что герой мог, должен был или хотел (konnte, musste, "
-                "wollte). После модального глагола стоит инфинитив: er wollte "
-                "singen."
-            ),
-        },
-    ],
-    "song_line": (
-        "Ich saß auf der Wartburg im Kerzenschein,\n"
-        "die alten Sagen waren mein."
-    ),
-    "exercises": [
-        {
-            "id": "praeteritum_1",
-            "kind": "gap",
-            "prompt": "Ich ___ gestern auf der Wartburg. (sein)",
-            "options": ["war", "hatte", "konnte", "wollte"],
-            "answer": 0,
-            "explain": (
-                "От sein форма для ich — war. Форма hatte — от haben, а konnte и "
-                "wollte требуют после себя инфинитив."
-            ),
-            "retry": {
-                "prompt": "Ich ___ früher eine alte Laute. (haben)",
-                "options": ["hatte", "war", "konnte", "wollte"],
-                "answer": 0,
-                "explain": (
-                    "От haben форма для ich — hatte: ich hatte eine Laute. "
-                    "Модальные глаголы здесь невозможны без инфинитива."
-                ),
-            },
-        },
-        {
-            "id": "praeteritum_2",
-            "kind": "gap",
-            "prompt": "___ du früher auf der Wartburg? (sein)",
-            "options": ["Warst", "Wart", "Bist", "Hattest"],
-            "answer": 0,
-            "explain": (
-                "У du форма warst. Wart — это форма для ihr, bist — Präsens, "
-                "а hattest — от другого глагола."
-            ),
-            "retry": {
-                "prompt": "Du ___ damals eine schöne Laute. (haben)",
-                "options": ["hattest", "hatte", "hattet", "hat"],
-                "answer": 0,
-                "explain": (
-                    "У du форма hattest. Hattet — для ihr, hatte — для ich и er, "
-                    "hat — Präsens."
-                ),
-            },
-        },
-        {
-            "id": "praeteritum_3",
-            "kind": "gap",
-            "prompt": "Es war einmal ein König. Er ___ sehr alt. (sein)",
-            "options": ["war", "warst", "wart", "gewesen"],
-            "answer": 0,
-            "explain": (
-                "У er форма war, она совпадает с формой для ich: ich war, er war. "
-                "Gewesen — это Partizip II, а не Präteritum."
-            ),
-            "retry": {
-                "prompt": "Es war einmal ein König. Er ___ eine schöne Tochter. (haben)",
-                "options": ["hatte", "hattest", "hattet", "gehabt"],
-                "answer": 0,
-                "explain": (
-                    "У er форма hatte (как у ich). Hattest — для du, hattet — "
-                    "для ihr, gehabt — Partizip II."
-                ),
-            },
-        },
-        {
-            "id": "praeteritum_4",
-            "kind": "gap",
-            "prompt": (
-                "Der Barde kannte die Wörter nicht, deshalb ___ er nicht singen. "
-                "(können)"
-            ),
-            "options": ["konnte", "konntest", "konntet", "gekonnt"],
-            "answer": 0,
-            "explain": (
-                "У er/sie/es в Präteritum нет окончания: er konnte. Konntest — "
-                "для du, konntet — для ihr, gekonnt — Partizip II."
-            ),
-            "retry": {
-                "prompt": (
-                    "Der König sagte: «Bleib!», deshalb ___ der Barde auf der Burg "
-                    "bleiben. (müssen)"
-                ),
-                "options": ["musste", "musstest", "musstet", "gemusst"],
-                "answer": 0,
-                "explain": (
-                    "У er форма musste: er musste bleiben. Musstest — для du, "
-                    "musstet — для ihr."
-                ),
-            },
-        },
-        {
-            "id": "praeteritum_5",
-            "kind": "transform",
-            "prompt": (
-                "Бард говорит о настоящем: «Der Barde ist müde.» Расскажи то же "
-                "о прошлом — поставь sein в Präteritum."
-            ),
-            "options": [
-                "Der Barde war müde.",
-                "Der Barde hatte müde.",
-                "Der Barde ist müde.",
-                "Der Barde wart müde.",
-            ],
-            "answer": 0,
-            "explain": (
-                "sein в Präteritum для er — war: Der Barde war müde. Форма hatte "
-                "идёт от haben, а wart — это форма для ihr."
-            ),
-            "retry": {
-                "prompt": (
-                    "Бард говорит о настоящем: «Ich will ein Lied singen.» "
-                    "Расскажи то же о прошлом."
-                ),
-                "options": [
-                    "Ich wollte ein Lied singen.",
-                    "Ich willte ein Lied singen.",
-                    "Ich wollte ein Lied gesungen.",
-                    "Ich will ein Lied singen.",
-                ],
-                "answer": 0,
-                "explain": (
-                    "wollen в Präteritum: ich wollte (без умляута и без -t "
-                    "в конце). После модального глагола стоит инфинитив: singen."
-                ),
-            },
-        },
-        {
-            "id": "praeteritum_6",
-            "kind": "translate",
-            "prompt": "Переведи на немецкий: «Вчера я был на Вартбурге.»",
-            "options": [
-                "Gestern war ich auf der Wartburg.",
-                "Gestern ich war auf der Wartburg.",
-                "Gestern hatte ich auf der Wartburg.",
-                "Gestern bin ich auf der Wartburg.",
-            ],
-            "answer": 0,
-            "explain": (
-                "Сказуемое стоит на втором месте: Gestern war ich ... Форма war — "
-                "это Präteritum от sein."
-            ),
-            "retry": {
-                "prompt": "Переведи на немецкий: «Мы должны были долго ждать.»",
-                "options": [
-                    "Wir mussten lange warten.",
-                    "Wir mussten lange gewartet.",
-                    "Wir musste lange warten.",
-                    "Wir musst lange warten.",
-                ],
-                "answer": 0,
-                "explain": (
-                    "У wir форма mussten. После модального глагола — инфинитив "
-                    "warten, а не Partizip II."
-                ),
-            },
-        },
-        {
-            "id": "praeteritum_7",
-            "kind": "error",
-            "prompt": (
-                "В предложении барда одна ошибка — форма глагола в Präteritum. "
-                "Найди её."
-            ),
-            "sentence": "Gestern warst ich auf der Wartburg.",
-            "wrong": "warst",
-            "fix": {
-                "options": ["war", "waren", "wart", "bin"],
-                "answer": 0,
-                "explain": (
-                    "С ich употребляется форма war: Gestern war ich auf der "
-                    "Wartburg. Warst — форма для du."
-                ),
-            },
-            "explain": (
-                "У ich в Präteritum форма war (как у er). Warst подходит только "
-                "к du, wart — к ihr."
-            ),
-            "retry": {
-                "prompt": (
-                    "В предложении барда одна ошибка — форма глагола в Präteritum. "
-                    "Найди её."
-                ),
-                "sentence": "Der König wolltet auf der Burg bleiben.",
-                "wrong": "wolltet",
-                "fix": {
-                    "options": ["wollte", "wollten", "wolltest", "will"],
-                    "answer": 0,
-                    "explain": (
-                        "У er/sie/es форма wollte: Der König wollte auf der Burg "
-                        "bleiben. Wolltet — форма для ihr."
-                    ),
-                },
-                "explain": (
-                    "У er в Präteritum нет окончания -t: er wollte. Wolltet — "
-                    "форма для ihr."
-                ),
-            },
-        },
-        {
-            "id": "praeteritum_8",
-            "kind": "mc",
-            "prompt": "Бард начинает легенду о замке. Какой зачин верен?",
-            "options": [
-                "Es war einmal ein König.",
-                "Es hatte einmal ein König.",
-                "Es war einmal einen König.",
-                "Es waren einmal ein König.",
-            ],
-            "answer": 0,
-            "explain": (
-                "Зачин легенд и сказок: Es war einmal ... Подлежащее стоит "
-                "в Nominativ: ein König. Форма waren подходит только ко "
-                "множественному числу."
-            ),
-            "retry": {
-                "prompt": "Бард рассказывает о прошлом. Какой вариант верен?",
-                "options": [
-                    "Er hatte eine Laute.",
-                    "Er hatten eine Laute.",
-                    "Er hattest eine Laute.",
-                    "Er hat eine Laute.",
-                ],
-                "answer": 0,
-                "explain": (
-                    "У er форма hatte (как у ich). Hatten — для wir/sie, hattest — "
-                    "для du, hat — Präsens."
-                ),
-            },
-        },
-    ],
-}
+TOPIC = {'id': 'praeteritum',
+ 'nr': 9,
+ 'title': 'Претеритум: sein, haben, модальные глаголы',
+ 'short': 'Präteritum: sein/haben',
+ 'title_de': 'Präteritum von sein, haben, Modalverben',
+ 'location': 'Вартбург, замок легенд',
+ 'location_de': 'Wartburg, Schloss der Legenden',
+ 'intro': 'Дорога ведёт барда в Вартбург — замок, где стены помнят легенды. В зале у очага старики '
+          'рассказывают о королях и певцах: кто здесь жил, чего хотел и что мог. Бард слушает и '
+          'пересказывает истории дальше, а для рассказа о прошлом нужны самые частые формы: war, '
+          'hatte, konnte, musste, wollte.',
+ 'listen': 'Бард слушает, как гудят своды Вартбурга. У очага старик ведёт рассказ: «Es war einmal '
+           'ein König. Er hatte eine Tochter. Sie wollte singen, aber sie konnte nicht.» Каждое '
+           'слово о прошлом — это war, hatte, wollte, konnte; их форма зависит от того, кто '
+           'действует.',
+ 'theory': [{'title': 'Präteritum: sein и haben',
+             'body': 'В рассказе о прошлом важнее всего две таблицы.\n'
+                     '\n'
+                     'sein: ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren.\n'
+                     '\n'
+                     'haben: ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, '
+                     'sie/Sie hatten.\n'
+                     '\n'
+                     'Es war einmal ein König. Er hatte eine schöne Tochter. Wir waren müde.\n'
+                     '\n'
+                     'Формы ich и er совпадают: ich war, er war; ich hatte, er hatte. Отличается '
+                     'только du: du warst, du hattest.'},
+            {'title': 'Модальные глаголы в Präteritum',
+             'body': 'Модальные глаголы теряют умляут и получают окончания как у sein и haben:\n'
+                     '\n'
+                     'können → konnte, müssen → musste, wollen → wollte, dürfen → durfte, sollen → '
+                     'sollte, mögen → mochte.\n'
+                     '\n'
+                     'Ich konnte nicht singen. Der König musste bleiben. Die Sänger wollten '
+                     'spielen.\n'
+                     '\n'
+                     'У ich и er окончания нет: ich musste, er musste. У du — -st: du musstest. У '
+                     'wir, sie — -en: wir mussten.'},
+            {'title': 'Präteritum в рассказе',
+             'body': 'Präteritum — время рассказчика: так звучат легенды, сказки и старые истории. '
+                     'В разговоре чаще говорят в Perfekt.\n'
+                     '\n'
+                     'Es war einmal ein Barde. Er hatte eine Laute und wollte singen. Aber er '
+                     'konnte die Worte nicht finden.\n'
+                     '\n'
+                     'Сначала назови, когда это было и что было (war, hatte), потом скажи, что '
+                     'герой мог, должен был или хотел (konnte, musste, wollte). После модального '
+                     'глагола стоит инфинитив: er wollte singen.'}],
+ 'song_line': 'Ich saß auf der Wartburg im Kerzenschein,\ndie alten Sagen waren mein.',
+ 'exercises': [{'id': 'praeteritum_1',
+                'kind': 'mc',
+                'prompt': 'Gestern ___ ich sehr müde.',
+                'options': ['bin', 'war', 'hatte'],
+                'answer': 1,
+                'explain': 'Präteritum von «sein» для «ich» → war.',
+                'explain_de': 'Präteritum von „sein“ für „ich“ → war.'},
+               {'id': 'praeteritum_2',
+                'kind': 'gap',
+                'prompt': 'Der König ___ früher eine große Burg. (haben)',
+                'answer': 'hatte',
+                'explain': 'Präteritum von «haben» для «er» → hatte.',
+                'explain_de': 'Präteritum von „haben“ für „er“ → hatte.'},
+               {'id': 'praeteritum_3',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Wir', 'konnten', 'gestern', 'nicht', 'kommen'],
+                'answer': 'Wir konnten gestern nicht kommen',
+                'explain': 'Präteritum von «können» для «wir» → konnten; инфинитив в конце.',
+                'explain_de': 'Präteritum von „können“ für „wir“ → konnten; der Infinitiv steht am '
+                              'Ende.'},
+               {'id': 'praeteritum_4',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Der Ritter musst lange warten.',
+                'wrong': 'musst',
+                'solution': 'Der Ritter musste lange warten',
+                'explain': 'Präteritum von «müssen» для «er» → musste.',
+                'explain_de': 'Präteritum von „müssen“ für „er“ → musste.'},
+               {'id': 'praeteritum_5',
+                'kind': 'input',
+                'prompt': 'Setze ins Präteritum: Ich habe keine Zeit.',
+                'answers': ['Ich hatte keine Zeit'],
+                'explain': '«haben» в Präteritum для «ich» → hatte.',
+                'explain_de': '„haben“ im Präteritum für „ich“ → hatte.'},
+               {'id': 'praeteritum_6',
+                'kind': 'mc',
+                'prompt': 'Die Ritter ___ früher oft auf Turnieren.',
+                'options': ['waren', 'sind', 'haben'],
+                'answer': 0,
+                'explain': 'Präteritum von «sein» для «sie» (Plural) → waren.',
+                'explain_de': 'Präteritum von „sein“ für „sie“ (Plural) → waren.'},
+               {'id': 'praeteritum_7',
+                'kind': 'gap',
+                'prompt': 'Ich ___ gestern nicht zur Arbeit gehen. (können)',
+                'answer': 'konnte',
+                'explain': 'Präteritum von «können» для «ich» → konnte.',
+                'explain_de': 'Präteritum von „können“ für „ich“ → konnte.'},
+               {'id': 'praeteritum_8',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Der', 'Barde', 'wollte', 'ein', 'Lied', 'singen'],
+                'answer': 'Der Barde wollte ein Lied singen',
+                'explain': 'Präteritum von «wollen» для «er» → wollte; инфинитив в конце.',
+                'explain_de': 'Präteritum von „wollen“ für „er“ → wollte; der Infinitiv steht am '
+                              'Ende.'},
+               {'id': 'praeteritum_9',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Wir haben gestern keine Zeit.',
+                'wrong': 'haben',
+                'solution': 'Wir hatten gestern keine Zeit',
+                'explain': 'нужно Präteritum «hatten» для «wir», а не Präsens «haben».',
+                'explain_de': 'Es braucht das Präteritum „hatten“ für „wir“, nicht das Präsens '
+                              '„haben“.'},
+               {'id': 'praeteritum_10',
+                'kind': 'input',
+                'prompt': 'Setze ins Präteritum: Der König kann gut reiten.',
+                'answers': ['Der König konnte gut reiten'],
+                'explain': 'Präteritum von «können» для «er» → konnte.',
+                'explain_de': 'Präteritum von „können“ für „er“ → konnte.'},
+               {'id': 'praeteritum_11',
+                'kind': 'mc',
+                'prompt': '___ du gestern zu Hause?',
+                'options': ['Warst', 'Wart', 'Bist'],
+                'answer': 0,
+                'explain': 'Präteritum von «sein» для «du» → warst.',
+                'explain_de': 'Präteritum von „sein“ für „du“ → warst.'},
+               {'id': 'praeteritum_12',
+                'kind': 'gap',
+                'prompt': 'Die Ritter ___ lange kämpfen. (müssen)',
+                'answer': 'mussten',
+                'explain': 'Präteritum von «müssen» для «sie» (Plural) → mussten.',
+                'explain_de': 'Präteritum von „müssen“ für „sie“ (Plural) → mussten.'},
+               {'id': 'praeteritum_13',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Ich', 'musste', 'heute', 'früh', 'aufstehen'],
+                'answer': 'Ich musste heute früh aufstehen',
+                'explain': 'Präteritum von «müssen» для «ich» → musste; инфинитив в конце.',
+                'explain_de': 'Präteritum von „müssen“ für „ich“ → musste; der Infinitiv steht am '
+                              'Ende.'},
+               {'id': 'praeteritum_14',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Der Barde könnt nicht singen.',
+                'wrong': 'könnt',
+                'solution': 'Der Barde konnte nicht singen',
+                'explain': 'Präteritum von «können» для «er» → konnte (не könnt).',
+                'explain_de': 'Präteritum von „können“ für „er“ → konnte (nicht könnt).'},
+               {'id': 'praeteritum_15',
+                'kind': 'input',
+                'prompt': 'Setze ins Präteritum: Wir müssen lange warten.',
+                'answers': ['Wir mussten lange warten'],
+                'explain': 'Präteritum von «müssen» для «wir» → mussten.',
+                'explain_de': 'Präteritum von „müssen“ für „wir“ → mussten.'},
+               {'id': 'praeteritum_16',
+                'kind': 'mc',
+                'prompt': 'Der König ___ früher in einer großen Burg.',
+                'options': ['wohnte', 'wohnt', 'wohnen'],
+                'answer': 0,
+                'explain': 'регулярный глагол в Präteritum → wohnte.',
+                'explain_de': 'regelmäßiges Verb im Präteritum → wohnte.'},
+               {'id': 'praeteritum_17',
+                'kind': 'gap',
+                'prompt': 'Ich ___ als Kind oft im Park. (sein)',
+                'answer': 'war',
+                'explain': 'Präteritum von «sein» для «ich» → war.',
+                'explain_de': 'Präteritum von „sein“ für „ich“ → war.'},
+               {'id': 'praeteritum_18',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Die', 'Ritter', 'hatten', 'keine', 'Angst'],
+                'answer': 'Die Ritter hatten keine Angst',
+                'explain': 'Präteritum von «haben» для «sie» (Plural) → hatten.',
+                'explain_de': 'Präteritum von „haben“ für „sie“ (Plural) → hatten.'},
+               {'id': 'praeteritum_19',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Ich konnte nicht kommen, weil ich hatte keine Zeit.',
+                'wrong': 'hatte',
+                'solution': 'Ich konnte nicht kommen, weil ich keine Zeit hatte',
+                'explain': 'в Nebensatz глагол в конце → hatte.',
+                'explain_de': 'Im Nebensatz steht das Verb am Ende → hatte.'},
+               {'id': 'praeteritum_20',
+                'kind': 'input',
+                'prompt': 'Setze ins Präteritum: Der Barde will ein Lied singen.',
+                'answers': ['Der Barde wollte ein Lied singen'],
+                'explain': 'Präteritum von «wollen» для «er» → wollte.',
+                'explain_de': 'Präteritum von „wollen“ für „er“ → wollte.'},
+               {'id': 'praeteritum_21',
+                'kind': 'mc',
+                'prompt': 'Wir ___ früher in Berlin.',
+                'options': ['waren', 'sind', 'hatten'],
+                'answer': 0,
+                'explain': 'Präteritum von «sein» для «wir» → waren.',
+                'explain_de': 'Präteritum von „sein“ für „wir“ → waren.'},
+               {'id': 'praeteritum_22',
+                'kind': 'gap',
+                'prompt': 'Der König ___ den Barden nicht hören. (können)',
+                'answer': 'konnte',
+                'explain': 'Präteritum von «können» для «er» → konnte.',
+                'explain_de': 'Präteritum von „können“ für „er“ → konnte.'},
+               {'id': 'praeteritum_23',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Du', 'musstest', 'gestern', 'arbeiten'],
+                'answer': 'Du musstest gestern arbeiten',
+                'explain': 'Präteritum von «müssen» для «du» → musstest.',
+                'explain_de': 'Präteritum von „müssen“ für „du“ → musstest.'},
+               {'id': 'praeteritum_24',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Die Ritter wollten kämpfen, aber sie hatte keine Schwerter.',
+                'wrong': 'hatte',
+                'solution': 'Die Ritter wollten kämpfen, aber sie hatten keine Schwerter',
+                'explain': 'подлежащее во Plural → hatten.',
+                'explain_de': 'Subjekt im Plural → hatten.'},
+               {'id': 'praeteritum_25',
+                'kind': 'input',
+                'prompt': 'Setze ins Präteritum: Ich kann heute nicht kommen.',
+                'answers': ['Ich konnte heute nicht kommen'],
+                'explain': 'Präteritum von «können» для «ich» → konnte.',
+                'explain_de': 'Präteritum von „können“ für „ich“ → konnte.'}]}

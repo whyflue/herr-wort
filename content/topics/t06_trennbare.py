@@ -1,295 +1,230 @@
-"""Тема 6. Trennbare und nicht trennbare Verben."""
+"""Тема 6: Trennbare und nicht trennbare Verben."""
 
-TOPIC = {
-    "id": "trennbare",
-    "nr": 6,
-    "title": "Отделяемые и неотделяемые приставки",
-    "short": "Отделяемые приставки",
-    "title_de": "Trennbare und nicht trennbare Verben",
-    "location": "Веймар, мельница у реки",
-    "location_de": "Weimar, Mühle am Fluss",
-    "intro": (
-        "Из Нюрнберга бард идёт вниз, к Веймару, и выходит к реке, где шумит "
-        "старая мельница. Мельник рад помощнику: надо открыть воду, принести "
-        "мешки, продать муку. Бард слушает хозяина и замечает странность: "
-        "короткие словечки вроде auf, mit, zu стоят не рядом с глаголом, а в "
-        "самом конце фразы."
-    ),
-    "listen": (
-        "Бард садится у мельничного колеса и слушает: «Ich stehe um vier Uhr "
-        "auf», «Der Müller macht die Mühle auf», «Kommst du morgen mit?». "
-        "Глагол понятен, а его приставка убежала в конец предложения — так "
-        "немецкий отделяет то, что должно отделяться."
-    ),
-    "theory": [
-        {
-            "title": "Отделяемая приставка уходит в конец",
-            "body": (
-                "Многие немецкие глаголы носят приставку: aufstehen, aufmachen, "
-                "mitkommen, anfangen, einkaufen.\n\n"
-                "Если приставка отделяемая, в предложении она уходит в самый "
-                "конец, а глагол остаётся на втором месте:\n\n"
-                "Ich stehe um sechs Uhr auf. Der Müller macht das Tor auf.\n\n"
-                "Приставки auf-, an-, aus-, ein-, mit-, zu-, los-, vor- почти "
-                "всегда отделяются.\n\n"
-                "Вопрос: Stehst du früh auf? Приказ: Steh auf!\n\n"
-                "Смысл глагола при этом не теряется: aufstehen — «вставать», "
-                "stehen — просто «стоять»."
-            ),
-        },
-        {
-            "title": "Неотделяемые приставки",
-            "body": (
-                "Приставки be-, ge-, er-, ver-, zer-, ent-, emp-, miss- не "
-                "отделяются никогда, они остаются с глаголом:\n\n"
-                "Ich verstehe den Müller. Der Barde erzählt eine Geschichte. "
-                "Wir besuchen die Mühle.\n\n"
-                "Сравни: aufstehen — отделяется (Ich stehe auf), verstehen — "
-                "нет: «Ich stehe ver» сказать нельзя.\n\n"
-                "Проверить помогает ударение: отделяемая приставка ударная "
-                "(ÁUFstehen, MÍTkommen), неотделяемая — безударная "
-                "(verSTÉHen, erzÄHlen)."
-            ),
-        },
-        {
-            "title": "Что делать с модальным глаголом",
-            "body": (
-                "Если рядом модальный глагол, он занимает второе место, а "
-                "основной глагол встаёт в конец инфинитивом — и приставка "
-                "остаётся на месте:\n\n"
-                "Ich muss früh aufstehen. Der Müller will das Tor zumachen.\n\n"
-                "Нельзя сказать «Ich muss früh stehen auf»: с модальным "
-                "глаголом приставка не отделяется.\n\n"
-                "Сравни два предложения:\n"
-                "Ich stehe früh auf. — приставка в конце;\n"
-                "Ich muss früh aufstehen. — глагол целиком в конце.\n\n"
-                "Так же с частицей zu: aufzustehen, mitzukommen — приставка "
-                "стоит перед zu."
-            ),
-        },
-    ],
-    "song_line": (
-        "Die Mühle in Weimar dreht sich im Wind,\n"
-        "ich steh früh auf und lerne geschwind."
-    ),
-    "exercises": [
-        {
-            "id": "trennbare_1",
-            "kind": "order",
-            "prompt": "Собери предложение: бард встаёт в шесть часов.",
-            "words": ["Der", "Barde", "steht", "um", "sechs", "Uhr", "auf"],
-            "answer": "Der Barde steht um sechs Uhr auf",
-            "explain": (
-                "Отделяемая приставка уходит в конец предложения: Der Barde "
-                "steht um sechs Uhr auf. Глагол стоит на втором месте."
-            ),
-            "retry": {
-                "prompt": "Собери предложение: мельник открывает ворота.",
-                "words": ["Der", "Müller", "macht", "das", "Tor", "auf"],
-                "answer": "Der Müller macht das Tor auf",
-                "explain": (
-                    "aufmachen: глагол macht — на втором месте, приставка auf — "
-                    "в конце: Der Müller macht das Tor auf."
-                ),
-            },
-        },
-        {
-            "id": "trennbare_2",
-            "kind": "gap",
-            "prompt": "Бард встаёт рано: «Ich stehe jeden Morgen um fünf Uhr ___.» (aufstehen)",
-            "options": ["an", "auf", "mit", "aus"],
-            "answer": 1,
-            "explain": (
-                "Глагол aufstehen отделяет приставку auf: Ich stehe um fünf Uhr "
-                "auf. Приставки an, mit, aus относятся к другим глаголам."
-            ),
-            "retry": {
-                "prompt": "Мельник открывает ворота: «Der Müller macht das Tor ___.» (aufmachen)",
-                "options": ["zu", "an", "auf", "ein"],
-                "answer": 2,
-                "explain": (
-                    "aufmachen — «открывать», приставка auf уходит в конец: "
-                    "macht das Tor auf. С приставкой zu получилось бы «закрывать»."
-                ),
-            },
-        },
-        {
-            "id": "trennbare_3",
-            "kind": "gap",
-            "prompt": "Бард не понимает мельника: «Ich ___ den Müller nicht.» (verstehen)",
-            "options": ["verstehst", "verstehen", "versteht", "verstehe"],
-            "answer": 3,
-            "explain": (
-                "verstehen — глагол с неотделяемой приставкой ver-: ich verstehe. "
-                "Формы verstehst, verstehen, versteht подходят для du, wir/sie и er."
-            ),
-            "retry": {
-                "prompt": "Бард рассказывает историю: «Der Barde ___ eine Geschichte.» (erzählen)",
-                "options": ["zählt", "erzählst", "erzählt", "erzählen"],
-                "answer": 2,
-                "explain": (
-                    "Приставка er- не отделяется: der Barde erzählt. Форма zählt "
-                    "значила бы «считает», а erzählst подходит для du."
-                ),
-            },
-        },
-        {
-            "id": "trennbare_4",
-            "kind": "error",
-            "prompt": (
-                "В песне барда одна ошибка — в глаголе после модального. Найди её."
-            ),
-            "sentence": "Der Barde muss früh stehen auf.",
-            "wrong": "stehen",
-            "fix": {
-                "options": ["stehen", "aufstehen", "aufstehe", "stehe auf"],
-                "answer": 1,
-                "explain": (
-                    "С модальным глаголом основной глагол стоит в конце "
-                    "инфинитивом целиком: muss früh aufstehen. Приставка не "
-                    "отделяется."
-                ),
-            },
-            "explain": (
-                "После модального глагола приставка остаётся на месте: Der Barde "
-                "muss früh aufstehen."
-            ),
-            "retry": {
-                "prompt": (
-                    "В песне барда одна ошибка — в глаголе после модального. "
-                    "Найди её."
-                ),
-                "sentence": "Der Müller will das Tor machen zu.",
-                "wrong": "machen",
-                "fix": {
-                    "options": ["machen", "macht zu", "zumachen", "zu machen"],
-                    "answer": 2,
-                    "explain": (
-                        "После модального глагола инфинитив не отделяется: will "
-                        "das Tor zumachen."
-                    ),
-                },
-                "explain": (
-                    "С модальным глаголом глагол стоит в конце целиком: Der "
-                    "Müller will das Tor zumachen."
-                ),
-            },
-        },
-        {
-            "id": "trennbare_5",
-            "kind": "transform",
-            "prompt": (
-                "Скажи то же с модальным глаголом: «Ich stehe früh auf.» → "
-                "с «müssen»"
-            ),
-            "options": [
-                "Ich muss früh stehen auf.",
-                "Ich muss früh auf stehen.",
-                "Ich muss früh aufstehe.",
-                "Ich muss früh aufstehen.",
-            ],
-            "answer": 3,
-            "explain": (
-                "С модальным глаголом основной глагол стоит в конце инфинитивом "
-                "и не отделяется: Ich muss früh aufstehen."
-            ),
-            "retry": {
-                "prompt": (
-                    "Скажи то же с модальным глаголом: «Der Barde kommt mit.» → "
-                    "с «wollen»"
-                ),
-                "options": [
-                    "Der Barde will mit kommen.",
-                    "Der Barde will mitkommen.",
-                    "Der Barde will kommen mit.",
-                    "Der Barde will mitkommt.",
-                ],
-                "answer": 1,
-                "explain": (
-                    "После wollen инфинитив mitkommen стоит целиком в конце: Der "
-                    "Barde will mitkommen."
-                ),
-            },
-        },
-        {
-            "id": "trennbare_6",
-            "kind": "translate",
-            "prompt": "Переведи на немецкий: «Я встаю в шесть часов.»",
-            "options": [
-                "Ich stehe auf um sechs Uhr.",
-                "Ich aufstehe um sechs Uhr.",
-                "Ich stehe um sechs Uhr auf.",
-                "Ich stehe um sechs Uhr aufstehen.",
-            ],
-            "answer": 2,
-            "explain": (
-                "Без модального глагола приставка отделяется и уходит в конец: "
-                "Ich stehe um sechs Uhr auf."
-            ),
-            "retry": {
-                "prompt": "Переведи на немецкий: «Мельник открывает ворота.»",
-                "options": [
-                    "Der Müller aufmacht das Tor.",
-                    "Der Müller macht auf das Tor.",
-                    "Der Müller macht das Tor aufmachen.",
-                    "Der Müller macht das Tor auf.",
-                ],
-                "answer": 3,
-                "explain": (
-                    "aufmachen: глагол macht — на втором месте, приставка auf — "
-                    "в конце предложения."
-                ),
-            },
-        },
-        {
-            "id": "trennbare_7",
-            "kind": "gap",
-            "prompt": "Работа начинается рано: «Der Tag ___ früh an.» (anfangen)",
-            "options": ["fangt", "fangen", "fängt", "fängst"],
-            "answer": 2,
-            "explain": (
-                "der Tag — это er, сильный глагол anfangen даёт форму fängt, а "
-                "приставка an уже стоит в конце. Fängst подходит только для du."
-            ),
-            "retry": {
-                "prompt": "Мальчик идёт вместе со всеми: «Das Kind ___ zum Fluss mit.» (mitkommen)",
-                "options": ["kommst", "kommt", "kommen", "kommt an"],
-                "answer": 1,
-                "explain": (
-                    "das Kind — это er, поэтому kommt, а приставка mit стоит в "
-                    "конце. Kommt an относилось бы к глаголу ankommen."
-                ),
-            },
-        },
-        {
-            "id": "trennbare_8",
-            "kind": "mc",
-            "prompt": "Мельник закрывает мельницу. Какое предложение верно?",
-            "options": [
-                "Der Müller zu macht die Mühle.",
-                "Der Müller macht zu die Mühle.",
-                "Der Müller zumacht die Mühle.",
-                "Der Müller macht die Mühle zu.",
-            ],
-            "answer": 3,
-            "explain": (
-                "Отделяемая приставка zu уходит в конец: Der Müller macht die "
-                "Mühle zu. Рядом с глаголом она стоять не может."
-            ),
-            "retry": {
-                "prompt": "Бард приходит на мельницу. Какое предложение верно?",
-                "options": [
-                    "Der Barde an kommt um sieben Uhr.",
-                    "Der Barde kommt um sieben Uhr an.",
-                    "Der Barde kommt an um sieben Uhr.",
-                    "Der Barde ankommt um sieben Uhr.",
-                ],
-                "answer": 1,
-                "explain": (
-                    "ankommen: глагол kommt — на втором месте, приставка an — в "
-                    "конце предложения: Der Barde kommt um sieben Uhr an."
-                ),
-            },
-        },
-    ],
-}
+TOPIC = {'id': 'trennbare',
+ 'nr': 6,
+ 'title': 'Отделяемые и неотделяемые приставки',
+ 'short': 'Отделяемые приставки',
+ 'title_de': 'Trennbare und nicht trennbare Verben',
+ 'location': 'Веймар, мельница у реки',
+ 'location_de': 'Weimar, Mühle am Fluss',
+ 'intro': 'Из Нюрнберга бард идёт вниз, к Веймару, и выходит к реке, где шумит старая мельница. '
+          'Мельник рад помощнику: надо открыть воду, принести мешки, продать муку. Бард слушает '
+          'хозяина и замечает странность: короткие словечки вроде auf, mit, zu стоят не рядом с '
+          'глаголом, а в самом конце фразы.',
+ 'listen': 'Бард садится у мельничного колеса и слушает: «Ich stehe um vier Uhr auf», «Der Müller '
+           'macht die Mühle auf», «Kommst du morgen mit?». Глагол понятен, а его приставка убежала '
+           'в конец предложения — так немецкий отделяет то, что должно отделяться.',
+ 'theory': [{'title': 'Отделяемая приставка уходит в конец',
+             'body': 'Многие немецкие глаголы носят приставку: aufstehen, aufmachen, mitkommen, '
+                     'anfangen, einkaufen.\n'
+                     '\n'
+                     'Если приставка отделяемая, в предложении она уходит в самый конец, а глагол '
+                     'остаётся на втором месте:\n'
+                     '\n'
+                     'Ich stehe um sechs Uhr auf. Der Müller macht das Tor auf.\n'
+                     '\n'
+                     'Приставки auf-, an-, aus-, ein-, mit-, zu-, los-, vor- почти всегда '
+                     'отделяются.\n'
+                     '\n'
+                     'Вопрос: Stehst du früh auf? Приказ: Steh auf!\n'
+                     '\n'
+                     'Смысл глагола при этом не теряется: aufstehen — «вставать», stehen — просто '
+                     '«стоять».'},
+            {'title': 'Неотделяемые приставки',
+             'body': 'Приставки be-, ge-, er-, ver-, zer-, ent-, emp-, miss- не отделяются '
+                     'никогда, они остаются с глаголом:\n'
+                     '\n'
+                     'Ich verstehe den Müller. Der Barde erzählt eine Geschichte. Wir besuchen die '
+                     'Mühle.\n'
+                     '\n'
+                     'Сравни: aufstehen — отделяется (Ich stehe auf), verstehen — нет: «Ich stehe '
+                     'ver» сказать нельзя.\n'
+                     '\n'
+                     'Проверить помогает ударение: отделяемая приставка ударная (ÁUFstehen, '
+                     'MÍTkommen), неотделяемая — безударная (verSTÉHen, erzÄHlen).'},
+            {'title': 'Что делать с модальным глаголом',
+             'body': 'Если рядом модальный глагол, он занимает второе место, а основной глагол '
+                     'встаёт в конец инфинитивом — и приставка остаётся на месте:\n'
+                     '\n'
+                     'Ich muss früh aufstehen. Der Müller will das Tor zumachen.\n'
+                     '\n'
+                     'Нельзя сказать «Ich muss früh stehen auf»: с модальным глаголом приставка не '
+                     'отделяется.\n'
+                     '\n'
+                     'Сравни два предложения:\n'
+                     'Ich stehe früh auf. — приставка в конце;\n'
+                     'Ich muss früh aufstehen. — глагол целиком в конце.\n'
+                     '\n'
+                     'Так же с частицей zu: aufzustehen, mitzukommen — приставка стоит перед zu.'}],
+ 'song_line': 'Die Mühle in Weimar dreht sich im Wind,\nich steh früh auf und lerne geschwind.',
+ 'exercises': [{'id': 'trennbare_1',
+                'kind': 'mc',
+                'prompt': 'Der Barde ___ am Abend ___. (auftreten)',
+                'options': ['auftretet', 'tritt ... auf', 'trete ... auf'],
+                'answer': 1,
+                'explain': '«auftreten» — отделяемый; «er» → tritt; приставка в конце.',
+                'explain_de': '„auftreten“ ist trennbar; „er“ → tritt; das Präfix steht am Ende.'},
+               {'id': 'trennbare_2',
+                'kind': 'gap',
+                'prompt': 'Der Unterricht ___ um neun Uhr ___. (anfangen)',
+                'answer': 'fängt ... an',
+                'explain': '«anfangen» — отделяемый; «er» → fängt; приставка в конце.',
+                'explain_de': '„anfangen“ ist trennbar; „er“ → fängt; das Präfix steht am Ende.'},
+               {'id': 'trennbare_3',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Der', 'Ritter', 'steht', 'früh', 'auf'],
+                'answer': 'Der Ritter steht früh auf',
+                'explain': '«aufstehen» — приставка «auf» в конце.',
+                'explain_de': '„aufstehen“ — das Präfix „auf“ steht am Ende.'},
+               {'id': 'trennbare_4',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Ich besuche an meine Freundin.',
+                'wrong': 'an',
+                'solution': 'Ich besuche meine Freundin',
+                'explain': '«besuchen» — неотделяемый; «an» здесь не нужен.',
+                'explain_de': '„besuchen“ ist untrennbar; „an“ ist hier nicht nötig.'},
+               {'id': 'trennbare_5',
+                'kind': 'input',
+                'prompt': 'Bilde einen Satz im Präsens: Der König / aufstehen / früh.',
+                'answers': ['Der König steht früh auf'],
+                'explain': '«aufstehen» отделяется: steht ... auf.',
+                'explain_de': '„aufstehen“ wird getrennt: steht ... auf.'},
+               {'id': 'trennbare_6',
+                'kind': 'mc',
+                'prompt': 'Ich ___ den Fernseher ___. (einschalten)',
+                'options': ['einschalte', 'schalte ... ein', 'schalte ... aus'],
+                'answer': 1,
+                'explain': '«einschalten» — отделяемый; приставка «ein» в конце.',
+                'explain_de': '„einschalten“ ist trennbar; das Präfix „ein“ steht am Ende.'},
+               {'id': 'trennbare_7',
+                'kind': 'gap',
+                'prompt': 'Der Barde ___ ein neues Lied ___. (vorspielen)',
+                'answer': 'spielt ... vor',
+                'explain': '«vorspielen» — отделяемый; приставка «vor» в конце.',
+                'explain_de': '„vorspielen“ ist trennbar; das Präfix „vor“ steht am Ende.'},
+               {'id': 'trennbare_8',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Ich', 'rufe', 'dich', 'morgen', 'an'],
+                'answer': 'Ich rufe dich morgen an',
+                'explain': '«anrufen» — приставка «an» в конце.',
+                'explain_de': '„anrufen“ — das Präfix „an“ steht am Ende.'},
+               {'id': 'trennbare_9',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Der König steht auf früh.',
+                'wrong': ['auf', 'früh'],
+                'solution': 'Der König steht früh auf',
+                'explain': 'приставка «auf» должна быть в конце, а не после глагола.',
+                'explain_de': 'Das Präfix „auf“ muss am Ende stehen, nicht nach dem Verb.'},
+               {'id': 'trennbare_10',
+                'kind': 'input',
+                'prompt': 'Bilde einen Satz: Wir / einkaufen / im Supermarkt.',
+                'answers': ['Wir kaufen im Supermarkt ein'],
+                'explain': '«einkaufen» — приставка «ein» в конце.',
+                'explain_de': '„einkaufen“ — das Präfix „ein“ steht am Ende.'},
+               {'id': 'trennbare_11',
+                'kind': 'mc',
+                'prompt': 'Die Ritter ___ in die Burg ___. (einreiten)',
+                'options': ['einreiten', 'reiten ... ein', 'reiten ... aus'],
+                'answer': 1,
+                'explain': '«einreiten» — отделяемый; приставка «ein» в конце.',
+                'explain_de': '„einreiten“ ist trennbar; das Präfix „ein“ steht am Ende.'},
+               {'id': 'trennbare_12',
+                'kind': 'gap',
+                'prompt': 'Wann ___ du heute ___? (aufstehen)',
+                'answer': 'stehst ... auf',
+                'explain': '«aufstehen» — отделяемый; «du» → stehst; приставка в конце.',
+                'explain_de': '„aufstehen“ ist trennbar; „du“ → stehst; das Präfix steht am Ende.'},
+               {'id': 'trennbare_13',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Der', 'Barde', 'schlägt', 'die', 'Laute', 'an'],
+                'answer': 'Der Barde schlägt die Laute an',
+                'explain': '«anschlagen» — приставка «an» в конце.',
+                'explain_de': '„anschlagen“ — das Präfix „an“ steht am Ende.'},
+               {'id': 'trennbare_14',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Ich aufstehe um 7 Uhr.',
+                'wrong': 'aufstehe',
+                'solution': 'Ich stehe um 7 Uhr auf',
+                'explain': '«aufstehen» отделяется.',
+                'explain_de': '„aufstehen“ wird getrennt.'},
+               {'id': 'trennbare_15',
+                'kind': 'input',
+                'prompt': 'Bilde einen Satz: Der Ritter / mitnehmen / das Schwert.',
+                'answers': ['Der Ritter nimmt das Schwert mit'],
+                'explain': '«mitnehmen» — приставка «mit» в конце.',
+                'explain_de': '„mitnehmen“ — das Präfix „mit“ steht am Ende.'},
+               {'id': 'trennbare_16',
+                'kind': 'mc',
+                'prompt': 'Er ___ die E-Mail ___. (beantworten)',
+                'options': ['beantwortet', 'antwortet ... be', 'be ... antwortet'],
+                'answer': 0,
+                'explain': '«beantworten» — неотделяемый; приставка не отделяется.',
+                'explain_de': '„beantworten“ ist untrennbar; das Präfix wird nicht abgetrennt.'},
+               {'id': 'trennbare_17',
+                'kind': 'gap',
+                'prompt': 'Der König ___ den Barden. (empfangen)',
+                'answer': 'empfängt',
+                'explain': '«empfangen» — неотделяемый; «er» → empfängt.',
+                'explain_de': '„empfangen“ ist untrennbar; „er“ → empfängt.'},
+               {'id': 'trennbare_18',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Wir', 'fangen', 'jetzt', 'mit', 'der', 'Arbeit', 'an'],
+                'answer': 'Wir fangen jetzt mit der Arbeit an',
+                'explain': '«anfangen» — приставка «an» в конце.',
+                'explain_de': '„anfangen“ — das Präfix „an“ steht am Ende.'},
+               {'id': 'trennbare_19',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Der Barde vorbereitet ein Lied.',
+                'wrong': 'vorbereitet',
+                'solution': 'Der Barde bereitet ein Lied vor',
+                'explain': '«vorbereiten» — отделяемый; приставка «vor» в конце.',
+                'explain_de': '„vorbereiten“ ist trennbar; das Präfix „vor“ steht am Ende.'},
+               {'id': 'trennbare_20',
+                'kind': 'input',
+                'prompt': 'Bilde einen Satz: Ich / zurückrufen / dich / später.',
+                'answers': ['Ich rufe dich später zurück'],
+                'explain': '«zurückrufen» — приставка «zurück» в конце.',
+                'explain_de': '„zurückrufen“ — das Präfix „zurück“ steht am Ende.'},
+               {'id': 'trennbare_21',
+                'kind': 'mc',
+                'prompt': 'Die Ritter ___ das Tor ___. (aufmachen)',
+                'options': ['aufmachen', 'machen ... auf', 'machen ... zu'],
+                'answer': 1,
+                'explain': '«aufmachen» — отделяемый; приставка «auf» в конце.',
+                'explain_de': '„aufmachen“ ist trennbar; das Präfix „auf“ steht am Ende.'},
+               {'id': 'trennbare_22',
+                'kind': 'gap',
+                'prompt': 'Ich ___ die Tür ___. (zumachen)',
+                'answer': 'mache ... zu',
+                'explain': '«zumachen» — приставка «zu» в конце.',
+                'explain_de': '„zumachen“ — das Präfix „zu“ steht am Ende.'},
+               {'id': 'trennbare_23',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Der', 'König', 'lädt', 'die', 'Barden', 'ein'],
+                'answer': 'Der König lädt die Barden ein',
+                'explain': '«einladen» — приставка «ein» в конце.',
+                'explain_de': '„einladen“ — das Präfix „ein“ steht am Ende.'},
+               {'id': 'trennbare_24',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Wir anrufen die Firma morgen.',
+                'wrong': 'anrufen',
+                'solution': 'Wir rufen die Firma morgen an',
+                'explain': '«anrufen» отделяется.',
+                'explain_de': '„anrufen“ wird getrennt.'},
+               {'id': 'trennbare_25',
+                'kind': 'input',
+                'prompt': 'Bilde einen Satz im Perfekt: Der Ritter / aufstehen / früh.',
+                'answers': ['Der Ritter ist früh aufgestanden'],
+                'explain': 'Perfekt с sein; отделяемая приставка + ge + Partizip → aufgestanden.',
+                'explain_de': 'Perfekt mit sein; trennbares Präfix + ge + Partizip → '
+                              'aufgestanden.'}]}

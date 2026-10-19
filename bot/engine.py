@@ -115,6 +115,9 @@ class Engine:
         if phase == "place":
             topic = content.get_topic(st["topic"])
             return [send(*render.place(topic, st.get("ctx", "story")))]
+        if phase == "rule_choice":
+            topic = content.get_topic(st["topic"])
+            return [send(*render.rule_choice(topic, st.get("ctx", "story")))]
         if phase == "theory":
             topic = content.get_topic(st["topic"])
             return [send(*render.theory_page(topic, st.get("page", 0), st.get("ctx", "story")))]
@@ -245,11 +248,23 @@ class Engine:
         if command == "listen":
             return self._theory(vk_id, st, 0)
         if command == "to_tasks":
-            return self._start_tasks(vk_id, st, retry=False)
+            return self._rule_choice(vk_id, st)
         if command == "to_topics":
             return self._topic_list(vk_id, st)
         if command == "to_places":
             return self._place_list(vk_id, st)
+        return None
+
+    def _rule_choice(self, vk_id: int, st: dict) -> list:
+        topic = content.get_topic(st["topic"])
+        st["phase"] = "rule_choice"
+        return [send(*render.rule_choice(topic, st.get("ctx", "story")))]
+
+    def _on_rule_choice(self, vk_id: int, st: dict, text: str, command: str):
+        if command == "show_rule":
+            return self._theory(vk_id, st, 0)
+        if command == "skip_rule":
+            return self._start_tasks(vk_id, st, retry=False)
         return None
 
     def _theory(self, vk_id: int, st: dict, page: int) -> list:
@@ -323,6 +338,17 @@ class Engine:
             return self._answer(vk_id, st, topic, exercise, variant,
                                 ok, variant["options"][variant["answer"]])
 
+        if mechanics == "input":
+            if texts.resolve(text):
+                # На экране свободного ввода команда — это команда, а не ответ.
+                return None
+            answers = content.accepted_answers(variant)
+            if not answers:
+                return None
+            ok = any(texts.answers_match(text, answer) for answer in answers)
+            return self._answer(vk_id, st, topic, exercise, variant,
+                                ok, answers[0])
+
         if mechanics == "order":
             if norm == texts.normalize(texts.BTN_CHECK):
                 build = st.get("build") or []
@@ -359,15 +385,17 @@ class Engine:
         words = [texts.normalize(word) for word in variant["sentence"].split()]
         if norm not in words:
             return None
-        ok = norm == texts.normalize(variant["wrong"])
+        wrong_words = content.wrong_words(variant)
+        ok = norm in {texts.normalize(word) for word in wrong_words}
         if ok and variant.get("fix"):
             st["step"] = 2
             st["phase"] = "task"
             return self._render_task(vk_id, st)
-        right = variant["wrong"]
+        right = variant.get("solution") or ", ".join(wrong_words)
         if variant.get("fix"):
             fix = variant["fix"]
-            right = "{} → {}".format(variant["wrong"], fix["options"][fix["answer"]])
+            right = "{} → {}".format(", ".join(wrong_words),
+                                     fix["options"][fix["answer"]])
         return self._answer(vk_id, st, topic, exercise, variant, ok, right)
 
     def _answer(self, vk_id: int, st: dict, topic: dict, exercise: dict,

@@ -5,13 +5,17 @@ VK не поддерживает markdown, поэтому оформление �
 Функции возвращают пару (текст, клавиатура-VK).
 """
 
+import random
+
 from bot import keyboards, texts
 from content import (
     BALLAD_INTRO,
     BALLAD_TITLE,
     TOPICS,
     kind_hint,
+    kind_mechanics,
     kind_title,
+    wrong_words,
 )
 
 BAR = "─" * 18
@@ -51,18 +55,20 @@ def help_screen() -> tuple:
         "❓ КАК ИГРАТЬ\n"
         "{}\n\n"
         "В боте два режима.\n\n"
-        "📖 СЮЖЕТ — путь барда по городам. В каждой локации сначала можно "
-        "«прислушаться» и прочитать правило, потом — задания. Ошибка звучит "
-        "как фальшивая нота: бот объясняет правило и показывает верный ответ. "
-        "Перед новой локацией бард предлагает отработать сложные места — "
-        "это похожие задания по тем же правилам. За пройденную тему бард "
-        "дописывает строчку баллады.\n\n"
+        "📖 СЮЖЕТ — путь барда по городам. В каждой локации можно сначала "
+        "«прислушаться» и прочитать правило, а перед заданиями бот сам "
+        "предлагает выбрать: показать правило или начать без него. Ошибка "
+        "звучит как фальшивая нота: бот показывает верный ответ и объясняет "
+        "его по-русски и по-немецки. "
+        "Перед новой локацией бард предлагает повторить задания, где были "
+        "ошибки. За пройденную тему бард дописывает строчку баллады.\n\n"
         "🎯 ТРЕНИРОВКА ПО ТЕМАМ — то же самое, но без сюжета: выбираешь тему "
         "из списка и проходишь её сколько угодно раз.\n\n"
-        "Задания решаются кнопками: нажми вариант ответа, а если нужно собрать "
-        "предложение — нажимай слова по порядку и затем «Проверить». Если кнопки "
-        "не видны, всё то же можно набрать словами: «меню», «дальше», «проверить», "
-        "«меню».\n\n"
+        "Задания решаются кнопками или текстом: нажми вариант ответа; если нужно "
+        "написать слово или фразу — отправь ответ сообщением (регистр и умляуты "
+        "не важны); а если нужно собрать предложение — нажимай слова по порядку "
+        "и затем «Проверить». Команды можно набирать словами: «меню», «дальше», "
+        "«проверить».\n\n"
         "Прогресс сохраняется: строфы баллады, статистика и список ошибок, "
         "которые ещё не отработаны. Начать сюжет заново можно в любой момент."
     ).format(BAR)
@@ -132,6 +138,23 @@ def place(topic: dict, ctx: str) -> tuple:
     return text, keyboards.build(rows)
 
 
+def rule_choice(topic: dict, ctx: str) -> tuple:
+    text = (
+        "📖 ПРАВИЛО ПЕРЕД ЗАДАНИЯМИ\n"
+        "{}\n\n"
+        "Тема: {} ({})\n\n"
+        "Можно сначала освежить правило — или сразу перейти к заданиям: "
+        "объяснение всё равно появится, если ответ окажется неверным.".format(
+            BAR, topic["title"], topic["title_de"])
+    )
+    rows = [
+        [texts.BTN_SHOW_RULE],
+        [texts.BTN_START_NO_RULE],
+        [texts.BTN_MENU],
+    ]
+    return text, keyboards.build(rows)
+
+
 def theory_page(topic: dict, page_index: int, ctx: str) -> tuple:
     pages = topic["theory"]
     page = pages[page_index]
@@ -152,6 +175,26 @@ def theory_page(topic: dict, page_index: int, ctx: str) -> tuple:
     return text, keyboards.build(rows)
 
 
+def _shuffled_words(exercise: dict) -> list:
+    """Перемешивает слова для сборки, но всегда одинаково для одного задания.
+
+    В самих данных `words` хранятся в правильном порядке: так validator
+    сверяет `answer` и так автопилот собирает предложение. На экран слова
+    отдаются перемешанными, иначе задание решалось бы нажатиями слева
+    направо.
+    """
+    words = list(exercise["words"])
+    if len(set(words)) < 2:
+        return words
+    rng = random.Random("order:" + exercise["id"])
+    shuffled = list(words)
+    for _ in range(10):
+        rng.shuffle(shuffled)
+        if shuffled != words:
+            return shuffled
+    return shuffled
+
+
 def task(topic: dict, exercise: dict, index: int, total: int,
          build: list = None, step: int = 1, is_retry: bool = False) -> tuple:
     """Экран задания. build — собранные слова для kind=order."""
@@ -170,7 +213,7 @@ def task(topic: dict, exercise: dict, index: int, total: int,
         lines.append("Собрано: {}".format(sentence))
         lines.append("")
         lines.append(_hint(kind_hint(kind)) + ".")
-        rows = keyboards.pack(exercise["words"], per_row=3)
+        rows = keyboards.pack(_shuffled_words(exercise), per_row=3)
         rows.append([texts.BTN_UNDO, texts.BTN_CHECK])
         rows.append([texts.BTN_CLEAR, texts.BTN_MENU])
         return "\n".join(lines), keyboards.build(rows)
@@ -184,11 +227,19 @@ def task(topic: dict, exercise: dict, index: int, total: int,
         return "\n".join(lines), keyboards.build(rows)
 
     if kind == "error" and step == 2:
-        lines.append("Ошибка найдена: «{}». Как исправить?".format(exercise["wrong"]))
+        found = ", ".join("«{}»".format(word) for word in wrong_words(exercise))
+        lines.append("Ошибка найдена: {}. Как исправить?".format(found))
         lines.append("")
         lines.append(exercise["sentence"])
         rows = keyboards.single_row_options(exercise["fix"]["options"])
         rows.append([texts.BTN_MENU])
+        return "\n".join(lines), keyboards.build(rows)
+
+    if kind_mechanics(kind) == "input":
+        lines.append(exercise["prompt"])
+        lines.append("")
+        lines.append(_hint(kind_hint(kind)) + ".")
+        rows = [[texts.BTN_MENU]]
         return "\n".join(lines), keyboards.build(rows)
 
     lines.append(exercise["prompt"])
@@ -205,10 +256,15 @@ def feedback(exercise: dict, kind: str, ok: bool, right: str,
         head = "🎵 Верно!" if not is_retry else "🎵 Верно — вот и рифма нашлась!"
         if kind == "order":
             head += "\n\nТвоё предложение: {}".format(right)
+        elif kind == "error":
+            head += "\n\nИсправленное предложение: {}".format(right)
     else:
         head = ("🎼 Фальшивая нота!\n\n"
                 "Ладонь барда сбивается со струн. Правильный ответ: {}".format(right))
-    text = "{}\n{}\n\n{}\n\n{}".format(head, BAR, exercise.get("explain", ""), BAR)
+    body = exercise.get("explain", "")
+    if not ok and exercise.get("explain_de"):
+        body = "{}\n\n🇩🇪 {}".format(body, exercise["explain_de"])
+    text = "{}\n{}\n\n{}\n\n{}".format(head, BAR, body, BAR)
     rows = [[texts.BTN_NEXT], [texts.BTN_MENU]]
     return text, keyboards.build(rows)
 
@@ -216,12 +272,13 @@ def feedback(exercise: dict, kind: str, ok: bool, right: str,
 def error_step_feedback(exercise: dict, ok: bool, tapped: str) -> tuple:
     """Подсказка после первого шага «найди ошибку» (используется движком
     при неверном нажатии слова)."""
+    words = wrong_words(exercise)
+    found = ", ".join("«{}»".format(word) for word in words) or "?"
     if ok:
-        text = ("🔍 Точно: слово «{}» здесь неверно.\n{}".format(
-            exercise["wrong"], BAR))
+        text = ("🔍 Точно: слово «{}» здесь неверно.\n{}".format(tapped, BAR))
     else:
         text = ("🔍 Нет, со словом «{}» всё в порядке.\n"
-                "Ошибка — в слове «{}».".format(tapped, exercise["wrong"]))
+                "Ошибка — в слове {}.".format(tapped, found))
     return text, None
 
 
@@ -235,7 +292,7 @@ def retry_offer(topic: dict, mistakes: list) -> tuple:
         "{}\n\n"
         "За поворотом дороги бард останавливается: рифма потерялась, и {} "
         "из последних заданий прозвучали фальшиво. Вернёмся к этим правилам? "
-        "Бот даст похожие задания — то же правило, другой пример.\n\n"
+        "Бот повторит задания, где были ошибки.\n\n"
         "Тема: {}".format(BAR, len(mistakes), topic["title"])
     )
     rows = [

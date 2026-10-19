@@ -17,6 +17,8 @@ BTN_TRAIN = "🎯 Тренировка по темам"
 BTN_NOSTALGIA = "🏰 Побывать в местах"
 BTN_LISTEN = "🎧 Прислушаться"
 BTN_TO_TASKS = "✍️ К заданиям"
+BTN_SHOW_RULE = "📖 Показать правило"
+BTN_START_NO_RULE = "✍️ Начать без правила"
 BTN_NEXT = "➡️ Дальше"
 BTN_NEXT_LOCATION = "➡️ Следующая локация"
 BTN_FINALE = "🏁 Финал"
@@ -42,6 +44,8 @@ COMMANDS = {
     BTN_NOSTALGIA: "nostalgia",
     BTN_LISTEN: "listen",
     BTN_TO_TASKS: "to_tasks",
+    BTN_SHOW_RULE: "show_rule",
+    BTN_START_NO_RULE: "skip_rule",
     BTN_NEXT: "next",
     BTN_NEXT_LOCATION: "next_location",
     BTN_FINALE: "finale",
@@ -71,6 +75,10 @@ ALIASES = {
     "темы": "train",
     "статистика": "stats",
     "результаты": "stats",
+    "правило": "show_rule",
+    "показать правило": "show_rule",
+    "без правила": "skip_rule",
+    "начать без правила": "skip_rule",
 }
 
 #: Команды, которые всегда обрабатываются, даже если похожий текст есть
@@ -100,6 +108,27 @@ def resolve(text: str) -> str:
         if normalize(label) == key:
             return command
     return ALIASES.get(key, "")
+
+
+_ANSWER_FOLD = str.maketrans({
+    "ä": "ae",
+    "ö": "oe",
+    "ü": "ue",
+    "ß": "ss",
+})
+
+
+def normalize_answer(text: str) -> str:
+    """Нормализация свободного ответа: без регистра, пунктуации и умлаутов.
+
+    Немецкие буквы ä/ö/ü/ß сравниваются и в обычном написании, и в замене
+    на ae/oe/ue/ss, чтобы ответ можно было набрать без немецкой раскладки.
+    """
+    return normalize(text).translate(_ANSWER_FOLD)
+
+
+def answers_match(given: str, expected: str) -> bool:
+    return normalize_answer(given) == normalize_answer(expected)
 
 
 def is_forced(command: str) -> bool:

@@ -1,308 +1,229 @@
-"""Тема 4. Negation: nicht/kein."""
+"""Тема 4: Negation: nicht/kein."""
 
-TOPIC = {
-    "id": "negation",
-    "nr": 4,
-    "title": "Отрицание: nicht и kein",
-    "short": "Отрицание nicht/kein",
-    "title_de": "Negation: nicht/kein",
-    "location": "Кёльн, у собора",
-    "location_de": "Köln, am Dom",
-    "intro": (
-        "Бард входит в Кёльн и замирает: над ним поднимается собор. Внутри "
-        "нельзя шуметь, и служка строго шепчет: «Hier singt man nicht». "
-        "У барда нет денег на ночлег, но это не беда. Он учится говорить "
-        "«нет» по-немецки: nicht или kein — от этого зависит, поймут ли его "
-        "люди у собора."
-    ),
-    "listen": (
-        "Бард слушает собор: служка шепчет «Hier singt man nicht», нищенка "
-        "у входа вздыхает «Ich habe kein Geld», а колокол гудит так, что слов "
-        "не нужно. Отрицание звучит даже в тишине: nicht, kein, keine."
-    ),
-    "theory": [
-        {
-            "title": "kein — отрицание для существительных",
-            "body": (
-                "kein ставим перед существительным, если в утверждении был бы "
-                "ein или артикля не было вовсе. Оно склоняется как ein:\n\n"
-                "Nominativ: kein Sack, keine Kiste, kein Haus\n"
-                "Akkusativ: keinen Sack, keine Kiste, kein Haus\n"
-                "Множественное число: keine Säcke, keine Kisten, keine Häuser\n\n"
-                "Der Barde hat kein Geld. Ich sehe keinen Wirt. Sie singt "
-                "keine Lieder.\n\n"
-                "Если перед существительным стоит определённый артикль, kein "
-                "уже невозможен: Ich kenne den Mann — Ich kenne den Mann nicht."
-            ),
-        },
-        {
-            "title": "nicht — для всего остального",
-            "body": (
-                "nicht отрицает глаголы, прилагательные, наречия, имена "
-                "и целые предложения:\n\n"
-                "Der Barde singt nicht. Der Dom ist nicht alt. Ich heiße "
-                "nicht Peter. Wir fahren nicht nach Köln.\n\n"
-                "Короткое правило: если перед существительным нет артикля или "
-                "стоит ein — берём kein; во всех остальных случаях (глагол, "
-                "прилагательное, имя собственное) — nicht.\n\n"
-                "Сравни: Ich sehe keinen Wirt (существительное без артикля) — "
-                "Ich sehe den Wirt nicht (существительное с артиклем den)."
-            ),
-        },
-        {
-            "title": "Где стоит nicht",
-            "body": (
-                "nicht стоит в конце предложения или перед тем словом, "
-                "которое отрицает:\n\n"
-                "Der Barde singt nicht. Ich singe heute nicht. Ich singe nicht "
-                "im Dom. Der Dom ist nicht alt. Nicht heute, sondern morgen.\n\n"
-                "Перед спрягаемым глаголом в Präsens nicht стоять не может: "
-                "«Ich nicht singe» — ошибка, правильно Ich singe nicht.\n\n"
-                "kein стоит только перед существительным и никогда "
-                "не отрицает прилагательное или глагол: «Der Dom ist kein "
-                "alt» — ошибка, правильно Der Dom ist nicht alt."
-            ),
-        },
-    ],
-    "song_line": (
-        "Am Kölner Dom bleibt meine Stimme still,\n"
-        "kein Geld, kein Lied — doch ich lerne, was ich will."
-    ),
-    "exercises": [
-        {
-            "id": "negation_1",
-            "kind": "gap",
-            "prompt": (
-                "Бард стоит у собора без денег: «Ich habe ___ Geld für ein "
-                "Bier.»"
-            ),
-            "options": ["keine", "kein", "keinen", "nicht"],
-            "answer": 1,
-            "explain": (
-                "das Geld — средний род, в Akkusativ форма не меняется: kein "
-                "Geld. Формы keine и keinen — неверный род, а nicht "
-                "не отрицает существительное."
-            ),
-            "retry": {
-                "prompt": "Бард потерял шляпу: «Ich habe ___ Hut.» (der Hut)",
-                "options": ["kein", "keine", "keinen", "nicht"],
-                "answer": 2,
-                "explain": (
-                    "der Hut — мужской род, в Akkusativ: keinen Hut. Форма "
-                    "kein стоит в Nominativ или перед средним словом."
-                ),
-            },
-        },
-        {
-            "id": "negation_2",
-            "kind": "gap",
-            "prompt": (
-                "В соборе нельзя шуметь: «Im Dom singen die Leute ___ Lieder.»"
-            ),
-            "options": ["kein", "keine", "keinen", "nicht"],
-            "answer": 1,
-            "explain": (
-                "die Lieder — множественное число, отрицание — keine. Формы "
-                "kein и keinen во множественном числе не бывают."
-            ),
-            "retry": {
-                "prompt": (
-                    "Бард ищет ночлег: «Ich suche in Köln ___ Herberge.» "
-                    "(die Herberge)"
-                ),
-                "options": ["kein", "keinen", "keine", "nicht"],
-                "answer": 2,
-                "explain": (
-                    "die Herberge — женский род, Akkusativ: keine Herberge. "
-                    "kein и keinen не подходят по роду."
-                ),
-            },
-        },
-        {
-            "id": "negation_3",
-            "kind": "transform",
-            "prompt": (
-                "Проводник шутит: «Der Dom ist neu.» Бард возражает: собор "
-                "не новый."
-            ),
-            "options": [
-                "Der Dom ist kein neu.",
-                "Der Dom ist nicht neu.",
-                "Der Dom nicht ist neu.",
-                "Der Dom ist neu nicht.",
-            ],
-            "answer": 1,
-            "explain": (
-                "Прилагательное отрицаем через nicht, оно стоит перед ним: "
-                "Der Dom ist nicht neu. kein ставится только перед "
-                "существительным."
-            ),
-            "retry": {
-                "prompt": (
-                    "Трактирщик говорит: «Der Barde hat eine Laute.» Спой "
-                    "то же с отрицанием: у барда нет лютни."
-                ),
-                "options": [
-                    "Der Barde hat nicht Laute.",
-                    "Der Barde hat kein Laute.",
-                    "Der Barde hat keine Laute.",
-                    "Der Barde hat keinen Laute.",
-                ],
-                "answer": 2,
-                "explain": (
-                    "eine Laute → keine Laute: женский род, Akkusativ. Формы "
-                    "kein и keinen — неверный род, а nicht перед "
-                    "существительным не ставится."
-                ),
-            },
-        },
-        {
-            "id": "negation_4",
-            "kind": "error",
-            "prompt": "В песне барда одна ошибка — в отрицании. Найди её.",
-            "sentence": "Ich habe nicht Geld für ein Bier.",
-            "wrong": "nicht",
-            "fix": {
-                "options": ["keine", "kein", "keinen", "nicht"],
-                "answer": 1,
-                "explain": "Geld — существительное, его отрицают словом kein.",
-            },
-            "explain": (
-                "Geld — существительное, его отрицают через kein: Ich habe "
-                "kein Geld. nicht отрицает глаголы и прилагательные."
-            ),
-            "retry": {
-                "prompt": "В песне барда одна ошибка — в отрицании. Найди её.",
-                "sentence": "In der Herberge gibt es nicht Betten.",
-                "wrong": "nicht",
-                "fix": {
-                    "options": ["kein", "keinen", "keine", "nicht"],
-                    "answer": 2,
-                    "explain": (
-                        "die Betten — множественное число, поэтому keine."
-                    ),
-                },
-                "explain": (
-                    "die Betten — множественное число, отрицание keine: Es "
-                    "gibt keine Betten. nicht перед существительным "
-                    "не ставится."
-                ),
-            },
-        },
-        {
-            "id": "negation_5",
-            "kind": "error",
-            "prompt": (
-                "В песне барда одна ошибка — nicht стоит не на месте. "
-                "Найди это слово."
-            ),
-            "sentence": "Der Barde nicht singt im Dom.",
-            "wrong": "nicht",
-            "fix": {
-                "options": ["nicht singt", "singt nicht", "singt kein", "kein singt"],
-                "answer": 1,
-                "explain": (
-                    "nicht стоит после спрягаемого глагола: Der Barde singt "
-                    "nicht im Dom."
-                ),
-            },
-            "explain": (
-                "nicht не может стоять перед глаголом: правильно Der Barde "
-                "singt nicht im Dom. Глагол в немецком предложении стоит "
-                "на втором месте, а nicht — правее него."
-            ),
-            "retry": {
-                "prompt": (
-                    "В песне барда одна ошибка — nicht стоит не на месте. "
-                    "Найди это слово."
-                ),
-                "sentence": "Wir nicht singen im Dom.",
-                "wrong": "nicht",
-                "fix": {
-                    "options": ["nicht singen", "singen kein", "singen nicht", "kein singen"],
-                    "answer": 2,
-                    "explain": "Правильно: Wir singen nicht im Dom.",
-                },
-                "explain": (
-                    "nicht ставится после глагола: Wir singen nicht im Dom. "
-                    "Перед глаголом оно стоять не может."
-                ),
-            },
-        },
-        {
-            "id": "negation_6",
-            "kind": "translate",
-            "prompt": "Переведи на немецкий: «Я не пою в соборе.»",
-            "options": [
-                "Ich singe kein im Dom.",
-                "Ich nicht singe im Dom.",
-                "Ich singe nicht im Dom.",
-                "Ich singe nicht in Dom.",
-            ],
-            "answer": 2,
-            "explain": (
-                "Глагол отрицаем через nicht, оно стоит после глагола: Ich "
-                "singe nicht im Dom. Перед Dom нужен артикль (im = in dem), "
-                "а kein стоит только перед существительным."
-            ),
-            "retry": {
-                "prompt": "Переведи на немецкий: «Он не поёт громко.»",
-                "options": [
-                    "Er singt kein laut.",
-                    "Er singt nicht laute.",
-                    "Er nicht singt laut.",
-                    "Er singt nicht laut.",
-                ],
-                "answer": 3,
-                "explain": (
-                    "nicht стоит перед прилагательным laut: Er singt nicht "
-                    "laut. kein перед прилагательным невозможен."
-                ),
-            },
-        },
-        {
-            "id": "negation_7",
-            "kind": "mc",
-            "prompt": "Бард не знает того человека: «Ich kenne den Mann ___.»",
-            "options": ["kein", "keine", "nicht", "keinen"],
-            "answer": 2,
-            "explain": (
-                "Перед Mann стоит определённый артикль den, поэтому kein "
-                "невозможен: отрицаем через nicht в конце предложения."
-            ),
-            "retry": {
-                "prompt": (
-                    "Бард в новом городе никого не знает: «Ich kenne in Köln "
-                    "___ Menschen.»"
-                ),
-                "options": ["kein", "keinen", "keine", "nicht"],
-                "answer": 1,
-                "explain": (
-                    "Артикля нет, значит нужно kein; der Mensch — мужской "
-                    "род, в Akkusativ: keinen Menschen."
-                ),
-            },
-        },
-        {
-            "id": "negation_8",
-            "kind": "order",
-            "prompt": "Собери предложение: в соборе люди не поют.",
-            "words": ["Im", "Dom", "singen", "die", "Leute", "nicht"],
-            "answer": "Im Dom singen die Leute nicht",
-            "explain": (
-                "Im Dom — обстоятельство на первом месте, глагол второй: "
-                "singen. nicht стоит в конце: Die Leute singen nicht."
-            ),
-            "retry": {
-                "prompt": "Собери предложение: у барда нет денег.",
-                "words": ["Der", "Barde", "hat", "kein", "Geld"],
-                "answer": "Der Barde hat kein Geld",
-                "explain": (
-                    "kein стоит перед существительным Geld: Der Barde hat "
-                    "kein Geld. С существительным слово nicht "
-                    "не употребляется."
-                ),
-            },
-        },
-    ],
-}
+TOPIC = {'id': 'negation',
+ 'nr': 4,
+ 'title': 'Отрицание: nicht и kein',
+ 'short': 'Отрицание nicht/kein',
+ 'title_de': 'Negation: nicht/kein',
+ 'location': 'Кёльн, у собора',
+ 'location_de': 'Köln, am Dom',
+ 'intro': 'Бард входит в Кёльн и замирает: над ним поднимается собор. Внутри нельзя шуметь, и '
+          'служка строго шепчет: «Hier singt man nicht». У барда нет денег на ночлег, но это не '
+          'беда. Он учится говорить «нет» по-немецки: nicht или kein — от этого зависит, поймут ли '
+          'его люди у собора.',
+ 'listen': 'Бард слушает собор: служка шепчет «Hier singt man nicht», нищенка у входа вздыхает '
+           '«Ich habe kein Geld», а колокол гудит так, что слов не нужно. Отрицание звучит даже в '
+           'тишине: nicht, kein, keine.',
+ 'theory': [{'title': 'kein — отрицание для существительных',
+             'body': 'kein ставим перед существительным, если в утверждении был бы ein или артикля '
+                     'не было вовсе. Оно склоняется как ein:\n'
+                     '\n'
+                     'Nominativ: kein Sack, keine Kiste, kein Haus\n'
+                     'Akkusativ: keinen Sack, keine Kiste, kein Haus\n'
+                     'Множественное число: keine Säcke, keine Kisten, keine Häuser\n'
+                     '\n'
+                     'Der Barde hat kein Geld. Ich sehe keinen Wirt. Sie singt keine Lieder.\n'
+                     '\n'
+                     'Если перед существительным стоит определённый артикль, kein уже невозможен: '
+                     'Ich kenne den Mann — Ich kenne den Mann nicht.'},
+            {'title': 'nicht — для всего остального',
+             'body': 'nicht отрицает глаголы, прилагательные, наречия, имена и целые предложения:\n'
+                     '\n'
+                     'Der Barde singt nicht. Der Dom ist nicht alt. Ich heiße nicht Peter. Wir '
+                     'fahren nicht nach Köln.\n'
+                     '\n'
+                     'Короткое правило: если перед существительным нет артикля или стоит ein — '
+                     'берём kein; во всех остальных случаях (глагол, прилагательное, имя '
+                     'собственное) — nicht.\n'
+                     '\n'
+                     'Сравни: Ich sehe keinen Wirt (существительное без артикля) — Ich sehe den '
+                     'Wirt nicht (существительное с артиклем den).'},
+            {'title': 'Где стоит nicht',
+             'body': 'nicht стоит в конце предложения или перед тем словом, которое отрицает:\n'
+                     '\n'
+                     'Der Barde singt nicht. Ich singe heute nicht. Ich singe nicht im Dom. Der '
+                     'Dom ist nicht alt. Nicht heute, sondern morgen.\n'
+                     '\n'
+                     'Перед спрягаемым глаголом в Präsens nicht стоять не может: «Ich nicht singe» '
+                     '— ошибка, правильно Ich singe nicht.\n'
+                     '\n'
+                     'kein стоит только перед существительным и никогда не отрицает прилагательное '
+                     'или глагол: «Der Dom ist kein alt» — ошибка, правильно Der Dom ist nicht '
+                     'alt.'}],
+ 'song_line': 'Am Kölner Dom bleibt meine Stimme still,\n'
+              'kein Geld, kein Lied — doch ich lerne, was ich will.',
+ 'exercises': [{'id': 'negation_1',
+                'kind': 'mc',
+                'prompt': 'Der Ritter hat ___ Pferd.',
+                'options': ['nicht', 'kein', 'keine'],
+                'answer': 1,
+                'explain': '«Pferd» — средний род, Akkusativ → kein.',
+                'explain_de': '„Pferd“ ist neutrum, Akkusativ → kein.'},
+               {'id': 'negation_2',
+                'kind': 'gap',
+                'prompt': 'Ich habe ___ Zeit. (kein)',
+                'answer': 'keine',
+                'explain': '«Zeit» — женский род, Akkusativ → keine.',
+                'explain_de': '„Zeit“ ist feminin, Akkusativ → keine.'},
+               {'id': 'negation_3',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Der', 'König', 'schläft', 'heute', 'nicht'],
+                'answer': 'Der König schläft heute nicht',
+                'explain': '«nicht» отрицает глагол и стоит в конце.',
+                'explain_de': '„nicht“ negiert das Verb und steht am Ende.'},
+               {'id': 'negation_4',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Ich kann kein schwimmen.',
+                'wrong': 'kein',
+                'solution': 'Ich kann nicht schwimmen',
+                'explain': 'глагол отрицается через «nicht», а не «kein».',
+                'explain_de': 'Ein Verb wird mit „nicht“ negiert, nicht mit „kein“.'},
+               {'id': 'negation_5',
+                'kind': 'input',
+                'prompt': 'Verneine: Der Barde hat eine Laute.',
+                'answers': ['Der Barde hat keine Laute'],
+                'explain': '«Laute» — женский род, Akkusativ → keine.',
+                'explain_de': '„Laute“ ist feminin, Akkusativ → keine.'},
+               {'id': 'negation_6',
+                'kind': 'mc',
+                'prompt': 'Das ist ___ mein Buch.',
+                'options': ['nicht', 'kein', 'keine'],
+                'answer': 0,
+                'explain': 'отрицается притяжательное «mein» (не существительное как таковое) → '
+                           'nicht.',
+                'explain_de': 'Negiert wird das Possessivpronomen „mein“ (nicht das Substantiv als '
+                              'solches) → nicht.'},
+               {'id': 'negation_7',
+                'kind': 'gap',
+                'prompt': 'Der König hat ___ Schwert. (kein)',
+                'answer': 'kein',
+                'explain': '«Schwert» — средний род, Akkusativ → kein.',
+                'explain_de': '„Schwert“ ist neutrum, Akkusativ → kein.'},
+               {'id': 'negation_8',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Ich', 'habe', 'heute', 'keinen', 'Hunger'],
+                'answer': 'Ich habe heute keinen Hunger',
+                'explain': '«Hunger» — мужской род, Akkusativ → keinen.',
+                'explain_de': '„Hunger“ ist maskulin, Akkusativ → keinen.'},
+               {'id': 'negation_9',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Die Ritter haben nicht Helme.',
+                'wrong': 'nicht',
+                'solution': 'Die Ritter haben keine Helme',
+                'explain': '«Helme» — Plural, отрицание существительного → keine.',
+                'explain_de': '„Helme“ ist Plural, Negation eines Substantivs → keine.'},
+               {'id': 'negation_10',
+                'kind': 'input',
+                'prompt': 'Verneine: Ich trinke Kaffee.',
+                'answers': ['Ich trinke keinen Kaffee'],
+                'explain': '«Kaffee» — мужской род, Akkusativ → keinen.',
+                'explain_de': '„Kaffee“ ist maskulin, Akkusativ → keinen.'},
+               {'id': 'negation_11',
+                'kind': 'mc',
+                'prompt': 'Der Barde kommt heute ___.',
+                'options': ['kein', 'nicht', 'keine'],
+                'answer': 1,
+                'explain': 'отрицается глагол «kommen» → nicht.',
+                'explain_de': 'Negiert wird das Verb „kommen“ → nicht.'},
+               {'id': 'negation_12',
+                'kind': 'gap',
+                'prompt': 'Wir haben ___ Geld. (kein)',
+                'answer': 'kein',
+                'explain': '«Geld» — средний род, Akkusativ → kein.',
+                'explain_de': '„Geld“ ist neutrum, Akkusativ → kein.'},
+               {'id': 'negation_13',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Der', 'Ritter', 'kann', 'nicht', 'kämpfen'],
+                'answer': 'Der Ritter kann nicht kämpfen',
+                'explain': '«nicht» стоит перед инфинитивом в конце.',
+                'explain_de': '„nicht“ steht vor dem Infinitiv am Ende.'},
+               {'id': 'negation_14',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Er hat nicht Auto.',
+                'wrong': 'nicht',
+                'solution': 'Er hat kein Auto',
+                'explain': '«Auto» — средний род, Akkusativ → kein.',
+                'explain_de': '„Auto“ ist neutrum, Akkusativ → kein.'},
+               {'id': 'negation_15',
+                'kind': 'input',
+                'prompt': 'Verneine: Der König wohnt in einer Burg.',
+                'answers': ['Der König wohnt nicht in einer Burg'],
+                'explain': 'отрицается предложная группа (место) → nicht перед ней.',
+                'explain_de': 'Negiert wird die Präpositionalgruppe (Ort) → nicht davor.'},
+               {'id': 'negation_16',
+                'kind': 'mc',
+                'prompt': 'Ich verstehe das ___.',
+                'options': ['kein', 'nicht', 'keine'],
+                'answer': 1,
+                'explain': 'отрицается глагол «verstehen» → nicht.',
+                'explain_de': 'Negiert wird das Verb „verstehen“ → nicht.'},
+               {'id': 'negation_17',
+                'kind': 'gap',
+                'prompt': 'Der Barde hat ___ Lust zu singen. (kein)',
+                'answer': 'keine',
+                'explain': '«Lust» — женский род, Akkusativ → keine.',
+                'explain_de': '„Lust“ ist feminin, Akkusativ → keine.'},
+               {'id': 'negation_18',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Wir', 'haben', 'heute', 'keine', 'Zeit'],
+                'answer': 'Wir haben heute keine Zeit',
+                'explain': '«Zeit» — женский род, Akkusativ → keine.',
+                'explain_de': '„Zeit“ ist feminin, Akkusativ → keine.'},
+               {'id': 'negation_19',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Der König ist nicht ein guter Herrscher.',
+                'wrong': ['nicht', 'ein'],
+                'solution': 'Der König ist kein guter Herrscher',
+                'explain': 'отрицание существительного с прилагательным → kein (мужской род, '
+                           'Nominativ → kein).',
+                'explain_de': 'Negation eines Substantivs mit Adjektiv → kein (maskulin, Nominativ '
+                              '→ kein).'},
+               {'id': 'negation_20',
+                'kind': 'input',
+                'prompt': 'Verneine: Ich habe einen Bruder.',
+                'answers': ['Ich habe keinen Bruder'],
+                'explain': '«Bruder» — мужской род, Akkusativ → keinen.',
+                'explain_de': '„Bruder“ ist maskulin, Akkusativ → keinen.'},
+               {'id': 'negation_21',
+                'kind': 'mc',
+                'prompt': 'Die Barden singen ___ heute.',
+                'options': ['kein', 'nicht', 'keine'],
+                'answer': 1,
+                'explain': 'отрицается глагол «singen» → nicht.',
+                'explain_de': 'Negiert wird das Verb „singen“ → nicht.'},
+               {'id': 'negation_22',
+                'kind': 'gap',
+                'prompt': 'Das ist ___ Problem. (kein)',
+                'answer': 'kein',
+                'explain': '«Problem» — средний род, Nominativ → kein.',
+                'explain_de': '„Problem“ ist neutrum, Nominativ → kein.'},
+               {'id': 'negation_23',
+                'kind': 'order',
+                'prompt': 'Собери предложение из слов.',
+                'words': ['Ich', 'kann', 'nicht', 'mit', 'dem', 'König', 'sprechen'],
+                'answer': 'Ich kann nicht mit dem König sprechen',
+                'explain': '«nicht» перед предложной группой; «mit» + Dativ → dem König.',
+                'explain_de': '„nicht“ steht vor der Präpositionalgruppe; „mit“ + Dativ → dem '
+                              'König.'},
+               {'id': 'negation_24',
+                'kind': 'error',
+                'prompt': 'В предложении есть ошибка — найди слово, в котором она.',
+                'sentence': 'Wir haben nicht Kinder.',
+                'wrong': 'nicht',
+                'solution': 'Wir haben keine Kinder',
+                'explain': '«Kinder» — Plural → keine.',
+                'explain_de': '„Kinder“ ist Plural → keine.'},
+               {'id': 'negation_25',
+                'kind': 'input',
+                'prompt': 'Verneine: Der Ritter trägt einen Helm.',
+                'answers': ['Der Ritter trägt keinen Helm'],
+                'explain': '«Helm» — мужской род, Akkusativ → keinen.',
+                'explain_de': '„Helm“ ist maskulin, Akkusativ → keinen.'}]}

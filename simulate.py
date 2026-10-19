@@ -65,6 +65,7 @@ def pick(keyboard: dict, preferences: list):
 PREFERENCES = {
     "menu": [texts.BTN_STORY],
     "place": [texts.BTN_LISTEN, texts.BTN_TO_TASKS],
+    "rule_choice": [texts.BTN_START_NO_RULE, texts.BTN_SHOW_RULE],
     "theory": [texts.BTN_NEXT, texts.BTN_TO_TASKS],
     "feedback": [texts.BTN_NEXT],
     "song": [texts.BTN_NEXT_LOCATION, texts.BTN_FINALE],
@@ -94,6 +95,10 @@ def solve_task(st: dict, wrong_mode: bool, counter: int) -> list:
                          if i != variant["answer"])
         return [variant["options"][index]]
 
+    if mechanics == "input":
+        answers = content.accepted_answers(variant)
+        return ["falscher Antwortversuch" if make_wrong else answers[0]]
+
     if mechanics == "order":
         words = list(variant["words"])
         if make_wrong:
@@ -109,14 +114,14 @@ def solve_task(st: dict, wrong_mode: bool, counter: int) -> list:
         return [fix["options"][index]]
 
     words = variant["sentence"].split()
+    wrong = {texts.normalize(word) for word in content.wrong_words(variant)}
     if make_wrong:
-        return [next(word for word in words
-                     if texts.normalize(word) != texts.normalize(variant["wrong"]))]
-    return [variant["wrong"]]
+        return [next(word for word in words if texts.normalize(word) not in wrong)]
+    return [content.wrong_words(variant)[0]]
 
 
 def auto_play(db, engine, vk_id: int, mode: str, wrong_mode: bool,
-              quiet: bool, topic_nr: int = 1, limit: int = 900) -> None:
+              quiet: bool, topic_nr: int = 1, limit: int = 3000) -> None:
     pending = ["начать"]
     if mode == "story":
         pending.append(texts.BTN_STORY)

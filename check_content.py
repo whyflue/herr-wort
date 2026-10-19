@@ -50,6 +50,8 @@ def build_keyboard(exercise: dict) -> dict:
         rows = keyboards.single_row_options(exercise["options"])
         rows.append([texts.BTN_MENU])
         return keyboards.build(rows)
+    if mechanics == "input":
+        return keyboards.build([[texts.BTN_MENU]])
     if mechanics == "order":
         rows = keyboards.pack(exercise["words"], per_row=3)
         rows.append([texts.BTN_UNDO, texts.BTN_CLEAR, texts.BTN_CHECK])

@@ -18,11 +18,12 @@ BALLAD_INTRO = (
     "Запев: «Я пел о том, чего не знал, — и вот перо беру…»"
 )
 
-#: Виды заданий. Механика проверки: choice — выбор варианта, order — сборка
-#: предложения из слов, error — поиск ошибки в предложении.
+#: Виды заданий. Механика проверки: choice — выбор варианта, input — свободный
+#: ввод, order — сборка предложения из слов, error — поиск ошибки в предложении.
 KINDS = {
     "mc": "choice",
-    "gap": "choice",
+    "gap": "input",
+    "input": "input",
     "join": "choice",
     "transform": "choice",
     "translate": "choice",
@@ -33,6 +34,7 @@ KINDS = {
 KIND_TITLES = {
     "mc": "Выбери правильный вариант",
     "gap": "Заполни пропуск",
+    "input": "Напиши ответ",
     "join": "Соедини два предложения в одно",
     "transform": "Преобразуй предложение",
     "translate": "Переведи фрагмент на немецкий",
@@ -42,7 +44,8 @@ KIND_TITLES = {
 
 _KIND_HINTS = {
     "mc": "нажми на правильный вариант",
-    "gap": "нажми на правильный вариант",
+    "gap": "напиши пропущенное слово или форму сообщением",
+    "input": "напиши ответ сообщением",
     "join": "нажми на правильный вариант",
     "transform": "нажми на правильный вариант",
     "translate": "нажми на правильный вариант",
@@ -105,6 +108,23 @@ def variant(exercise: dict, retry: bool) -> dict:
     return merged
 
 
+def wrong_words(exercise: dict) -> list:
+    """Слова с ошибкой в задании kind=error (одно слово или их список)."""
+    wrong = exercise.get("wrong")
+    if isinstance(wrong, list):
+        return [word for word in wrong if isinstance(word, str)]
+    return [wrong] if isinstance(wrong, str) else []
+
+
+def accepted_answers(exercise: dict) -> list:
+    """Все допустимые свободные ответы задания (answers или answer)."""
+    answers = exercise.get("answers")
+    if isinstance(answers, list) and answers:
+        return [answer for answer in answers if isinstance(answer, str)]
+    answer = exercise.get("answer")
+    return [answer] if isinstance(answer, str) else []
+
+
 # ---------- валидация ----------
 
 
@@ -129,6 +149,27 @@ def _check_choice(exercise: dict, where: str, problems: list) -> None:
     answer = exercise.get("answer")
     if not isinstance(answer, int) or not 0 <= answer < len(options):
         problems.append("{}: answer вне диапазона вариантов".format(where))
+
+
+def _check_input(exercise: dict, where: str, problems: list) -> None:
+    answers = exercise.get("answers")
+    if answers is None:
+        answer = exercise.get("answer")
+        answers = [answer] if isinstance(answer, str) else []
+    if not isinstance(answers, list) or not answers:
+        problems.append("{}: нужен непустой answer или answers".format(where))
+        return
+    seen = set()
+    for answer in answers:
+        if not isinstance(answer, str) or not answer.strip():
+            problems.append("{}: пустой вариант свободного ответа".format(where))
+            continue
+        key = texts.normalize_answer(answer)
+        if key in seen:
+            problems.append("{}: повторяющийся ответ {!r}".format(where, answer))
+        seen.add(key)
+        if key in texts.command_labels():
+            problems.append("{}: ответ совпадает с командой: {!r}".format(where, answer))
 
 
 def _check_order(exercise: dict, where: str, problems: list) -> None:
@@ -156,14 +197,21 @@ def _check_error(exercise: dict, where: str, problems: list) -> None:
     if not isinstance(sentence, str) or len(sentence.split()) < 3:
         problems.append("{}: sentence слишком короткое".format(where))
         return
-    if not isinstance(wrong, str) or not wrong.strip():
+    wrong_words = wrong if isinstance(wrong, list) else [wrong]
+    if not wrong_words or not all(isinstance(word, str) and word.strip()
+                                  for word in wrong_words):
         problems.append("{}: не указано слово с ошибкой".format(where))
     else:
         sentence_words = [texts.normalize(w) for w in sentence.split()]
-        if texts.normalize(wrong) not in sentence_words:
-            problems.append(
-                "{}: слово с ошибкой {!r} отсутствует в предложении".format(where, wrong)
-            )
+        for word in wrong_words:
+            if texts.normalize(word) not in sentence_words:
+                problems.append(
+                    "{}: слово с ошибкой {!r} отсутствует в предложении".format(
+                        where, word)
+                )
+    solution = exercise.get("solution")
+    if solution is not None and not isinstance(solution, str):
+        problems.append("{}: solution должен быть строкой".format(where))
     fix = exercise.get("fix")
     if fix is not None:
         _check_choice(fix, where + "/fix", problems)
@@ -181,6 +229,8 @@ def _check_exercise(exercise: dict, topic_id: str, where: str, problems: list) -
     mechanics = KINDS[kind]
     if mechanics == "choice":
         _check_choice(exercise, where, problems)
+    elif mechanics == "input":
+        _check_input(exercise, where, problems)
     elif mechanics == "order":
         _check_order(exercise, where, problems)
     else:

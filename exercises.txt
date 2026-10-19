@@ -1,0 +1,1572 @@
+﻿Банк Заданий
+
+
+
+
+
+
+ Grammatikaufgabenpool A1–A2: Themen, Regeln und 25 Aufgaben pro Thema
+
+
+12 тем. Для каждой темы: краткое правило (на немецком и на русском), обоснование выбора типов заданий, 25 заданий с решениями и объяснениями (на немецком и на русском). Типы заданий: MC (Multiple-Choice), LT (Lückentext), SB (Satzbildung), FS (Fehlersuche), SA (spezielle Aufgabe: Umformung/Verbindung/Teilübersetzung).
+
+
+Лексика: примерно 50 % бытовые ситуации, 50 % средневековый сеттинг чат-бота (Barde, Ritter, Burg, König, Markt).
+
+
+
+
+ Thema 1. Bestimmter und unbestimmter Artikel
+
+
+Правило (DE). 
+Der Artikel steht vor dem Nomen und zeigt Genus (der/die/das), Numerus und Kasus. Der bestimmte Artikel (der/die/das) wird gebraucht, wenn der Gegenstand schon bekannt oder allgemein bekannt ist. Der unbestimmte Artikel (ein/eine/ein) wird gebraucht, wenn der Gegenstand neu eingeführt wird. Nominativ: der/ein (m), die/eine (f), das/ein (n). Akkusativ: den/einen (m), die/eine (f), das/ein (n). Dativ: dem/einem (m), der/einer (f), dem/einem (n). Im Plural gibt es keinen unbestimmten Artikel (Nullartikel), der bestimmte Artikel ist immer die (Dativ: den + -n).
+
+
+Правило (RU).
+ Артикль стоит перед существительным и показывает род (der/die/das), число и падеж. Определённый артикль (der/die/das) — если предмет уже известен или единственный в своём роде. Неопределённый (ein/eine/ein) — если предмет вводится впервые. В Nominativ: der/ein (m), die/eine (f), das/ein (n). В Akkusativ: den/einen (m), die/eine (f), das/ein (n). В Dativ: dem/einem (m), der/einer (f), dem/einem (n). Во Plural неопределённого артикля нет (нулевой артикль), определённый — die/den.
+
+
+Почему такие типы заданий.
+MC и LT хорошо тренируют выбор формы артикля по роду и падежу — это базовая механическая операция, которую нужно довести до автоматизма. SB закрепляет место артикля в структуре предложения. FS развивает внимание к типичным ошибкам (неверный род, неверный падеж). SA тренирует переход от определённого к неопределённому артиклю — важный навык для понимания разницы функций.
+
+
+Aufgabe 1 — MC (Alltag).
+ ___ Lehrer kommt heute später.
+a) Der b) Die c) Das
+Lösung: a) Der. 
+Erklärung (DE): „Lehrer“ ist maskulin, Nominativ Singular → der. 
+Erklärung (RU): «Lehrer» — мужской род, Nominativ Singular → der.
+
+
+Aufgabe 2 — LT (Mittelalter).
+ In der Burg wohnt ___ König. (ein)
+Lösung: ein.
+ DE: „König“ ist maskulin, Nominativ Singular, unbestimmter Artikel → ein. 
+RU: «König» — мужской род, Nominativ Singular, неопределённый артикль → ein.
+
+
+Aufgabe 3 — SB (Alltag).
+Studentin/ das / Buch/ liest/ eine 
+Lösung: Eine Studentin liest das Buch. 
+DE: Im Aussagesatz steht das finite Verb an zweiter Stelle; das Subjekt mit unbestimmtem Artikel steht am Anfang. 
+RU: В повествовательном предложении глагол на 2-м месте; подлежащее с неопределённым артиклем стоит в начале.
+
+
+Aufgabe 4 — FS (Mittelalter). 
+Die Ritter trägt einen Helm.
+Lösung: Der Ritter trägt einen Helm.
+DE: „Ritter“ ist hier Singular maskulin → der; das Verb „trägt“ zeigt ebenfalls Singular. 
+RU: «Ritter» здесь Singular мужского рода → der; глагол «trägt» тоже указывает на Singular.
+
+
+Aufgabe 5 — SA (Alltag).
+ Ersetze den bestimmten Artikel durch den unbestimmten: Das Kind spielt.
+Lösung: Ein Kind spielt.
+ DE: „Kind“ ist neutrum, Nominativ → ein.
+ RU: «Kind» — средний род, Nominativ → ein.
+
+
+Aufgabe 6 — MC (Mittelalter).
+Der Barde singt ___ Lied.
+a) ein b) eine c) einen
+Lösung: a) ein. 
+DE: „Lied“ ist neutrum, Akkusativ → ein (gleich wie Nominativ). 
+RU: «Lied» — средний род, Akkusativ → ein (совпадает с Nominativ).
+
+
+Aufgabe 7 — LT (Alltag).
+Ich brauche ___ Lampe. (ein)
+Lösung: eine. 
+DE: „Lampe“ ist feminin, Akkusativ → eine. 
+RU: «Lampe» — женский род, Akkusativ → eine.
+
+
+Aufgabe 8 — SB (Mittelalter).
+ der / König / trägt / eine / Krone
+Lösung: Der König trägt eine Krone. 
+DE: „Krone“ ist feminin, Akkusativ → eine; das Verb steht an zweiter Stelle. 
+RU: «Krone» — женский род, Akkusativ → eine; глагол на 2-м месте.
+
+
+Aufgabe 9 — FS (Alltag)
+Ich sehe das Lehrer.
+Lösung: Ich sehe den Lehrer. 
+DE: „Lehrer“ ist maskulin; „sehen“ verlangt den Akkusativ → den.
+RU: «Lehrer» — мужской род; «sehen» требует Akkusativ → den.
+
+
+Aufgabe 10 — SA (Mittelalter).
+ Ersetze den unbestimmten Artikel durch den bestimmten: Ein Ritter kämpft.
+Lösung: Der Ritter kämpft. 
+DE: „Ritter“ ist maskulin, Nominativ → der. 
+RU: «Ritter» — мужской род, Nominativ → der.
+
+
+Aufgabe 11 — MC (Alltag).
+Wir wohnen in ___ kleinen Wohnung.
+a) ein b) eine c) einer
+Lösung: c) einer. 
+DE: „Wohnung“ ist feminin, Dativ nach „in“ (Ort) → einer.
+ RU: «Wohnung» — женский род, Dativ после «in» (место) → einer.
+
+
+Aufgabe 12 — LT (Mittelalter).
+ Der Barde spielt auf ___ Laute. (ein)
+Lösung: einer.
+DE: „Laute“ ist feminin, Dativ (Ort, auf + Dativ) → einer.
+ RU: «Laute» — женский род, Dativ (место, auf + Dativ) → einer.
+
+
+Aufgabe 13 — SB (Alltag).
+ das / Mädchen / kauft / ein / Brot
+Lösung: Das Mädchen kauft ein Brot. 
+DE: „Mädchen“ ist neutrum (Suffix -chen), Nominativ → das; „Brot“ ist neutrum, Akkusativ → ein. 
+RU: «Mädchen» — средний род (суффикс -chen), Nominativ → das; «Brot» — средний род, Akkusativ → ein.
+
+
+Aufgabe 14 — FS (Mittelalter).
+ Der König gibt die Ritter ein Schwert.
+Lösung: Der König gibt dem Ritter ein Schwert. 
+DE: „geben“ verlangt Dativ für den Adressaten; „Ritter“ ist maskulin, Dativ Singular → dem. RU: «geben» требует Dativ для адресата; «Ritter» — мужской род, Dativ Singular → dem.
+
+
+Aufgabe 15 — SA (Alltag).
+ Ersetze den bestimmten Artikel durch den unbestimmten im Akkusativ: Ich lese die Zeitung.
+Lösung: Ich lese eine Zeitung.
+ DE: „Zeitung“ ist feminin, Akkusativ → eine. 
+RU: «Zeitung» — женский род, Akkusativ → eine.
+
+
+Aufgabe 16 — MC (Mittelalter). 
+___ Barden singen auf dem Markt.
+a) Der b) Die c) Das
+Lösung: b) Die.
+ DE: Plural → der bestimmte Artikel ist immer die.
+ RU: Plural → определённый артикль всегда die.
+
+
+Aufgabe 17 — LT (Alltag).
+Hast du ___ Kugelschreiber für mich? (ein)
+Lösung: einen.
+ DE: „Kugelschreiber“ ist maskulin, Akkusativ → einen. 
+RU: «Kugelschreiber» — мужской род, Akkusativ → einen.
+
+
+Aufgabe 18 — SB (Mittelalter).
+ ein / Lied/ Barde / schreibt / ein 
+Lösung: Ein Barde schreibt ein Lied. 
+DE: Beide Nomen sind maskulin/neutrum im Nominativ/Akkusativ → ein; das Verb steht an zweiter Stelle. 
+RU: Оба существительных — мужской/средний род в Nominativ/Akkusativ → ein; глагол на 2-м месте.
+
+
+Aufgabe 19 — FS (Alltag).
+Das Auto von mein Bruder ist neu.
+Lösung: Das Auto von meinem Bruder ist neu. 
+DE: „von“ verlangt Dativ; „Bruder“ ist maskulin, Dativ → meinem.
+RU: «von» требует Dativ; «Bruder» — мужской род, Dativ → meinem.
+
+
+Aufgabe 20 — SA (Mittelalter).
+Setze den Artikel im Dativ ein: Der Ritter dankt ___ König (der).
+Lösung: dem König. 
+DE: „danken“ + Dativ; „König“ ist maskulin → dem. 
+RU: «danken» + Dativ; «König» — мужской род → dem.
+
+
+Aufgabe 21 — MC (Alltag).
+Ich fahre mit ___ Fahrrad zur Arbeit.
+a) das b) dem c) den
+Lösung: b) dem. 
+DE: „mit“ immer + Dativ; „Fahrrad“ ist neutrum, Dativ → dem. 
+RU: «mit» всегда + Dativ; «Fahrrad» — средний род, Dativ → dem.
+
+
+Aufgabe 22 — LT (Mittelalter).
+ Die Ritter reiten durch ___ Wald. (der)
+Lösung: den.
+ DE: „durch“ + Akkusativ; „Wald“ ist maskulin, Akkusativ → den.
+ RU: «durch» + Akkusativ; «Wald» — мужской род, Akkusativ → den.
+
+
+**Aufgabe 23 — SB (Alltag).**  Stuhlwir / ein / brauchen / Tisch / und / ein 
+Lösung: Wir brauchen einen Tisch und einen Stuhl. *DE:* „Tisch“ und „Stuhl“ sind maskulin, Akkusativ → einen. *RU:* «Tisch» и «Stuhl» — мужской род, Akkusativ → einen.
+
+
+**Aufgabe 24 — FS (Mittelalter).** Die Burg hat ein großes Tor und ein kleine Mauer.
+**Lösung:** Die Burg hat ein großes Tor und eine kleine Mauer. *DE:* „Mauer“ ist feminin, Akkusativ → eine. *RU:* «Mauer» — женский род, Akkusativ → eine.
+
+
+**Aufgabe 25 — SA (Alltag).** Ergänze den Artikel im Genitiv: Das ist das Haus ___ Nachbarn (der).
+**Lösung:** des Nachbarn. *DE:* Genitiv maskulin → des; „Nachbar“ gehört zur n-Deklination (des Nachbarn). *RU:* Genitiv мужского рода → des; «Nachbar» относится к n-Deklination (des Nachbarn).
+
+
+---
+
+
+## Thema 2. Plural der Substantive
+
+
+**Правило (DE).** Die wichtigsten Pluraltypen: -e (der Tisch → die Tische), -er mit oder ohne Umlaut (das Bild → die Bilder, der Mann → die Männer), -(e)n (die Frau → die Frauen, der Student → die Studenten), -s bei Fremdwörtern (das Auto → die Autos, der Park → die Parks). Ohne Endung (mit oder ohne Umlaut): der Lehrer → die Lehrer, der Apfel → die Äpfel, das Mädchen → die Mädchen. Der bestimmte Artikel im Plural ist immer die. Im Dativ Plural bekommen die Nomen ein -n (den Kindern), außer Nomen auf -s.
+
+
+**Правило (RU).** Основные типы образования множественного числа: -e (der Tisch → die Tische), -er с умлаутом или без (das Bild → die Bilder, der Mann → die Männer), -(e)n (die Frau → die Frauen, der Student → die Studenten), -s для заимствований (das Auto → die Autos, der Park → die Parks). Без окончания (с умлаутом или без): der Lehrer → die Lehrer, der Apfel → die Äpfel, das Mädchen → die Mädchen. Определённый артикль во Plural всегда die. Dativ Plural получает -n (den Kindern), кроме слов на -s.
+
+
+**Почему такие типы заданий.** MC и LT тренируют распознавание типа окончания — это основная сложность темы. SB закрепляет согласование подлежащего и глагола во Plural. FS выявляет типичную ошибку — неверное окончание. SA проверяет умение образовывать Plural от разных родов и типов.
+
+
+**Aufgabe 1 — MC (Mittelalter).** In der Burg stehen drei ___.
+a) Ritters b) Ritter c) Rittern
+**Lösung:** b) Ritter. *DE:* „Ritter“ bleibt im Plural unverändert → die Ritter. *RU:* «Ritter» не меняется во Plural → die Ritter.
+
+
+**Aufgabe 2 — LT (Alltag).** In unserer Stadt gibt es viele ___. (Park)
+**Lösung:** Parks. *DE:* Fremdwort → Plural auf -s. *RU:* заимствованное слово → Plural на -s.
+
+
+**Aufgabe 3 — SB (Mittelalter).** zwei / Ritter / stehen / vor / der Burg
+**Lösung:** Zwei Ritter stehen vor der Burg. *DE:* „Ritter“ ist im Plural endungslos; das Verb „stehen“ steht im Plural. *RU:* «Ritter» — Plural без окончания; глагол «stehen» в Plural.
+
+
+**Aufgabe 4 — FS (Alltag).** Die Students lernen Deutsch.
+**Lösung:** Die Studenten lernen Deutsch. *DE:* „Student“ → Plural „Studenten“ (n-Deklination). *RU:* «Student» → Plural «Studenten» (n-Deklination).
+
+
+**Aufgabe 5 — SA (Mittelalter).** Setze in den Plural: Das Pferd steht im Stall.
+**Lösung:** Die Pferde stehen in den Ställen. *DE:* „Pferd“ → Pferde, „Stall“ → Ställe; „in“ + Dativ Plural → den Ställen. *RU:* «Pferd» → Pferde, «Stall» → Ställe; «in» + Dativ Plural → den Ställen.
+
+
+**Aufgabe 6 — MC (Alltag).** Ich kaufe zwei ___.
+a) Brot b) Brote c) Bröte
+**Lösung:** b) Brote. *DE:* „Brot“ → Brote (Endung -e, ohne Umlaut). *RU:* «Brot» → Brote (окончание -e, без умлаута).
+
+
+**Aufgabe 7 — LT (Mittelalter).** Auf dem Markt sehen wir viele ___. (Händler)
+**Lösung:** Händler. *DE:* Nomen auf -er bleiben im Plural unverändert. *RU:* слова на -er во Plural не меняются.
+
+
+**Aufgabe 8 — SB (Alltag).** die / Kind / spielen / im Garten
+**Lösung:** Die Kinder spielen im Garten. *DE:* „Kind“ → Kinder (Endung -er); das Verb steht im Plural. *RU:* «Kind» → Kinder (окончание -er); глагол в Plural.
+
+
+**Aufgabe 9 — FS (Mittelalter).** Die Barden singen zwei Lieds.
+**Lösung:** Die Barden singen zwei Lieder. *DE:* „Lied“ → Lieder (Endung -er). *RU:* «Lied» → Lieder (окончание -er).
+
+
+**Aufgabe 10 — SA (Alltag).** Setze in den Plural: Die Frau kauft ein Buch.
+**Lösung:** Die Frauen kaufen Bücher. *DE:* „Frau“ → Frauen, „Buch“ → Bücher (Umlaut + -er). *RU:* «Frau» → Frauen, «Buch» → Bücher (умлаут + -er).
+
+
+**Aufgabe 11 — MC (Mittelalter).** Der König hat viele ___.
+a) Pferd b) Pferde c) Pferden
+**Lösung:** b) Pferde. *DE:* „Pferd“ → Pferde; Akkusativ Plural = Nominativ Plural. *RU:* «Pferd» → Pferde; Akkusativ Plural = Nominativ Plural.
+
+
+**Aufgabe 12 — LT (Alltag).** Auf dem Tisch liegen drei ___. (Buch)
+**Lösung:** Bücher. *DE:* „Buch“ → Bücher (Umlaut + -er). *RU:* «Buch» → Bücher (умлаут + -er).
+
+
+**Aufgabe 13 — SB (Mittelalter).** die / Barde / spielen / auf / die / Laute
+**Lösung:** Die Barden spielen auf den Lauten. *DE:* „Barde“ → Barden; „Laute“ → Lauten (Dativ Plural -n). *RU:* «Barde» → Barden; «Laute» → Lauten (Dativ Plural -n).
+
+
+**Aufgabe 14 — FS (Alltag).** Die Autos stehen vor die Häuser.
+**Lösung:** Die Autos stehen vor den Häusern. *DE:* „vor“ + Dativ (Ort) → den Häusern. *RU:* «vor» + Dativ (место) → den Häusern.
+
+
+**Aufgabe 15 — SA (Mittelalter).** Setze in den Plural: Der Ritter reitet durch den Wald.
+**Lösung:** Die Ritter reiten durch die Wälder. *DE:* „Wald“ → Wälder; „durch“ + Akkusativ Plural → die Wälder. *RU:* «Wald» → Wälder; «durch» + Akkusativ Plural → die Wälder.
+
+
+**Aufgabe 16 — MC (Alltag).** Ich sehe zwei ___.
+a) Mädchen b) Mädchens c) Mädchener
+**Lösung:** a) Mädchen. *DE:* Nomen auf -chen bleiben im Plural unverändert. *RU:* слова на -chen во Plural не меняются.
+
+
+**Aufgabe 17 — LT (Mittelalter).** Die ___ (König) wohnen in großen Burgen.
+**Lösung:** Könige. *DE:* „König“ → Könige (Endung -e). *RU:* «König» → Könige (окончание -e).
+
+
+**Aufgabe 18 — SB (Alltag).** mein / Bruder / haben / zwei / Kind
+**Lösung:** Meine Brüder haben zwei Kinder. *DE:* „Bruder“ → Brüder, „Kind“ → Kinder; „haben“ im Plural. *RU:* «Bruder» → Brüder, «Kind» → Kinder; «haben» в Plural.
+
+
+**Aufgabe 19 — FS (Mittelalter).** Auf dem Fest gibt es viele Musikers.
+**Lösung:** Auf dem Fest gibt es viele Musiker. *DE:* Nomen auf -er bleiben im Plural unverändert → Musiker. *RU:* слова на -er во Plural не меняются → Musiker.
+
+
+**Aufgabe 20 — SA (Alltag).** Setze in den Plural: Das Haus ist alt.
+**Lösung:** Die Häuser sind alt. *DE:* „Haus“ → Häuser (Umlaut + -er). *RU:* «Haus» → Häuser (умлаут + -er).
+
+
+**Aufgabe 21 — MC (Mittelalter).** Die ___ tragen Helme.
+a) Ritter b) Ritters c) Rittern
+**Lösung:** a) Ritter. *DE:* Plural ohne Endung. *RU:* Plural без окончания.
+
+
+**Aufgabe 22 — LT (Alltag).** In der Küche stehen zwei ___. (Tasse)
+**Lösung:** Tassen. *DE:* „Tasse“ → Tassen (Endung -n). *RU:* «Tasse» → Tassen (окончание -n).
+
+
+**Aufgabe 23 — SB (Mittelalter).** die / Burg / haben / viele / Turm
+**Lösung:** Die Burgen haben viele Türme. *DE:* „Burg“ → Burgen, „Turm“ → Türme (Umlaut + -e). *RU:* «Burg» → Burgen, «Turm» → Türme (умлаут + -e).
+
+
+**Aufgabe 24 — FS (Alltag).** Die Kinder spielt im Hof.
+**Lösung:** Die Kinder spielen im Hof. *DE:* Subjekt im Plural → Verb im Plural. *RU:* подлежащее во Plural → глагол в Plural.
+
+
+**Aufgabe 25 — SA (Mittelalter).** Setze in den Dativ Plural: Die Ritter danken den ___ (Frau).
+**Lösung:** den Frauen. *DE:* „Frau“ → Frauen; im Dativ Plural wird -n angehängt → Frauen. *RU:* «Frau» → Frauen; в Dativ Plural добавляется -n → Frauen.
+
+
+---
+
+
+## Thema 3. Personalpronomen und Verben im Präsens
+
+
+**Правило (DE).** Personalpronomen im Nominativ: ich, du, er/sie/es, wir, ihr, sie, Sie. Das Verb im Präsens wird nach Person konjugiert: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. Bei starken Verben ändert sich der Stammvokal in der 2. und 3. Person Singular (e → i/ie: sprechen → du sprichst, er spricht; a → ä: fahren → du fährst, er fährt; au → äu: laufen → du läufst, er läuft). Verben auf -d/-t/-n/-m bekommen ein verbindendes -e (du arbeitest, er arbeitet). Im Aussagesatz steht das Verb an zweiter Stelle; in der Ja/Nein-Frage an erster Stelle.
+
+
+**Правило (RU).** Личные местоимения в Nominativ: ich, du, er/sie/es, wir, ihr, sie, Sie. Глагол в Präsens спрягается по лицам: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. У сильных глаголов во 2-м и 3-м лице Singular меняется корневой гласный (e → i/ie: sprechen → du sprichst, er spricht; a → ä: fahren → du fährst, er fährt; au → äu: laufen → du läufst, er läuft). Глаголы на -d/-t/-n/-m получают соединительное -e (du arbeitest, er arbeitet). В Aussagesatz глагол на 2-м месте; в Ja/Nein-Frage — на 1-м.
+
+
+**Почему такие типы заданий.** MC и LT тренируют окончания и чередование гласных — главную механику темы. SB закрепляет позицию глагола. FS выявляет ошибки в окончаниях и чередовании. SA тренирует переход между лицами (ich → du), что важно для автоматизации парадигмы.
+
+
+**Aufgabe 1 — MC (Alltag).** Meine Schwester ___ in Leipzig.
+a) wohne b) wohnt c) wohnen
+**Lösung:** b) wohnt. *DE:* „sie“ (3. Person Singular) → Endung -t. *RU:* «sie» (3-е лицо Singular) → окончание -t.
+
+
+**Aufgabe 2 — LT (Mittelalter).** Der Barde ___ ein neues Lied. (schreiben)
+**Lösung:** schreibt. *DE:* „er“ → Endung -t; „schreiben“ ohne Vokalwechsel. *RU:* «er» → окончание -t; «schreiben» без чередования.
+
+
+**Aufgabe 3 — SB (Alltag).** wir / lernen / heute / Deutsch
+**Lösung:** Wir lernen heute Deutsch. *DE:* „wir“ → Endung -en; das Verb steht an zweiter Stelle. *RU:* «wir» → окончание -en; глагол на 2-м месте.
+
+
+**Aufgabe 4 — FS (Mittelalter).** Der König sprechen mit dem Ritter.
+**Lösung:** Der König spricht mit dem Ritter. *DE:* „sprechen“ — e → i in der 3. Person Singular → spricht. *RU:* «sprechen» — e → i в 3-м лице Singular → spricht.
+
+
+**Aufgabe 5 — SA (Alltag).** Ersetze „ich“ durch „du“: Ich spiele Gitarre.
+**Lösung:** Du spielst Gitarre. *DE:* Endung -st für „du“. *RU:* окончание -st для «du».
+
+
+**Aufgabe 6 — MC (Mittelalter).** Du ___ gut Laute.
+a) spielst b) spielt c) spielen
+**Lösung:** a) spielst. *DE:* „du“ → Endung -st. *RU:* «du» → окончание -st.
+
+
+**Aufgabe 7 — LT (Alltag).** Ich ___ jeden Morgen Kaffee. (trinken)
+**Lösung:** trinke. *DE:* „ich“ → Endung -e. *RU:* «ich» → окончание -e.
+
+
+**Aufgabe 8 — SB (Mittelalter).** der / Ritter / reiten / durch / der Wald
+**Lösung:** Der Ritter reitet durch den Wald. *DE:* „er“ → -et (Stamm auf -t); „durch“ + Akkusativ → den Wald. *RU:* «er» → -et (основа на -t); «durch» + Akkusativ → den Wald.
+
+
+**Aufgabe 9 — FS (Alltag).** Er fahrt zu schnell.
+**Lösung:** Er fährt zu schnell. *DE:* „fahren“ — a → ä in der 3. Person Singular → fährt. *RU:* «fahren» — a → ä в 3-м лице Singular → fährt.
+
+
+**Aufgabe 10 — SA (Mittelalter).** Ersetze „er“ durch „ihr“: Er singt ein Lied.
+**Lösung:** Ihr singt ein Lied. *DE:* „ihr“ → Endung -t (Stamm ohne Vokalwechsel). *RU:* «ihr» → окончание -t (основа без чередования).
+
+
+**Aufgabe 11 — MC (Alltag).** ___ arbeitest heute lange?
+a) Du b) Er c) Ihr
+**Lösung:** a) Du. *DE:* Die Endung -est weist auf „du“ hin (Verb auf -t). *RU:* окончание -est указывает на «du» (глагол на -t).
+
+
+**Aufgabe 12 — LT (Mittelalter).** Der Barde ___ lange. (schlafen)
+**Lösung:** schläft. *DE:* „schlafen“ — a → ä in der 3. Person Singular → schläft. *RU:* «schlafen» — a → ä в 3-м лице Singular → schläft.
+
+
+**Aufgabe 13 — SB (Alltag).** ihr / kommen / aus / Deutschland
+**Lösung:** Ihr kommt aus Deutschland. *DE:* „ihr“ → Endung -t. *RU:* «ihr» → окончание -t.
+
+
+**Aufgabe 14 — FS (Mittelalter).** Die Ritter reitet in die Stadt.
+**Lösung:** Die Ritter reiten in die Stadt. *DE:* Subjekt im Plural → Endung -en. *RU:* подлежащее во Plural → окончание -en.
+
+
+**Aufgabe 15 — SA (Alltag).** Setze ins Präsens: Ich (lesen) ein Buch.
+**Lösung:** Ich lese ein Buch. *DE:* „ich“ → lese (kein Vokalwechsel in der 1. Person). *RU:* «ich» → lese (без чередования в 1-м лице).
+
+
+**Aufgabe 16 — MC (Mittelalter).** Der König ___ einen Brief.
+a) schreibt b) schreibe c) schreiben
+**Lösung:** a) schreibt. *DE:* „er“ → Endung -t. *RU:* «er» → окончание -t.
+
+
+**Aufgabe 17 — LT (Alltag).** Wann ___ du nach Hause? (gehen)
+**Lösung:** gehst. *DE:* „du“ → Endung -st. *RU:* «du» → окончание -st.
+
+
+**Aufgabe 18 — SB (Mittelalter).** du / sprechen / mit / der Barde
+**Lösung:** Sprichst du mit dem Barden? *DE:* Ja/Nein-Frage: Verb an erster Stelle; „sprechen“ — e → i → sprichst; „mit“ + Dativ → dem Barden. *RU:* Ja/Nein-Frage: глагол на 1-м месте; «sprechen» — e → i → sprichst; «mit» + Dativ → dem Barden.
+
+
+**Aufgabe 19 — FS (Alltag).** Wir lernt Deutsch.
+**Lösung:** Wir lernen Deutsch. *DE:* „wir“ → Endung -en. *RU:* «wir» → окончание -en.
+
+
+**Aufgabe 20 — SA (Mittelalter).** Ersetze „ich“ durch „er“: Ich laufe schnell.
+**Lösung:** Er läuft schnell. *DE:* „laufen“ — au → äu in der 3. Person Singular → läuft. *RU:* «laufen» — au → äu в 3-м лице Singular → läuft.
+
+
+**Aufgabe 21 — MC (Alltag).** Ihr ___ heute zu spät.
+a) kommt b) komme c) kommen
+**Lösung:** a) kommt. *DE:* „ihr“ → Endung -t. *RU:* «ihr» → окончание -t.
+
+
+**Aufgabe 22 — LT (Mittelalter).** Ich ___ auf einer Laute. (spielen)
+**Lösung:** spiele. *DE:* „ich“ → Endung -e. *RU:* «ich» → окончание -e.
+
+
+**Aufgabe 23 — SB (Alltag).** er / nehmen / der Bus
+**Lösung:** Er nimmt den Bus. *DE:* „nehmen“ — e → i → nimmt; „Bus“ ist maskulin, Akkusativ → den. *RU:* «nehmen» — e → i → nimmt; «Bus» — мужской род, Akkusativ → den.
+
+
+**Aufgabe 24 — FS (Mittelalter).** Der König gibt den Ritter das Schwert.
+**Lösung:** Der König gibt dem Ritter das Schwert. *DE:* „geben“ + Dativ; „Ritter“ → dem (Dativ maskulin). *RU:* «geben» + Dativ; «Ritter» → dem (Dativ мужского рода).
+
+
+**Aufgabe 25 — SA (Alltag).** Bilde eine Ja/Nein-Frage: Du gehst heute ins Kino.
+**Lösung:** Gehst du heute ins Kino? *DE:* In der Frage ohne Fragewort steht das Verb an erster Stelle, die Endung -st bleibt. *RU:* в вопросе без вопросительного слова глагол на 1-м месте, окончание -st сохраняется.
+
+
+---
+
+
+## Thema 4. Negation: nicht / kein
+
+
+**Правило (DE).** „Nicht“ negiert Verben, Adjektive, Adverbien und ganze Sätze; in der Satznegation steht es möglichst am Ende (vor dem zweiten Teil des Prädikats, vor Adjektiv/Adverb, vor einer Präpositionalgruppe). „Kein-“ negiert Substantive: es wird wie der unbestimmte Artikel dekliniert (kein/keine/kein; Akkusativ: keinen/keine/kein; Dativ: keinem/keiner/keinem; Plural: keine). Bei der Negation eines Substantivs wird „nicht“ nicht verwendet — nur „kein-“.
+
+
+**Правило (RU).** «Nicht» отрицает глаголы, прилагательные, наречия и целые предложения; в Satznegation стоит как можно ближе к концу (перед вторым элементом сказуемого, перед прилагательным/наречием, перед предложной группой). «Kein-» отрицает существительное: склоняется как неопределённый артикль (kein/keine/kein; Akkusativ: keinen/keine/kein; Dativ: keinem/keiner/keinem; Plural: keine). При отрицании существительного «nicht» не используется — только «kein-».
+
+
+**Почему такие типы заданий.** MC тренирует выбор между nicht и kein- по типу отрицаемого члена — ключевое различие темы. LT закрепляет склонение kein-. SB — позицию nicht в предложении. FS выявляет смешение nicht/kein-. SA тренирует преобразование утверждения в отрицание.
+
+
+**Aufgabe 1 — MC (Mittelalter).** Der Ritter hat ___ Pferd.
+a) nicht b) kein c) keine
+**Lösung:** b) kein. *DE:* „Pferd“ ist neutrum, Akkusativ → kein. *RU:* «Pferd» — средний род, Akkusativ → kein.
+
+
+**Aufgabe 2 — LT (Alltag).** Ich habe ___ Zeit. (kein)
+**Lösung:** keine. *DE:* „Zeit“ ist feminin, Akkusativ → keine. *RU:* «Zeit» — женский род, Akkusativ → keine.
+
+
+**Aufgabe 3 — SB (Mittelalter).** der / König / schläft / heute / nicht
+**Lösung:** Der König schläft heute nicht. *DE:* „nicht“ negiert das Verb und steht am Ende. *RU:* «nicht» отрицает глагол и стоит в конце.
+
+
+**Aufgabe 4 — FS (Alltag).** Ich kann kein schwimmen.
+**Lösung:** Ich kann nicht schwimmen. *DE:* Ein Verb wird mit „nicht“ negiert, nicht mit „kein“. *RU:* глагол отрицается через «nicht», а не «kein».
+
+
+Aufgabe 5 — SA (Mittelalter).Verneine: Der Barde hat eine Laute.
+**Lösung:** Der Barde hat keine Laute. *DE:* „Laute“ ist feminin, Akkusativ → keine. *RU:* «Laute» — женский род, Akkusativ → keine.
+
+
+**Aufgabe 6 — MC (Alltag).** Das ist ___ mein Buch.
+a) nicht b) kein c) keine
+**Lösung:** a) nicht. *DE:* Negiert wird das Possessivpronomen „mein“ (nicht das Substantiv als solches) → nicht. *RU:* отрицается притяжательное «mein» (не существительное как таковое) → nicht.
+
+
+**Aufgabe 7 — LT (Mittelalter).** Der König hat ___ Schwert. (kein)
+**Lösung:** kein. *DE:* „Schwert“ ist neutrum, Akkusativ → kein. *RU:* «Schwert» — средний род, Akkusativ → kein.
+
+
+**Aufgabe 8 — SB (Alltag).** ich / habe / heute / kein / Hunger
+**Lösung:** Ich habe heute keinen Hunger. *DE:* „Hunger“ ist maskulin, Akkusativ → keinen. *RU:* «Hunger» — мужской род, Akkusativ → keinen.
+
+
+**Aufgabe 9 — FS (Mittelalter).** Die Ritter haben nicht Helme.
+**Lösung:** Die Ritter haben keine Helme. *DE:* „Helme“ ist Plural, Negation eines Substantivs → keine. *RU:* «Helme» — Plural, отрицание существительного → keine.
+
+
+**Aufgabe 10 — SA (Alltag).** Verneine: Ich trinke Kaffee.
+**Lösung:** Ich trinke keinen Kaffee. *DE:* „Kaffee“ ist maskulin, Akkusativ → keinen. *RU:* «Kaffee» — мужской род, Akkusativ → keinen.
+
+
+**Aufgabe 11 — MC (Mittelalter).** Der Barde kommt heute ___.
+a) kein b) nicht c) keine
+**Lösung:** b) nicht. *DE:* Negiert wird das Verb „kommen“ → nicht. *RU:* отрицается глагол «kommen» → nicht.
+
+
+**Aufgabe 12 — LT (Alltag).** Wir haben ___ Geld. (kein)
+**Lösung:** kein. *DE:* „Geld“ ist neutrum, Akkusativ → kein. *RU:* «Geld» — средний род, Akkusativ → kein.
+
+
+**Aufgabe 13 — SB (Mittelalter).** der / Ritter / kann / nicht / kämpfen
+**Lösung:** Der Ritter kann nicht kämpfen. *DE:* „nicht“ steht vor dem Infinitiv am Ende. *RU:* «nicht» стоит перед инфинитивом в конце.
+
+
+**Aufgabe 14 — FS (Alltag).** Er hat nicht Auto.
+**Lösung:** Er hat kein Auto. *DE:* „Auto“ ist neutrum, Akkusativ → kein. *RU:* «Auto» — средний род, Akkusativ → kein.
+
+
+**Aufgabe 15 — SA (Mittelalter).** Verneine: Der König wohnt in einer Burg.
+**Lösung:** Der König wohnt nicht in einer Burg. *DE:* Negiert wird die Präpositionalgruppe (Ort) → nicht davor. *RU:* отрицается предложная группа (место) → nicht перед ней.
+
+
+**Aufgabe 16 — MC (Alltag).** Ich verstehe das ___.
+a) kein b) nicht c) keine
+**Lösung:** b) nicht. *DE:* Negiert wird das Verb „verstehen“ → nicht. *RU:* отрицается глагол «verstehen» → nicht.
+
+
+**Aufgabe 17 — LT (Mittelalter).** Der Barde hat ___ Lust zu singen. (kein)
+**Lösung:** keine. *DE:* „Lust“ ist feminin, Akkusativ → keine. *RU:* «Lust» — женский род, Akkusativ → keine.
+
+
+**Aufgabe 18 — SB (Alltag).** wir / haben / kein / Zeit / heute
+**Lösung:** Wir haben heute keine Zeit. *DE:* „Zeit“ ist feminin, Akkusativ → keine. *RU:* «Zeit» — женский род, Akkusativ → keine.
+
+
+**Aufgabe 19 — FS (Mittelalter).** Der König ist nicht ein guter Herrscher.
+**Lösung:** Der König ist kein guter Herrscher. *DE:* Negation eines Substantivs mit Adjektiv → kein (maskulin, Nominativ → kein). *RU:* отрицание существительного с прилагательным → kein (мужской род, Nominativ → kein).
+
+
+**Aufgabe 20 — SA (Alltag).** Verneine: Ich habe einen Bruder.
+**Lösung:** Ich habe keinen Bruder. *DE:* „Bruder“ ist maskulin, Akkusativ → keinen. *RU:* «Bruder» — мужской род, Akkusativ → keinen.
+
+
+**Aufgabe 21 — MC (Mittelalter).** Die Barden singen ___ heute.
+a) kein b) nicht c) keine
+**Lösung:** b) nicht. *DE:* Negiert wird das Verb „singen“ → nicht. *RU:* отрицается глагол «singen» → nicht.
+
+
+**Aufgabe 22 — LT (Alltag).** Das ist ___ Problem. (kein)
+**Lösung:** kein. *DE:* „Problem“ ist neutrum, Nominativ → kein. *RU:* «Problem» — средний род, Nominativ → kein.
+
+
+**Aufgabe 23 — SB (Mittelalter).** ich / kann / nicht / mit / der König / sprechen
+**Lösung:** Ich kann nicht mit dem König sprechen. *DE:* „nicht“ steht vor der Präpositionalgruppe; „mit“ + Dativ → dem König. *RU:* «nicht» перед предложной группой; «mit» + Dativ → dem König.
+
+
+**Aufgabe 24 — FS (Alltag).** Wir haben nicht Kinder.
+**Lösung:** Wir haben keine Kinder. *DE:* „Kinder“ ist Plural → keine. *RU:* «Kinder» — Plural → keine.
+
+
+**Aufgabe 25 — SA (Mittelalter).** Verneine: Der Ritter trägt einen Helm.
+**Lösung:** Der Ritter trägt keinen Helm. *DE:* „Helm“ ist maskulin, Akkusativ → keinen. *RU:* «Helm» — мужской род, Akkusativ → keinen.
+
+
+---
+
+
+## Thema 5. Modalverben: können, müssen, wollen
+
+
+**Правило (DE).** Modalverben drücken die Einstellung zum Handeln aus: können — Fähigkeit/Möglichkeit, müssen — Notwendigkeit, wollen — Absicht. Konjugation im Präsens: ich kann/muss/will, du kannst/musst/willst, er/sie/es kann/muss/will, wir können/müssen/wollen, ihr könnt/müsst/wollt, sie/Sie können/müssen/wollen. In der 1. und 3. Person Singular gibt es keine Endung. Das Modalverb steht an zweiter Stelle, der Infinitiv des Vollverbs am Satzende. In der Frage ohne Fragewort steht das Modalverb an erster Stelle.
+
+
+**Правило (RU).** Модальные глаголы выражают отношение к действию: können — способность/возможность, müssen — необходимость, wollen — намерение. Спряжение в Präsens: ich kann/muss/will, du kannst/musst/willst, er/sie/es kann/muss/will, wir können/müssen/wollen, ihr könnt/müsst/wollt, sie/Sie können/müssen/wollen. В 1-м и 3-м лице Singular окончания нет. Модальный глагол стоит на 2-м месте, инфинитив смыслового глагола — в конце предложения. В вопросе без вопросительного слова модальный глагол на 1-м месте.
+
+
+**Почему такие типы заданий.** MC и LT тренируют формы модальных глаголов (особенно 1/3 лицо Singular без окончания). SB закрепляет рамку «модальный глагол + инфинитив в конце». FS выявляет ошибки в спряжении и порядке слов. SA тренирует преобразование обычного предложения в конструкцию с модальным глаголом.
+
+
+**Aufgabe 1 — MC (Alltag).** Ich ___ morgen früh arbeiten.
+a) musst b) muss c) müssen
+**Lösung:** b) muss. *DE:* „ich“ → muss (ohne Endung). *RU:* «ich» → muss (без окончания).
+
+
+**Aufgabe 2 — LT (Mittelalter).** Der Ritter ___ gut reiten. (können)
+**Lösung:** kann. *DE:* „er“ → kann (ohne Endung). *RU:* «er» → kann (без окончания).
+
+
+**Aufgabe 3 — SB (Alltag).** wir / wollen / heute / ins Kino / gehen
+**Lösung:** Wir wollen heute ins Kino gehen. *DE:* Das Modalverb steht an zweiter Stelle, der Infinitiv am Ende. *RU:* модальный глагол на 2-м месте, инфинитив в конце.
+
+
+**Aufgabe 4 — FS (Mittelalter).** Der Barde will ein Lied singt.
+**Lösung:** Der Barde will ein Lied singen. *DE:* Nach dem Modalverb steht der Infinitiv ohne Endung. *RU:* после модального глагола — инфинитив без окончания.
+
+
+**Aufgabe 5 — SA (Alltag).** Formuliere mit „können“: Ich spreche Deutsch.
+**Lösung:** Ich kann Deutsch sprechen. *DE:* Das Modalverb wird konjugiert, das Vollverb steht im Infinitiv am Ende. *RU:* модальный глагол спрягается, смысловой — в инфинитиве в конце.
+
+
+**Aufgabe 6 — MC (Mittelalter).** Du ___ heute nicht kämpfen.
+a) kannst b) kann c) können
+**Lösung:** a) kannst. *DE:* „du“ → kannst. *RU:* «du» → kannst.
+
+
+**Aufgabe 7 — LT (Alltag).** Wir ___ jetzt nach Hause gehen. (müssen)
+**Lösung:** müssen. *DE:* „wir“ → müssen. *RU:* «wir» → müssen.
+
+
+**Aufgabe 8 — SB (Mittelalter).** der König / wollen / ein Fest / feiern
+**Lösung:** Der König will ein Fest feiern. *DE:* „er“ → will; der Infinitiv steht am Ende. *RU:* «er» → will; инфинитив в конце.
+
+
+**Aufgabe 9 — FS (Alltag).** Ich muss gehe zur Arbeit.
+**Lösung:** Ich muss zur Arbeit gehen. *DE:* Der Infinitiv steht am Ende, nicht an zweiter Stelle. *RU:* инфинитив стоит в конце, а не на 2-м месте.
+
+
+**Aufgabe 10 — SA (Mittelalter).** Formuliere mit „müssen“: Der Ritter kämpft.
+**Lösung:** Der Ritter muss kämpfen. *DE:* „müssen“ + Infinitiv am Ende. *RU:* «müssen» + инфинитив в конце.
+
+
+**Aufgabe 11 — MC (Alltag).** Ihr ___ heute länger bleiben.
+a) müsst b) muss c) müssen
+**Lösung:** a) müsst. *DE:* „ihr“ → müsst. *RU:* «ihr» → müsst.
+
+
+**Aufgabe 12 — LT (Mittelalter).** Ich ___ auf der Laute spielen. (können)
+**Lösung:** kann. *DE:* „ich“ → kann. *RU:* «ich» → kann.
+
+
+**Aufgabe 13 — SB (Alltag).** du / wollen / mitkommen
+**Lösung:** Willst du mitkommen? *DE:* Ja/Nein-Frage: Das Modalverb steht an erster Stelle; „du“ → willst. *RU:* Ja/Nein-Frage: модальный глагол на 1-м месте, «du» → willst.
+
+
+**Aufgabe 14 — FS (Mittelalter).** Der König muss rufen den Barden.
+**Lösung:** Der König muss den Barden rufen. *DE:* Der Infinitiv steht am Ende. *RU:* инфинитив в конце.
+
+
+**Aufgabe 15 — SA (Alltag).** Formuliere mit „wollen“: Ich gehe ins Kino.
+**Lösung:** Ich will ins Kino gehen. *DE:* „wollen“ + Infinitiv am Ende. *RU:* «wollen» + инфинитив в конце.
+
+
+**Aufgabe 16 — MC (Mittelalter).** Der Barde ___ ein neues Lied schreiben.
+a) will b) willst c) wollen
+**Lösung:** a) will. *DE:* „er“ → will (ohne Endung). *RU:* «er» → will (без окончания).
+
+
+**Aufgabe 17 — LT (Alltag).** Du ___ das nicht machen. (müssen)
+**Lösung:** musst. *DE:* „du“ → musst. *RU:* «du» → musst.
+
+
+**Aufgabe 18 — SB (Mittelalter).** wir / müssen / der König / helfen
+**Lösung:** Wir müssen dem König helfen. *DE:* „helfen“ + Dativ → dem König; der Infinitiv steht am Ende. *RU:* «helfen» + Dativ → dem König; инфинитив в конце.
+
+
+**Aufgabe 19 — FS (Alltag).** Wir können sprechen Deutsch.
+**Lösung:** Wir können Deutsch sprechen. *DE:* Der Infinitiv steht am Ende. *RU:* инфинитив в конце.
+
+
+**Aufgabe 20 — SA (Mittelalter).** Formuliere mit „können“: Der Ritter reitet gut.
+**Lösung:** Der Ritter kann gut reiten. *DE:* Das Modalverb steht an zweiter Stelle, der Infinitiv am Ende. *RU:* модальный глагол на 2-м месте, инфинитив в конце.
+
+
+**Aufgabe 21 — MC (Alltag).** ___ du heute kommen?
+a) Kannst b) Kann c) Können
+**Lösung:** a) Kannst. *DE:* „du“ → kannst; Frage ohne Fragewort. *RU:* «du» → kannst; вопрос без вопросительного слова.
+
+
+**Aufgabe 22 — LT (Mittelalter).** Die Ritter ___ heute nicht kämpfen. (können)
+**Lösung:** können. *DE:* „sie“ (Plural) → können. *RU:* «sie» (Plural) → können.
+
+
+**Aufgabe 23 — SB (Alltag).** ich / müssen / noch / arbeiten
+**Lösung:** Ich muss noch arbeiten. *DE:* Der Infinitiv steht am Ende. *RU:* инфинитив в конце.
+
+
+**Aufgabe 24 — FS (Mittelalter).** Der Barde wollt ein Lied singen.
+**Lösung:** Der Barde will ein Lied singen. *DE:* „wollen“ in der 3. Person Singular → will. *RU:* «wollen» в 3-м лице Singular → will.
+
+
+**Aufgabe 25 — SA (Alltag).** Formuliere mit „müssen“: Du gehst jetzt.
+**Lösung:** Du musst jetzt gehen. *DE:* „müssen“ wird konjugiert, „gehen“ steht im Infinitiv am Ende. *RU:* «müssen» спрягается, «gehen» в инфинитиве в конце.
+
+
+---
+
+
+## Thema 6. Trennbare und nicht trennbare Verben
+
+
+**Правило (DE).** Trennbare Präfixe (an-, auf-, aus-, ein-, mit-, vor-, zu-, zurück- u. a.) werden im Präsens und Präteritum abgetrennt und stehen am Satzende: anfangen → ich fange an, aufstehen → er steht auf. Untrennbare Präfixe (be-, emp-, ent-, er-, ge-, miss-, ver-, zer-) werden nie abgetrennt: besuchen → ich besuche, verstehen → ich verstehe. Die Präfixe durch-, über-, um-, unter-, wider-, wieder- können trennbar oder untrennbar sein (die Betonung entscheidet). Im Perfekt steht bei trennbaren Verben das Präfix vor ge-: aufgestanden; bei untrennbaren Verben gibt es kein ge-: besucht.
+
+
+**Правило (RU).** Отделяемые приставки (an-, auf-, aus-, ein-, mit-, vor-, zu-, zurück- и др.) в Präsens и Präteritum отделяются и стоят в конце предложения: anfangen → ich fange an, aufstehen → er steht auf. Неотделяемые приставки (be-, emp-, ent-, er-, ge-, miss-, ver-, zer-) никогда не отделяются: besuchen → ich besuche, verstehen → ich verstehe. Приставки durch-, über-, um-, unter-, wider-, wieder- могут быть и отделяемыми, и неотделяемыми (ударение решает). В Perfekt отделяемая приставка идёт перед ge-: aufgestanden; неотделяемая — без ge-: besucht.
+
+
+**Почему такие типы заданий.** MC и LT тренируют распознавание отделяемости и постановку приставки в конце — главная механика темы. SB закрепляет рамочную конструкцию. FS выявляет типичную ошибку (приставка не отделена или отделена у неотделяемого глагола). SA тренирует преобразование инфинитива в личную форму с отделением.
+
+
+**Aufgabe 1 — MC (Mittelalter).** Der Barde ___ am Abend ___. (auftreten)
+a) auftretet b) tritt ... auf c) trete ... auf
+**Lösung:** b) tritt ... auf. *DE:* „auftreten“ ist trennbar; „er“ → tritt; das Präfix steht am Ende. *RU:* «auftreten» — отделяемый; «er» → tritt; приставка в конце.
+
+
+**Aufgabe 2 — LT (Alltag).** Der Unterricht ___ um neun Uhr ___. (anfangen)
+**Lösung:** fängt ... an. *DE:* „anfangen“ ist trennbar; „er“ → fängt; das Präfix steht am Ende. *RU:* «anfangen» — отделяемый; «er» → fängt; приставка в конце.
+
+
+**Aufgabe 3 — SB (Mittelalter).** der / Ritter / steht / früh / auf
+**Lösung:** Der Ritter steht früh auf. *DE:* „aufstehen“ — das Präfix „auf“ steht am Ende. *RU:* «aufstehen» — приставка «auf» в конце.
+
+
+**Aufgabe 4 — FS (Alltag).** Ich besuche an meine Freundin.
+**Lösung:** Ich besuche meine Freundin. *DE:* „besuchen“ ist untrennbar; „an“ ist hier nicht nötig. *RU:* «besuchen» — неотделяемый; «an» здесь не нужен.
+
+
+**Aufgabe 5 — SA (Mittelalter).** Bilde einen Satz im Präsens: Der König / aufstehen / früh.
+**Lösung:** Der König steht früh auf. *DE:* „aufstehen“ wird getrennt: steht ... auf. *RU:* «aufstehen» отделяется: steht ... auf.
+
+
+**Aufgabe 6 — MC (Alltag).** Ich ___ den Fernseher ___. (einschalten)
+a) einschalte b) schalte ... ein c) schalte ... aus
+**Lösung:** b) schalte ... ein. *DE:* „einschalten“ ist trennbar; das Präfix „ein“ steht am Ende. *RU:* «einschalten» — отделяемый; приставка «ein» в конце.
+
+
+**Aufgabe 7 — LT (Mittelalter).** Der Barde ___ ein neues Lied ___. (vorspielen)
+**Lösung:** spielt ... vor. *DE:* „vorspielen“ ist trennbar; das Präfix „vor“ steht am Ende. *RU:* «vorspielen» — отделяемый; приставка «vor» в конце.
+
+
+**Aufgabe 8 — SB (Alltag).** ich / rufe / dich / morgen / an
+**Lösung:** Ich rufe dich morgen an. *DE:* „anrufen“ — das Präfix „an“ steht am Ende. *RU:* «anrufen» — приставка «an» в конце.
+
+
+**Aufgabe 9 — FS (Mittelalter).** Der König steht auf früh.
+**Lösung:** Der König steht früh auf. *DE:* Das Präfix „auf“ muss am Ende stehen, nicht nach dem Verb. *RU:* приставка «auf» должна быть в конце, а не после глагола.
+
+
+**Aufgabe 10 — SA (Alltag).** Bilde einen Satz: Wir / einkaufen / im Supermarkt.
+**Lösung:** Wir kaufen im Supermarkt ein. *DE:* „einkaufen“ — das Präfix „ein“ steht am Ende. *RU:* «einkaufen» — приставка «ein» в конце.
+
+
+**Aufgabe 11 — MC (Mittelalter).** Die Ritter ___ in die Burg ___. (einreiten)
+a) einreiten b) reiten ... ein c) reiten ... aus
+**Lösung:** b) reiten ... ein. *DE:* „einreiten“ ist trennbar; das Präfix „ein“ steht am Ende. *RU:* «einreiten» — отделяемый; приставка «ein» в конце.
+
+
+**Aufgabe 12 — LT (Alltag).** Wann ___ du heute ___? (aufstehen)
+**Lösung:** stehst ... auf. *DE:* „aufstehen“ ist trennbar; „du“ → stehst; das Präfix steht am Ende. *RU:* «aufstehen» — отделяемый; «du» → stehst; приставка в конце.
+
+
+**Aufgabe 13 — SB (Mittelalter).** der / Barde / schlägt / die / Laute / an
+**Lösung:** Der Barde schlägt die Laute an. *DE:* „anschlagen“ — das Präfix „an“ steht am Ende. *RU:* «anschlagen» — приставка «an» в конце.
+
+
+**Aufgabe 14 — FS (Alltag).** Ich aufstehe um 7 Uhr.
+**Lösung:** Ich stehe um 7 Uhr auf. *DE:* „aufstehen“ wird getrennt. *RU:* «aufstehen» отделяется.
+
+
+**Aufgabe 15 — SA (Mittelalter).** Bilde einen Satz: Der Ritter / mitnehmen / das Schwert.
+**Lösung:** Der Ritter nimmt das Schwert mit. *DE:* „mitnehmen“ — das Präfix „mit“ steht am Ende. *RU:* «mitnehmen» — приставка «mit» в конце.
+
+
+**Aufgabe 16 — MC (Alltag).** Er ___ die E-Mail ___. (beantworten)
+a) beantwortet b) antwortet ... be c) be ... antwortet
+**Lösung:** a) beantwortet. *DE:* „beantworten“ ist untrennbar; das Präfix wird nicht abgetrennt. *RU:* «beantworten» — неотделяемый; приставка не отделяется.
+
+
+**Aufgabe 17 — LT (Mittelalter).** Der König ___ den Barden. (empfangen)
+**Lösung:** empfängt. *DE:* „empfangen“ ist untrennbar; „er“ → empfängt. *RU:* «empfangen» — неотделяемый; «er» → empfängt.
+
+
+**Aufgabe 18 — SB (Alltag).** wir / fangen / jetzt / mit der Arbeit / an
+**Lösung:** Wir fangen jetzt mit der Arbeit an. *DE:* „anfangen“ — das Präfix „an“ steht am Ende. *RU:* «anfangen» — приставка «an» в конце.
+
+
+**Aufgabe 19 — FS (Mittelalter).** Der Barde vorbereitet ein Lied.
+**Lösung:** Der Barde bereitet ein Lied vor. *DE:* „vorbereiten“ ist trennbar; das Präfix „vor“ steht am Ende. *RU:* «vorbereiten» — отделяемый; приставка «vor» в конце.
+
+
+**Aufgabe 20 — SA (Alltag).** Bilde einen Satz: Ich / zurückrufen / dich / später.
+**Lösung:** Ich rufe dich später zurück. *DE:* „zurückrufen“ — das Präfix „zurück“ steht am Ende. *RU:* «zurückrufen» — приставка «zurück» в конце.
+
+
+**Aufgabe 21 — MC (Mittelalter).** Die Ritter ___ das Tor ___. (aufmachen)
+a) aufmachen b) machen ... auf c) machen ... zu
+**Lösung:** b) machen ... auf. *DE:* „aufmachen“ ist trennbar; das Präfix „auf“ steht am Ende. *RU:* «aufmachen» — отделяемый; приставка «auf» в конце.
+
+
+**Aufgabe 22 — LT (Alltag).** Ich ___ die Tür ___. (zumachen)
+**Lösung:** mache ... zu. *DE:* „zumachen“ — das Präfix „zu“ steht am Ende. *RU:* «zumachen» — приставка «zu» в конце.
+
+
+**Aufgabe 23 — SB (Mittelalter).** der König / einladen / die Barden
+**Lösung:** Der König lädt die Barden ein. *DE:* „einladen“ — das Präfix „ein“ steht am Ende. *RU:* «einladen» — приставка «ein» в конце.
+
+
+**Aufgabe 24 — FS (Alltag).** Wir anrufen die Firma morgen.
+**Lösung:** Wir rufen die Firma morgen an. *DE:* „anrufen“ wird getrennt. *RU:* «anrufen» отделяется.
+
+
+**Aufgabe 25 — SA (Mittelalter).** Bilde einen Satz im Perfekt: Der Ritter / aufstehen / früh.
+**Lösung:** Der Ritter ist früh aufgestanden. *DE:* Perfekt mit sein; trennbares Präfix + ge + Partizip → aufgestanden. *RU:* Perfekt с sein; отделяемая приставка + ge + Partizip → aufgestanden.
+
+
+---
+
+
+## Thema 7. Akkusativ und Dativ
+
+
+**Правило (DE).** Der Akkusativ antwortet auf die Frage „wen? was?“, der Dativ auf „wem?“. Akkusativ: den/die/das/die (Plural), einen/eine/ein/eine. Dativ: dem/der/dem/den (+ -n bei Nomen im Plural), einem/einer/einem/einen. Verben mit Akkusativ: sehen, kaufen, lesen, haben, brauchen, besuchen. Verben mit Dativ: helfen, danken, gefallen, gehören, schmecken, antworten, gratulieren, zuhören, folgen. Verben mit zwei Ergänzungen (Dativ + Akkusativ): geben, schenken, schicken, zeigen, bringen, erklären, empfehlen. Reihenfolge: Dativ vor Akkusativ; sind beide Ergänzungen Pronomen, steht der Akkusativ vor dem Dativ (ich gebe es ihm).
+
+
+**Правило (RU).** Akkusativ отвечает на вопрос «кого? что?» (wen? was?), Dativ — «кому?» (wem?). Akkusativ: den/die/das/die (Plural), einen/eine/ein/eine. Dativ: dem/der/dem/den (+ -n у существительного во Plural), einem/einer/einem/einen. Глаголы с Akkusativ: sehen, kaufen, lesen, haben, brauchen, besuchen. Глаголы с Dativ: helfen, danken, gefallen, gehören, schmecken, antworten, gratulieren, zuhören, folgen. Глаголы с двумя дополнениями (Dativ + Akkusativ): geben, schenken, schicken, zeigen, bringen, erklären, empfehlen. Порядок: Dativ перед Akkusativ, но если оба — местоимения, Akkusativ перед Dativ (ich gebe es ihm).
+
+
+**Почему такие типы заданий.** MC и LT тренируют выбор падежа в зависимости от глагола и предлога — ядро темы. SB закрепляет порядок дополнений (Dativ перед Akkusativ). FS выявляет ошибки в падеже после глаголов. SA тренирует замену существительного местоимением в нужном падеже.
+
+
+**Aufgabe 1 — MC (Alltag).** Ich sehe ___ Mann.
+a) der b) den c) dem
+**Lösung:** b) den. *DE:* „sehen“ + Akkusativ; maskulin → den. *RU:* «sehen» + Akkusativ; мужской род → den.
+
+
+**Aufgabe 2 — LT (Mittelalter).** Der König hilft ___ Ritter. (der)
+**Lösung:** dem. *DE:* „helfen“ + Dativ; maskulin → dem. *RU:* «helfen» + Dativ; мужской род → dem.
+
+
+**Aufgabe 3 — SB (Alltag).** ich / gebe / meiner Freundin / ein Buch
+**Lösung:** Ich gebe meiner Freundin ein Buch. *DE:* Der Adressat steht im Dativ (meiner Freundin), die Sache im Akkusativ (ein Buch). *RU:* адресат в Dativ (meiner Freundin), предмет в Akkusativ (ein Buch).
+
+
+**Aufgabe 4 — FS (Mittelalter).** Der Barde dankt den König.
+**Lösung:** Der Barde dankt dem König. *DE:* „danken“ + Dativ → dem König. *RU:* «danken» + Dativ → dem König.
+
+
+**Aufgabe 5 — SA (Alltag).** Ersetze „der Lehrer“ durch ein Pronomen: Ich helfe dem Lehrer.
+**Lösung:** Ich helfe ihm. *DE:* Dativ maskulin Singular → ihm. *RU:* Dativ мужского рода Singular → ihm.
+
+
+**Aufgabe 6 — MC (Mittelalter).** Die Ritter geben ___ König ein Schwert.
+a) der b) den c) dem
+**Lösung:** c) dem. *DE:* „geben“ + Dativ für den Adressaten; „König“ ist maskulin → dem. *RU:* «geben» + Dativ для адресата; «König» — мужской род → dem.
+
+
+**Aufgabe 7 — LT (Alltag).** Ich kaufe ___ Buch. (ein)
+**Lösung:** ein. *DE:* „Buch“ ist neutrum, Akkusativ → ein. *RU:* «Buch» — средний род, Akkusativ → ein.
+
+
+**Aufgabe 8 — SB (Mittelalter).** der / Barde / schenkt / der König / ein Lied
+**Lösung:** Der Barde schenkt dem König ein Lied. *DE:* Dativ (dem König) vor Akkusativ (ein Lied). *RU:* Dativ (dem König) перед Akkusativ (ein Lied).
+
+
+**Aufgabe 9 — FS (Alltag).** Ich danke dich für die Hilfe.
+**Lösung:** Ich danke dir für die Hilfe. *DE:* „danken“ + Dativ; „du“ im Dativ → dir. *RU:* «danken» + Dativ; «du» в Dativ → dir.
+
+
+**Aufgabe 10 — SA (Mittelalter).** Ersetze „das Schwert“ durch ein Pronomen: Der Ritter hat das Schwert.
+**Lösung:** Der Ritter hat es. *DE:* Akkusativ neutrum Singular → es. *RU:* Akkusativ среднего рода Singular → es.
+
+
+**Aufgabe 11 — MC (Alltag).** Das Buch gehört ___.
+a) mir b) mich c) ich
+**Lösung:** a) mir. *DE:* „gehören“ + Dativ → mir. *RU:* «gehören» + Dativ → mir.
+
+
+**Aufgabe 12 — LT (Mittelalter).** Der König gibt ___ Barden einen Auftrag. (die Barden — Plural)
+**Lösung:** den. *DE:* Dativ Plural → den Barden. *RU:* Dativ Plural → den Barden.
+
+
+**Aufgabe 13 — SB (Alltag).** wir / zeigen / der Gast / die Stadt
+**Lösung:** Wir zeigen dem Gast die Stadt. *DE:* Dativ (dem Gast) vor Akkusativ (die Stadt). *RU:* Dativ (dem Gast) перед Akkusativ (die Stadt).
+
+
+**Aufgabe 14 — FS (Mittelalter).** Die Ritter helfen den König.
+**Lösung:** Die Ritter helfen dem König. *DE:* „helfen“ + Dativ → dem König. *RU:* «helfen» + Dativ → dem König.
+
+
+**Aufgabe 15 — SA (Alltag).** Ersetze „die Blumen“ durch ein Pronomen: Ich schenke meiner Mutter die Blumen.
+**Lösung:** Ich schenke sie meiner Mutter. *DE:* Beide Ergänzungen — Substantiv und Pronomen; das Akkusativpronomen steht vor dem Dativ. *RU:* оба дополнения — существительное и местоимение; Akkusativ-местоимение стоит перед Dativ.
+
+
+**Aufgabe 16 — MC (Mittelalter).** Der Barde singt ___ König ein Lied.
+a) der b) den c) dem
+**Lösung:** c) dem. *DE:* Der Adressat steht im Dativ → dem König. *RU:* адресат в Dativ → dem König.
+
+
+**Aufgabe 17 — LT (Alltag).** Ich brauche ___ Stuhl. (ein)
+**Lösung:** einen. *DE:* „Stuhl“ ist maskulin, Akkusativ → einen. *RU:* «Stuhl» — мужской род, Akkusativ → einen.
+
+
+**Aufgabe 18 — SB (Mittelalter).** die / Ritter / danken / der König
+**Lösung:** Die Ritter danken dem König. *DE:* „danken“ + Dativ → dem König. *RU:* «danken» + Dativ → dem König.
+
+
+**Aufgabe 19 — FS (Alltag).** Ich sehe dem Auto.
+**Lösung:** Ich sehe das Auto. *DE:* „sehen“ + Akkusativ; „Auto“ ist neutrum → das. *RU:* «sehen» + Akkusativ; «Auto» — средний род → das.
+
+
+**Aufgabe 20 — SA (Mittelalter).** Ersetze „der Barde“ durch ein Pronomen: Der König dankt dem Barden.
+**Lösung:** Der König dankt ihm. *DE:* Dativ maskulin Singular → ihm. *RU:* Dativ мужского рода Singular → ihm.
+
+
+**Aufgabe 21 — MC (Alltag).** Ich schreibe ___ Freund einen Brief.
+a) mein b) meinen c) meinem
+**Lösung:** c) meinem. *DE:* „schreiben“ + Dativ für den Adressaten; maskulin → meinem. *RU:* «schreiben» + Dativ для адресата; мужской род → meinem.
+
+
+**Aufgabe 22 — LT (Mittelalter).** Der König zeigt ___ Ritter die Burg. (die Ritter — Plural)
+**Lösung:** den. *DE:* Dativ Plural → den Rittern (mit -n). *RU:* Dativ Plural → den Rittern (с -n).
+
+
+**Aufgabe 23 — SB (Alltag).** er / erklären / die Regel / die Studenten
+**Lösung:** Er erklärt den Studenten die Regel. *DE:* Dativ (den Studenten) vor Akkusativ (die Regel). *RU:* Dativ (den Studenten) перед Akkusativ (die Regel).
+
+
+**Aufgabe 24 — FS (Mittelalter).** Der Barde antwortet den König.
+**Lösung:** Der Barde antwortet dem König. *DE:* „antworten“ + Dativ → dem König. *RU:* «antworten» + Dativ → dem König.
+
+
+**Aufgabe 25 — SA (Alltag).** Ersetze „dem Kind“ und „das Buch“ durch Pronomen: Ich gebe dem Kind das Buch.
+**Lösung:** Ich gebe es ihm. *DE:* Beide Ergänzungen sind Pronomen: Akkusativ (es) vor Dativ (ihm). *RU:* оба местоимения: Akkusativ (es) перед Dativ (ihm).
+
+
+---
+
+
+## Thema 8. Perfekt mit haben/sein
+
+
+**Правило (DE).** Das Perfekt wird mit haben/sein (im Präsens) + Partizip II am Satzende gebildet. Mit „haben“ stehen die meisten Verben (transitive, reflexive Verben, Modalverben in besonderen Fällen). Mit „sein“ stehen Verben der Bewegung mit Ortswechsel (gehen, fahren, fliegen, kommen, laufen, reisen), Verben der Zustandsveränderung (aufstehen, einschlafen, aufwachen, sterben, wachsen) und besondere Verben: sein, bleiben, werden. Partizip II: schwache Verben — ge- + Stamm + -t (kaufen → gekauft); starke Verben — ge- + Stamm (oft mit verändertem Vokal) + -en (schreiben → geschrieben, gehen → gegangen); Verben auf -ieren — ohne ge- (studieren → studiert); untrennbare Präfixe — ohne ge- (besuchen → besucht); trennbare Präfixe — ge- zwischen Präfix und Stamm (aufstehen → aufgestanden).
+
+
+**Правило (RU).** Perfekt = haben/sein (в Präsens) + Partizip II в конце предложения. С «haben» — большинство глаголов (переходные, возвратные, модальные в особых случаях). С «sein» — глаголы движения с изменением места (gehen, fahren, fliegen, kommen, laufen, reisen), глаголы изменения состояния (aufstehen, einschlafen, aufwachen, sterben, wachsen) и особые: sein, bleiben, werden. Partizip II: слабые — ge- + основа + -t (kaufen → gekauft); сильные — ge- + основа (часто с изменённым гласным) + -en (schreiben → geschrieben, gehen → gegangen); глаголы на -ieren — без ge- (studieren → studiert); неотделяемые приставки — без ge- (besuchen → besucht); отделяемые — ge- между приставкой и основой (aufstehen → aufgestanden).
+
+
+**Почему такие типы заданий.** MC и LT тренируют выбор вспомогательного глагола и форму Partizip II — две главные трудности темы. SB закрепляет позицию Partizip II в конце. FS выявляет ошибки в выборе haben/sein и в образовании Partizip II. SA тренирует преобразование Präsens → Perfekt.
+
+
+**Aufgabe 1 — MC (Mittelalter).** Der König ___ einen Brief geschrieben.
+a) ist b) hat c) haben
+**Lösung:** b) hat. *DE:* „schreiben“ ist transitiv → Perfekt mit haben. *RU:* «schreiben» — переходный глагол → Perfekt с haben.
+
+
+**Aufgabe 2 — LT (Alltag).** Meine Freundin ___ nach Hause gegangen. (sein)
+**Lösung:** ist. *DE:* „gehen“ — Bewegung → Perfekt mit sein. *RU:* «gehen» — движение → Perfekt с sein.
+
+
+**Aufgabe 3 — SB (Mittelalter).** der / Barde / hat / ein Lied / gesungen
+**Lösung:** Der Barde hat ein Lied gesungen. *DE:* Das Partizip II steht am Ende. *RU:* Partizip II в конце.
+
+
+**Aufgabe 4 — FS (Alltag).** Ich bin einen Film gesehen.
+**Lösung:** Ich habe einen Film gesehen. *DE:* „sehen“ ist transitiv → Perfekt mit haben. *RU:* «sehen» — переходный → Perfekt с haben.
+
+
+**Aufgabe 5 — SA (Mittelalter).** Setze ins Perfekt: Der Ritter kauft Brot.
+**Lösung:** Der Ritter hat Brot gekauft. *DE:* „kaufen“ → Perfekt mit haben; Partizip II gekauft. *RU:* «kaufen» → Perfekt с haben; Partizip II gekauft.
+
+
+**Aufgabe 6 — MC (Alltag).** Wir ___ gestern ins Kino gegangen.
+a) haben b) sind c) seid
+**Lösung:** b) sind. *DE:* „gehen“ — Bewegung → sein; „wir“ → sind. *RU:* «gehen» — движение → sein; «wir» → sind.
+
+
+**Aufgabe 7 — LT (Mittelalter).** Der Barde ___ auf der Laute gespielt. (haben)
+**Lösung:** hat. *DE:* „spielen“ — Handlung → haben. *RU:* «spielen» — действие → haben.
+
+
+**Aufgabe 8 — SB (Alltag).** ich / habe / das Buch / gelesen
+**Lösung:** Ich habe das Buch gelesen. *DE:* „lesen“ → Perfekt mit haben; Partizip II gelesen. *RU:* «lesen» → Perfekt с haben; Partizip II gelesen.
+
+
+**Aufgabe 9 — FS (Mittelalter).** Die Ritter haben in die Burg geritten.
+**Lösung:** Die Ritter sind in die Burg geritten. *DE:* „reiten“ — Bewegung → sein; Partizip II geritten. *RU:* «reiten» — движение → sein; Partizip II geritten.
+
+
+**Aufgabe 10 — SA (Alltag).** Setze ins Perfekt: Ich trinke Kaffee.
+**Lösung:** Ich habe Kaffee getrunken. *DE:* „trinken“ → haben; Partizip II getrunken. *RU:* «trinken» → haben; Partizip II getrunken.
+
+
+**Aufgabe 11 — MC (Mittelalter).** Der König ___ gestern früh aufgestanden.
+a) hat b) ist c) hat ... ge
+**Lösung:** b) ist. *DE:* „aufstehen“ — Zustandsveränderung → sein; Partizip II aufgestanden. *RU:* «aufstehen» — изменение состояния → sein; Partizip II aufgestanden.
+
+
+**Aufgabe 12 — LT (Alltag).** Wir ___ die Hausaufgaben gemacht. (haben)
+**Lösung:** haben. *DE:* „machen“ → haben. *RU:* «machen» → haben.
+
+
+**Aufgabe 13 — SB (Mittelalter).** der / König / ist / in / die Burg / gegangen
+**Lösung:** Der König ist in die Burg gegangen. *DE:* „gehen“ → sein; Partizip II gegangen; „in“ + Akkusativ (Richtung). *RU:* «gehen» → sein; Partizip II gegangen; «in» + Akkusativ (направление).
+
+
+**Aufgabe 14 — FS (Alltag).** Ich habe nach Berlin gefahren.
+**Lösung:** Ich bin nach Berlin gefahren. *DE:* „fahren“ — Bewegung → sein; Partizip II gefahren. *RU:* «fahren» — движение → sein; Partizip II gefahren.
+
+
+**Aufgabe 15 — SA (Mittelalter).** Setze ins Perfekt: Die Ritter kämpfen.
+**Lösung:** Die Ritter haben gekämpft. *DE:* „kämpfen“ → haben; Partizip II gekämpft. *RU:* «kämpfen» → haben; Partizip II gekämpft.
+
+
+**Aufgabe 16 — MC (Alltag).** ___ du schon in Deutschland gewesen?
+a) Hast b) Bist c) Haben
+**Lösung:** b) Bist. *DE:* „sein“ → Perfekt mit sein; „du“ → bist. *RU:* «sein» → Perfekt с sein; «du» → bist.
+
+
+**Aufgabe 17 — LT (Mittelalter).** Der Barde ___ ein Lied geschrieben. (haben)
+**Lösung:** hat. *DE:* „schreiben“ → haben. *RU:* «schreiben» → haben.
+
+
+**Aufgabe 18 — SB (Alltag).** wir / sind / nach Hause / gefahren
+**Lösung:** Wir sind nach Hause gefahren. *DE:* „fahren“ → sein. *RU:* «fahren» → sein.
+
+
+**Aufgabe 19 — FS (Mittelalter).** Der König hat in der Burg geblieben.
+**Lösung:** Der König ist in der Burg geblieben. *DE:* „bleiben“ → Perfekt mit sein; Partizip II geblieben. *RU:* «bleiben» → Perfekt с sein; Partizip II geblieben.
+
+
+**Aufgabe 20 — SA (Alltag).** Setze ins Perfekt: Er studiert Germanistik.
+**Lösung:** Er hat Germanistik studiert. *DE:* Verben auf -ieren → ohne ge-; Perfekt mit haben. *RU:* глаголы на -ieren → без ge-; Perfekt с haben.
+
+
+**Aufgabe 21 — MC (Mittelalter).** Die Barden ___ auf dem Markt gesungen.
+a) haben b) sind c) haben ... ge
+**Lösung:** a) haben. *DE:* „singen“ → haben; Partizip II gesungen. *RU:* «singen» → haben; Partizip II gesungen.
+
+
+**Aufgabe 22 — LT (Alltag).** Ich ___ gestern früh eingeschlafen. (sein)
+**Lösung:** bin. *DE:* „einschlafen“ — Zustandsveränderung → sein. *RU:* «einschlafen» — изменение состояния → sein.
+
+
+**Aufgabe 23 — SB (Mittelalter).** der / Ritter / hat / das Schwert / verloren
+**Lösung:** Der Ritter hat das Schwert verloren. *DE:* „verlieren“ → haben; untrennbares Präfix → ohne ge-; Partizip II verloren. *RU:* «verlieren» → haben; неотделяемая приставка → без ge-; Partizip II verloren.
+
+
+**Aufgabe 24 — FS (Alltag).** Sie sind die Prüfung bestanden.
+**Lösung:** Sie haben die Prüfung bestanden. *DE:* „bestehen“ ist transitiv → haben; Partizip II bestanden (ohne ge-). *RU:* «bestehen» — переходный → haben; Partizip II bestanden (без ge-).
+
+
+**Aufgabe 25 — SA (Mittelalter).** Setze ins Perfekt: Der Barde nimmt die Laute.
+**Lösung:** Der Barde hat die Laute genommen. *DE:* „nehmen“ → haben; Partizip II genommen. *RU:* «nehmen» → haben; Partizip II genommen.
+
+
+---
+
+
+## Thema 9. Präteritum von sein, haben und Modalverben
+
+
+**Правило (DE).** Das Präteritum wird in der schriftlichen Rede verwendet, außerdem bei sein, haben und Modalverben auch in der mündlichen Rede. Formen: sein — ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren. haben — ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. Modalverben: können — konnte, müssen — musste, wollen — wollte, sollen — sollte, dürfen — durfte, mögen — mochte (Endungen wie bei schwachen Verben; in der 1./3. Person Singular ohne Endung). Das Modalverb im Präteritum steht an zweiter Stelle, der Infinitiv am Ende.
+
+
+**Правило (RU).** Präteritum используется в письменной речи, а также для sein, haben и модальных глаголов даже в устной. Формы: sein — ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren. haben — ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. Modalverben: können — konnte, müssen — musste, wollen — wollte, sollen — sollte, dürfen — durfte, mögen — mochte (окончания как у слабых глаголов; в 1/3 лице Singular без окончания). Модальный глагол в Präteritum стоит на 2-м месте, инфинитив — в конце.
+
+
+**Почему такие типы заданий.** MC и LT тренируют запоминание неправильных форм (war/hatte/musste и т. д.) — это основная нагрузка темы. SB закрепляет позицию модального глагола в Präteritum и инфинитива в конце. FS выявляет смешение Präsens/Präteritum и ошибки в формах. SA тренирует преобразование Präsens → Präteritum.
+
+
+**Aufgabe 1 — MC (Alltag).** Gestern ___ ich sehr müde.
+a) bin b) war c) hatte
+**Lösung:** b) war. *DE:* Präteritum von „sein“ für „ich“ → war. *RU:* Präteritum von «sein» для «ich» → war.
+
+
+**Aufgabe 2 — LT (Mittelalter).** Der König ___ früher eine große Burg. (haben)
+**Lösung:** hatte. *DE:* Präteritum von „haben“ für „er“ → hatte. *RU:* Präteritum von «haben» для «er» → hatte.
+
+
+**Aufgabe 3 — SB (Alltag).** wir / konnten / gestern / nicht / kommen
+**Lösung:** Wir konnten gestern nicht kommen. *DE:* Präteritum von „können“ für „wir“ → konnten; der Infinitiv steht am Ende. *RU:* Präteritum von «können» для «wir» → konnten; инфинитив в конце.
+
+
+**Aufgabe 4 — FS (Mittelalter).** Der Ritter musst lange warten.
+**Lösung:** Der Ritter musste lange warten. *DE:* Präteritum von „müssen“ für „er“ → musste. *RU:* Präteritum von «müssen» для «er» → musste.
+
+
+**Aufgabe 5 — SA (Alltag).** Setze ins Präteritum: Ich habe keine Zeit.
+**Lösung:** Ich hatte keine Zeit. *DE:* „haben“ im Präteritum für „ich“ → hatte. *RU:* «haben» в Präteritum для «ich» → hatte.
+
+
+**Aufgabe 6 — MC (Mittelalter).** Die Ritter ___ früher oft auf Turnieren.
+a) waren b) sind c) haben
+**Lösung:** a) waren. *DE:* Präteritum von „sein“ für „sie“ (Plural) → waren. *RU:* Präteritum von «sein» для «sie» (Plural) → waren.
+
+
+**Aufgabe 7 — LT (Alltag).** Ich ___ gestern nicht zur Arbeit gehen. (können)
+**Lösung:** konnte. *DE:* Präteritum von „können“ für „ich“ → konnte. *RU:* Präteritum von «können» для «ich» → konnte.
+
+
+**Aufgabe 8 — SB (Mittelalter).** der / Barde / wollte / ein Lied / singen
+**Lösung:** Der Barde wollte ein Lied singen. *DE:* Präteritum von „wollen“ für „er“ → wollte; der Infinitiv steht am Ende. *RU:* Präteritum von «wollen» для «er» → wollte; инфинитив в конце.
+
+
+**Aufgabe 9 — FS (Alltag).** Wir haben gestern keine Zeit.
+**Lösung:** Wir hatten gestern keine Zeit. *DE:* Es braucht das Präteritum „hatten“ für „wir“, nicht das Präsens „haben“. *RU:* нужно Präteritum «hatten» для «wir», а не Präsens «haben».
+
+
+**Aufgabe 10 — SA (Mittelalter).** Setze ins Präteritum: Der König kann gut reiten.
+**Lösung:** Der König konnte gut reiten. *DE:* Präteritum von „können“ für „er“ → konnte. *RU:* Präteritum von «können» для «er» → konnte.
+
+
+**Aufgabe 11 — MC (Alltag).** ___ du gestern zu Hause?
+a) Warst b) Wart c) Bist
+**Lösung:** a) Warst. *DE:* Präteritum von „sein“ für „du“ → warst. *RU:* Präteritum von «sein» для «du» → warst.
+
+
+**Aufgabe 12 — LT (Mittelalter).** Die Ritter ___ lange kämpfen. (müssen)
+**Lösung:** mussten. *DE:* Präteritum von „müssen“ für „sie“ (Plural) → mussten. *RU:* Präteritum von «müssen» для «sie» (Plural) → mussten.
+
+
+**Aufgabe 13 — SB (Alltag).** ich / musste / heute / früh / aufstehen
+**Lösung:** Ich musste heute früh aufstehen. *DE:* Präteritum von „müssen“ für „ich“ → musste; der Infinitiv steht am Ende. *RU:* Präteritum von «müssen» для «ich» → musste; инфинитив в конце.
+
+
+**Aufgabe 14 — FS (Mittelalter).** Der Barde könnt nicht singen.
+**Lösung:** Der Barde konnte nicht singen. *DE:* Präteritum von „können“ für „er“ → konnte (nicht könnt). *RU:* Präteritum von «können» для «er» → konnte (не könnt).
+
+
+**Aufgabe 15 — SA (Alltag).** Setze ins Präteritum: Wir müssen lange warten.
+**Lösung:** Wir mussten lange warten. *DE:* Präteritum von „müssen“ für „wir“ → mussten. *RU:* Präteritum von «müssen» для «wir» → mussten.
+
+
+**Aufgabe 16 — MC (Mittelalter).** Der König ___ früher in einer großen Burg.
+a) wohnte b) wohnt c) wohnen
+**Lösung:** a) wohnte. *DE:* regelmäßiges Verb im Präteritum → wohnte. *RU:* регулярный глагол в Präteritum → wohnte.
+
+
+**Aufgabe 17 — LT (Alltag).** Ich ___ als Kind oft im Park. (sein)
+**Lösung:** war. *DE:* Präteritum von „sein“ für „ich“ → war. *RU:* Präteritum von «sein» для «ich» → war.
+
+
+**Aufgabe 18 — SB (Mittelalter).** die / Ritter / hatten / keine / Angst
+**Lösung:** Die Ritter hatten keine Angst. *DE:* Präteritum von „haben“ für „sie“ (Plural) → hatten. *RU:* Präteritum von «haben» для «sie» (Plural) → hatten.
+
+
+**Aufgabe 19 — FS (Alltag).** Ich konnte nicht kommen, weil ich hatte keine Zeit.
+**Lösung:** Ich konnte nicht kommen, weil ich keine Zeit hatte. *DE:* Im Nebensatz steht das Verb am Ende → hatte. *RU:* в Nebensatz глагол в конце → hatte.
+
+
+**Aufgabe 20 — SA (Mittelalter).** Setze ins Präteritum: Der Barde will ein Lied singen.
+**Lösung:** Der Barde wollte ein Lied singen. *DE:* Präteritum von „wollen“ für „er“ → wollte. *RU:* Präteritum von «wollen» для «er» → wollte.
+
+
+**Aufgabe 21 — MC (Alltag).** Wir ___ früher in Berlin.
+a) waren b) sind c) hatten
+**Lösung:** a) waren. *DE:* Präteritum von „sein“ für „wir“ → waren. *RU:* Präteritum von «sein» для «wir» → waren.
+
+
+**Aufgabe 22 — LT (Mittelalter).** Der König ___ den Barden nicht hören. (können)
+**Lösung:** konnte. *DE:* Präteritum von „können“ für „er“ → konnte. *RU:* Präteritum von «können» для «er» → konnte.
+
+
+**Aufgabe 23 — SB (Alltag).** du / musstest / gestern / arbeiten
+**Lösung:** Du musstest gestern arbeiten. *DE:* Präteritum von „müssen“ für „du“ → musstest. *RU:* Präteritum von «müssen» для «du» → musstest.
+
+
+**Aufgabe 24 — FS (Mittelalter).** Die Ritter wollten kämpfen, aber sie hatte keine Schwerter.
+**Lösung:** Die Ritter wollten kämpfen, aber sie hatten keine Schwerter. *DE:* Subjekt im Plural → hatten. *RU:* подлежащее во Plural → hatten.
+
+
+**Aufgabe 25 — SA (Alltag).** Setze ins Präteritum: Ich kann heute nicht kommen.
+**Lösung:** Ich konnte heute nicht kommen. *DE:* Präteritum von „können“ für „ich“ → konnte. *RU:* Präteritum von «können» для «ich» → konnte.
+
+
+---
+
+
+## Thema 10. Nebensätze: weil, dass, wenn, als, obwohl, während, bevor, nachdem + Adverbialsätze (aduso-Konnektoren)
+
+
+**Правило (DE).** Ein Nebensatz ist ein Nebensatz, in dem das konjugierte Verb an letzter Stelle steht. Einleitungswörter:
+- **weil** — Grund (Kausalsatz): Ich bleibe zu Hause, weil es regnet.
+- **dass** — Inhaltssatz: Ich weiß, dass er kommt.
+- **wenn** — Bedingung (Konditionalsatz) oder wiederholtes Ereignis in Gegenwart/Zukunft/Vergangenheit (Temporalsatz): Wenn ich Zeit habe, komme ich. / Immer wenn er kam, brachte er Blumen.
+- **als** — einmaliges Ereignis in der Vergangenheit (Temporalsatz): Als ich Kind war, spielte ich viel.
+- **obwohl** — Konzession (Konzessivsatz): Obwohl es regnet, gehe ich spazieren.
+- **während** — Gleichzeitigkeit (Temporalsatz): Während ich lese, hört er Musik.
+- **bevor** — Vorzeitigkeit (Temporalsatz): Bevor ich gehe, rufe ich an.
+- **nachdem** — Nachzeitigkeit (Temporalsatz; Haupt- und Nebensatz haben unterschiedliche Zeiten): Nachdem ich gegessen hatte, ging ich.
+- **Aduso-Konnektoren** (adverbiale Konnektoren, die einen Nebensatz einleiten): **indem** (Mittel/Art und Weise), **sodass** (Folge), **sofern** (Bedingung, gehoben), **falls** (Bedingung), **da** (Grund, schriftlich), **zumal** (Grund, verstärkend), **es sei denn, dass** (Ausnahme). Diese Konnektoren stehen ebenfalls am Anfang des Nebensatzes, das konjugierte Verb steht am Ende: Ich lerne Deutsch, indem ich jeden Tag Vokabeln wiederhole. / Es regnet stark, sodass wir zu Hause bleiben. / Falls du kommst, bring bitte Kuchen mit.
+Wenn der Nebensatz vor dem Hauptsatz steht, beginnt der Hauptsatz mit dem konjugierten Verb: Weil es regnet, bleibe ich zu Hause.
+
+
+**Правило (RU).** Nebensatz — придаточное предложение, в котором спрягаемый глагол стоит на последнем месте. Вводные слова:
+- **weil** — причина (Kausalsatz): Ich bleibe zu Hause, weil es regnet.
+- **dass** — содержательное придаточное (Inhaltssatz): Ich weiß, dass er kommt.
+- **wenn** — условие (Konditionalsatz) или повторяющееся действие в настоящем/будущем/прошлом (Temporalsatz): Wenn ich Zeit habe, komme ich. / Immer wenn er kam, brachte er Blumen.
+- **als** — однократное действие в прошлом (Temporalsatz): Als ich Kind war, spielte ich viel.
+- **obwohl** — уступка (Konzessivsatz): Obwohl es regnet, gehe ich spazieren.
+- **während** — одновременность (Temporalsatz): Während ich lese, hört er Musik.
+- **bevor** — до того как (Temporalsatz): Bevor ich gehe, rufe ich an.
+- **nachdem** — после того как (Temporalsatz; в главном и придаточном разные времена): Nachdem ich gegessen hatte, ging ich.
+- **Aduso-Konnektoren** (наречные коннекторы, вводящие придаточное): **indem** (средство/образ действия), **sodass** (следствие), **sofern** (условие, книжн.), **falls** (условие), **da** (причина, письм.), **zumal** (причина, усилительно), **es sei denn, dass** (исключение). Эти коннекторы тоже стоят в начале придаточного, спрягаемый глагол — в конце: Ich lerne Deutsch, indem ich jeden Tag Vokabeln wiederhole. / Es regnet stark, sodass wir zu Hause bleiben. / Falls du kommst, bring bitte Kuchen mit.
+Если придаточное стоит перед главным, главное начинается со спрягаемого глагола: Weil es regnet, bleibe ich zu Hause.
+
+
+**Почему такие типы заданий.** MC и LT тренируют выбор правильного коннектора по смыслу (причина/условие/время/уступка/следствие). SB закрепляет порядок слов: глагол в конце придаточного, а в главном — сразу после придаточного при его препозиции. FS выявляет типичные ошибки (неверный коннектор, глагол не в конце). SA тренирует преобразование двух простых предложений в сложное с придаточным — ключевой навык для письма и для чат-бота.
+
+
+**Aufgabe 1 — MC (Mittelalter).** Der Barde bleibt in der Burg, ___ es regnet.
+a) dass b) weil c) wenn
+**Lösung:** b) weil. *DE:* „weil“ leitet einen Kausalsatz ein; das Verb steht am Ende. *RU:* «weil» вводит придаточное причины; глагол в конце.
+
+
+**Aufgabe 2 — LT (Alltag).** Ich hoffe, ___ du morgen kommst. (dass)
+**Lösung:** dass. *DE:* „dass“ leitet einen Inhaltssatz ein. *RU:* «dass» вводит содержательное придаточное.
+
+
+**Aufgabe 3 — SB (Mittelalter).** der / Ritter / bleibt / weil / er / müde / ist / zu Hause
+**Lösung:** Der Ritter bleibt zu Hause, weil er müde ist. *DE:* Im Nebensatz steht das finite Verb „ist“ am Ende. *RU:* в придаточном спрягаемый глагол «ist» в конце.
+
+
+**Aufgabe 4 — FS (Alltag).** Wenn ich Zeit habe, ich besuche dich.
+**Lösung:** Wenn ich Zeit habe, besuche ich dich. *DE:* Nach einem vorangestellten Nebensatz folgt das konjugierte Verb. *RU:* после придаточного в начале главного стоит спрягаемый глагол.
+
+
+**Aufgabe 5 — SA (Mittelalter).** Verbinde mit „dass“: Der König sagt es. Das Fest beginnt morgen.
+**Lösung:** Der König sagt, dass das Fest morgen beginnt. *DE:* Im „dass“-Satz steht das finite Verb am Ende. *RU:* в «dass»-придаточном спрягаемый глагол в конце.
+
+
+**Aufgabe 6 — MC (Alltag).** Ich bleibe zu Hause, ___ ich krank bin.
+a) obwohl b) weil c) wenn
+**Lösung:** b) weil. *DE:* Grund → „weil“. *RU:* причина → «weil».
+
+
+**Aufgabe 7 — LT (Mittelalter).** ___ der König kam, standen alle auf. (als)
+**Lösung:** Als. *DE:* „als“ für ein einmaliges Ereignis in der Vergangenheit. *RU:* «als» для однократного события в прошлом.
+
+
+**Aufgabe 8 — SB (Alltag).** ich / gehe / ins Kino / wenn / ich / Zeit / habe
+**Lösung:** Ich gehe ins Kino, wenn ich Zeit habe. *DE:* Im „wenn“-Satz steht das Verb am Ende. *RU:* в «wenn»-придаточном глагол в конце.
+
+
+**Aufgabe 9 — FS (Mittelalter).** Obwohl es regnet, der Ritter reitet los.
+**Lösung:** Obwohl es regnet, reitet der Ritter los. *DE:* Nach dem vorangestellten Nebensatz folgt das konjugierte Verb. *RU:* после придаточного в начале главного стоит спрягаемый глагол.
+
+
+**Aufgabe 10 — SA (Alltag).** Verbinde mit „weil“: Ich komme nicht. Ich habe keine Zeit.
+**Lösung:** Ich komme nicht, weil ich keine Zeit habe. *DE:* „weil“ + Verb am Ende. *RU:* «weil» + глагол в конце.
+
+
+**Aufgabe 11 — MC (Mittelalter).** ___ der Barde das Lied beendet hatte, applaudierten alle.
+a) Nachdem b) Bevor c) Während
+**Lösung:** a) Nachdem. *DE:* „nachdem“ drückt Nachzeitigkeit aus; unterschiedliche Zeiten in Haupt- und Nebensatz. *RU:* «nachdem» выражает предшествование; в главном и придаточном разные времена.
+
+
+**Aufgabe 12 — LT (Alltag).** ___ ich lese, hört mein Bruder Musik. (während)
+**Lösung:** Während. *DE:* „während“ drückt Gleichzeitigkeit aus. *RU:* «während» выражает одновременность.
+
+
+**Aufgabe 13 — SB (Mittelalter).** der / König / geht / bevor / er / schläft / durch / die Burg
+**Lösung:** Der König geht durch die Burg, bevor er schläft. *DE:* Im „bevor“-Satz steht das Verb am Ende. *RU:* в «bevor»-придаточном глагол в конце.
+
+
+**Aufgabe 14 — FS (Alltag).** Ich lerne Deutsch, indem ich wiederhole Vokabeln.
+**Lösung:** Ich lerne Deutsch, indem ich Vokabeln wiederhole. *DE:* Im „indem“-Satz steht das Verb am Ende. *RU:* в «indem»-придаточном глагол в конце.
+
+
+**Aufgabe 15 — SA (Mittelalter).** Verbinde mit „obwohl“: Der Ritter kämpft. Er ist verletzt.
+**Lösung:** Der Ritter kämpft, obwohl er verletzt ist. *DE:* „obwohl“ + Verb am Ende. *RU:* «obwohl» + глагол в конце.
+
+
+**Aufgabe 16 — MC (Alltag).** Es regnet stark, ___ wir zu Hause bleiben.
+a) sodass b) weil c) als
+**Lösung:** a) sodass. *DE:* „sodass“ drückt die Folge aus. *RU:* «sodass» выражает следствие.
+
+
+**Aufgabe 17 — LT (Mittelalter).** ___ du kommst, bring bitte deine Laute mit. (falls)
+**Lösung:** Falls. *DE:* „falls“ drückt eine Bedingung aus. *RU:* «falls» выражает условие.
+
+
+**Aufgabe 18 — SB (Alltag).** ich / helfe / dir / sofern / ich / kann
+**Lösung:** Ich helfe dir, sofern ich kann. *DE:* „sofern“ + Verb am Ende. *RU:* «sofern» + глагол в конце.
+
+
+**Aufgabe 19 — FS (Mittelalter).** Da der König krank war, er blieb im Bett.
+**Lösung:** Da der König krank war, blieb er im Bett. *DE:* Nach dem vorangestellten Nebensatz folgt das konjugierte Verb. *RU:* после придаточного в начале главного стоит спрягаемый глагол.
+
+
+**Aufgabe 20 — SA (Alltag).** Verbinde mit „indem“: Ich verbessere mein Deutsch. Ich spreche jeden Tag.
+**Lösung:** Ich verbessere mein Deutsch, indem ich jeden Tag spreche. *DE:* „indem“ + Verb am Ende. *RU:* «indem» + глагол в конце.
+
+
+**Aufgabe 21 — MC (Mittelalter).** ___ der Barde singt, tanzen die Ritter.
+a) Während b) Nachdem c) Bevor
+**Lösung:** a) Während. *DE:* Gleichzeitigkeit → „während“. *RU:* одновременность → «während».
+
+
+**Aufgabe 22 — LT (Alltag).** Ich rufe dich an, ___ ich zu Hause bin. (sobald)
+**Lösung:** sobald. *DE:* „sobald“ drückt unmittelbare Vorzeitigkeit aus. *RU:* «sobald» выражает непосредственное предшествование.
+
+
+**Aufgabe 23 — SB (Mittelalter).** der / König / lobt / den Barden / zumal / er / gut / singt
+**Lösung:** Der König lobt den Barden, zumal er gut singt. *DE:* „zumal“ + Verb am Ende. *RU:* «zumal» + глагол в конце.
+
+
+**Aufgabe 24 — FS (Alltag).** Ich komme nicht, es sei denn dass ich Zeit habe.
+**Lösung:** Ich komme nicht, es sei denn, dass ich Zeit habe. *DE:* „es sei denn, dass“ leitet eine Ausnahme ein; das Verb steht am Ende. *RU:* «es sei denn, dass» вводит исключение; глагол в конце.
+
+
+**Aufgabe 25 — SA (Mittelalter).** Verbinde mit „sodass“: Der Barde singt laut. Alle hören ihn.
+**Lösung:** Der Barde singt laut, sodass alle ihn hören. *DE:* „sodass“ + Verb am Ende. *RU:* «sodass» + глагол в конце.
+
+
+---
+
+
+## Thema 11. Adjektivdeklination
+
+
+**Правило (DE).** Adjektive vor einem Nomen bekommen eine Endung. Drei Deklinationsmuster:
+1. **Nach bestimmtem Artikel** (der/die/das, dieser, jeder, alle): Nominativ m/f/n/Pl = -e; Akkusativ m = -en, остальные = -e; Dativ и Genitiv всегда -en. Пример: der alte Mann, die kleine Katze, das große Auto, die neuen Bücher.
+2. **Nach unbestimmtem Artikel** (ein/eine/ein, kein, mein, dein, sein, ihr, unser, euer): Nominativ m = -er, f = -e, n = -es; Akkusativ m = -en, f = -e, n = -es; Dativ и Genitiv всегда -en; Plural = -en. Пример: ein alter Mann, eine kleine Katze, ein großes Auto, keine neuen Bücher.
+3. **Ohne Artikel** (Nullartikel): Adjektiv übernimmt die Endung des bestimmten Artikels. Nominativ m = -er, f = -e, n = -es, Pl = -e; Akkusativ m = -en, f = -e, n = -es, Pl = -e; Dativ m = -em, f = -er, n = -em, Pl = -en; Genitiv m = -en, f = -er, n = -en, Pl = -er. Пример: alter Wein, frische Milch, kühles Bier, süße Äpfel.
+
+
+**Правило (RU).** Прилагательные перед существительным получают окончание. Три модели склонения:
+1. **После определённого артикля** (der/die/das, dieser, jeder, alle): Nominativ m/f/n/Pl = -e; Akkusativ m = -en, остальные = -e; Dativ и Genitiv всегда -en. Пример: der alte Mann, die kleine Katze, das große Auto, die neuen Bücher.
+2. **После неопределённого артикля** (ein/eine/ein, kein, mein, dein, sein, ihr, unser, euer): Nominativ m = -er, f = -e, n = -es; Akkusativ m = -en, f = -e, n = -es; Dativ и Genitiv всегда -en; Plural = -en. Пример: ein alter Mann, eine kleine Katze, ein großes Auto, keine neuen Bücher.
+3. **Без артикля** (Nullartikel): прилагательное берёт окончание определённого артикля. Nominativ m = -er, f = -e, n = -es, Pl = -e; Akkusativ m = -en, f = -e, n = -es, Pl = -e; Dativ m = -em, f = -er, n = -em, Pl = -en; Genitiv m = -en, f = -er, n = -en, Pl = -er. Пример: alter Wein, frische Milch, kühles Bier, süße Äpfel.
+
+
+**Почему такие типы заданий.** MC и LT тренируют выбор окончания по типу артикля, роду, числу и падежу — это главная сложность темы. SB закрепляет место прилагательного и его окончание в структуре предложения. FS выявляет типичные ошибки (неверное окончание после ein/kein, смешение моделей). SA тренирует преобразование предложения с добавлением прилагательного — навык, нужный для описаний в чат-боте.
+
+
+**Aufgabe 1 — MC (Alltag).** Ich kaufe einen ___ Mantel.
+a) neue b) neuen c) neues
+**Lösung:** b) neuen. *DE:* Nach „einen“ im Akkusativ maskulin: Adjektivendung -en. *RU:* после «einen» в Akkusativ мужского рода: окончание -en.
+
+
+**Aufgabe 2 — LT (Mittelalter).** Der König trägt eine ___ Krone. (golden)
+**Lösung:** goldene. *DE:* Nach „eine“ im Akkusativ feminin: Endung -e. *RU:* после «eine» в Akkusativ женского рода: окончание -e.
+
+
+**Aufgabe 3 — SB (Alltag).** das / kleine / Kind / spielt / draußen
+**Lösung:** Das kleine Kind spielt draußen. *DE:* Nach „das“ im Nominativ neutrum: Adjektivendung -e. *RU:* после «das» в Nominativ среднего рода: окончание -e.
+
+
+**Aufgabe 4 — FS (Mittelalter).** Der Ritter wohnt in einer alt Burg.
+**Lösung:** Der Ritter wohnt in einer alten Burg. *DE:* Nach „einer“ im Dativ feminin: Endung -en. *RU:* после «einer» в Dativ женского рода: окончание -en.
+
+
+**Aufgabe 5 — SA (Alltag).** Ergänze das Adjektiv: Ich trinke (heiß) Tee.
+**Lösung:** Ich trinke heißen Tee. *DE:* Ohne Artikel im Akkusativ maskulin: starke Endung -en. *RU:* без артикля в Akkusativ мужского рода: сильное окончание -en.
+
+
+**Aufgabe 6 — MC (Mittelalter).** Der ___ Barde singt ein Lied.
+a) alte b) alten c) alter
+**Lösung:** a) alte. *DE:* Nach „der“ im Nominativ maskulin: Endung -e. *RU:* после «der» в Nominativ мужского рода: окончание -e.
+
+
+**Aufgabe 7 — LT (Alltag).** Ich habe ein ___ Auto. (neu)
+**Lösung:** neues. *DE:* Nach „ein“ im Akkusativ neutrum: Endung -es. *RU:* после «ein» в Akkusativ среднего рода: окончание -es.
+
+
+**Aufgabe 8 — SB (Mittelalter).** die / Ritter / tragen / schwere / Helme
+**Lösung:** Die Ritter tragen schwere Helme. *DE:* Ohne Artikel im Akkusativ Plural: Endung -e. *RU:* без артикля в Akkusativ Plural: окончание -e.
+
+
+**Aufgabe 9 — FS (Alltag).** Das ist ein guter Idee.
+**Lösung:** Das ist eine gute Idee. *DE:* „Idee“ ist feminin, Nominativ → eine gute. *RU:* «Idee» — женский род, Nominativ → eine gute.
+
+
+**Aufgabe 10 — SA (Mittelalter).** Ergänze das Adjektiv: Der König wohnt in einem (groß) Schloss.
+**Lösung:** großen. *DE:* Nach „einem“ im Dativ neutrum: Endung -en. *RU:* после «einem» в Dativ среднего рода: окончание -en.
+
+
+**Aufgabe 11 — MC (Alltag).** Wir wohnen in einer ___ Wohnung.
+a) klein b) kleine c) kleinen
+**Lösung:** c) kleinen. *DE:* Nach „einer“ im Dativ feminin: Endung -en. *RU:* после «einer» в Dativ женского рода: окончание -en.
+
+
+**Aufgabe 12 — LT (Mittelalter).** Die Burg hat ein ___ Tor. (groß)
+**Lösung:** großes. *DE:* Nach „ein“ im Akkusativ neutrum: Endung -es. *RU:* после «ein» в Akkusativ среднего рода: окончание -es.
+
+
+**Aufgabe 13 — SB (Alltag).** ich / trinke / gern / kalte / Milch
+**Lösung:** Ich trinke gern kalte Milch. *DE:* Ohne Artikel im Akkusativ feminin: Endung -e. *RU:* без артикля в Akkusativ женского рода: окончание -e.
+
+
+**Aufgabe 14 — FS (Mittelalter).** Der Barde spielt auf einer alten Laute. (корректно) — замените: Der Barde spielt auf einer alte Laute.
+**Lösung:** Der Barde spielt auf einer alten Laute. *DE:* Nach „einer“ im Dativ feminin: Endung -en. *RU:* после «einer» в Dativ женского рода: окончание -en.
+
+
+**Aufgabe 15 — SA (Alltag).** Ergänze das Adjektiv: Ich brauche (neu) Schuhe.
+**Lösung:** Ich brauche neue Schuhe. *DE:* Ohne Artikel im Akkusativ Plural: Endung -e. *RU:* без артикля в Akkusativ Plural: окончание -e.
+
+
+**Aufgabe 16 — MC (Mittelalter).** Die ___ Ritter kämpfen tapfer.
+a) mutige b) mutigen c) mutiger
+**Lösung:** a) mutige. *DE:* Nach „die“ im Nominativ Plural: Endung -e. *RU:* после «die» в Nominativ Plural: окончание -e.
+
+
+**Aufgabe 17 — LT (Alltag).** Das ist ein ___ Buch. (interessant)
+**Lösung:** interessantes. *DE:* Nach „ein“ im Nominativ neutrum: Endung -es. *RU:* после «ein» в Nominativ среднего рода: окончание -es.
+
+
+**Aufgabe 18 — SB (Mittelalter).** der / König / trägt / einen / goldenen / Ring
+**Lösung:** Der König trägt einen goldenen Ring. *DE:* Nach „einen“ im Akkusativ maskulin: Endung -en. *RU:* после «einen» в Akkusativ мужского рода: окончание -en.
+
+
+**Aufgabe 19 — FS (Alltag).** Ich habe keine teueren Schuhe.
+**Lösung:** Ich habe keine teuren Schuhe. *DE:* Nach „keine“ im Akkusativ Plural: Endung -en. *RU:* после «keine» в Akkusativ Plural: окончание -en.
+
+
+**Aufgabe 20 — SA (Mittelalter).** Ergänze das Adjektiv: Der Barde singt ein (schön) Lied.
+**Lösung:** schönes. *DE:* Nach „ein“ im Akkusativ neutrum: Endung -es. *RU:* после «ein» в Akkusativ среднего рода: окончание -es.
+
+
+**Aufgabe 21 — MC (Alltag).** Ich trinke gern ___ Kaffee.
+a) starker b) starken c) starke
+**Lösung:** a) starker. *DE:* Ohne Artikel im Akkusativ maskulin: Endung -er (starker Kaffee). *RU:* без артикля в Akkusativ мужского рода: окончание -er (starker Kaffee).
+
+
+**Aufgabe 22 — LT (Mittelalter).** Der König reitet auf einem ___ Pferd. (schnell)
+**Lösung:** schnellen. *DE:* Nach „einem“ im Dativ neutrum: Endung -en. *RU:* после «einem» в Dativ среднего рода: окончание -en.
+
+
+**Aufgabe 23 — SB (Alltag).** die / Kinder / spielen / mit / dem / neuen / Ball
+**Lösung:** Die Kinder spielen mit dem neuen Ball. *DE:* Nach „dem“ im Dativ maskulin: Endung -en. *RU:* после «dem» в Dativ мужского рода: окончание -en.
+
+
+**Aufgabe 24 — FS (Mittelalter).** Der König hat ein große Burg.
+**Lösung:** Der König hat eine große Burg. *DE:* „Burg“ ist feminin, Akkusativ → eine große. *RU:* «Burg» — женский род, Akkusativ → eine große.
+
+
+**Aufgabe 25 — SA (Alltag).** Ergänze das Adjektiv: Ich sehe (groß) Gebäude.
+**Lösung:** Ich sehe große Gebäude. *DE:* Ohne Artikel im Akkusativ Plural: Endung -e. *RU:* без артикля в Akkusativ Plural: окончание -e.
+
+
+---
+
+
+## Thema 12. Passiv (Präsens und Präteritum)
+
+
+**Правило (DE).** Das Passiv wird mit werden + Partizip II gebildet. Im Präsens: ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden + Partizip II. Im Präteritum: ich wurde, du wurdest, er/sie/es wurde, wir wurden, ihr wurdet, sie/Sie wurden + Partizip II. Das Passiv betont die Handlung, nicht den Handelnden. Der Handelnde kann mit „von“ + Dativ genannt werden: Der Minister wird von einem Journalisten interviewt. Das Partizip II steht am Satzende. Im Passivsatz steht werden an zweiter Stelle (Aussagesatz) oder an erster Stelle (Ja/Nein-Frage). Das Passiv wird oft in beschreibenden und berichtenden Texten verwendet.
+
+
+**Правило (RU).** Пассив образуется с werden + Partizip II. В Präsens: ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden + Partizip II. В Präteritum: ich wurde, du wurdest, er/sie/es wurde, wir wurden, ihr wurdet, sie/Sie wurden + Partizip II. Пассив подчёркивает действие, а не действующее лицо. Действующее лицо может быть названо с «von» + Dativ: Der Minister wird von einem Journalisten interviewt. Partizip II стоит в конце предложения. В пассивном предложении werden стоит на 2-м месте (Aussagesatz) или на 1-м месте (Ja/Nein-Frage). Пассив часто используется в описательных и репортажных текстах.
+
+
+**Почему такие типы заданий.** MC и LT тренируют выбор формы werden (Präsens/Präteritum) и место Partizip II — главная механика темы. SB закрепляет структуру пассивного предложения. FS выявляет типичные ошибки (неверная форма werden, Partizip II не в конце). SA тренирует преобразование активного предложения в пассивное — ключевой навык для понимания темы.
+
+
+**Aufgabe 1 — MC (Mittelalter).** Das Burgtor ___ jeden Abend geschlossen.
+a) ist b) wird c) hat
+**Lösung:** b) wird. *DE:* Vorgangspassiv Präsens: „wird“ + Partizip II. *RU:* Vorgangspassiv Präsens: «wird» + Partizip II.
+
+
+**Aufgabe 2 — LT (Alltag).** Das Haus ___ im letzten Jahr gebaut. (werden, Präteritum)
+**Lösung:** wurde. *DE:* Passiv Präteritum Singular: „wurde“ + Partizip II. *RU:* Passiv Präteritum Singular: «wurde» + Partizip II.
+
+
+**Aufgabe 3 — SB (Mittelalter).** die / Schwerter / werden / heute / gereinigt
+**Lösung:** Die Schwerter werden heute gereinigt. *DE:* Passiv Präsens Plural: „werden“ + Partizip II. *RU:* Passiv Präsens Plural: «werden» + Partizip II.
+
+
+**Aufgabe 4 — FS (Alltag).** Die Briefe wird heute geschrieben.
+**Lösung:** Die Briefe werden heute geschrieben. *DE:* „Briefe“ ist Plural; daher „werden“. *RU:* «Briefe» — Plural; поэтому «werden».
+
+
+**Aufgabe 5 — SA (Mittelalter).** Bilde das Passiv im Präsens: Der Schmied repariert das Schwert.
+**Lösung:** Das Schwert wird vom Schmied repariert. *DE:* Das Akkusativobjekt wird Subjekt; „wird“ + Partizip II. *RU:* Akkusativ-объект становится подлежащим; «wird» + Partizip II.
+
+
+**Aufgabe 6 — MC (Alltag).** Die Rechnung ___ gestern bezahlt.
+a) wird b) wurde c) werden
+**Lösung:** b) wurde. *DE:* Präteritum Passiv Singular → wurde. *RU:* Präteritum Passiv Singular → wurde.
+
+
+**Aufgabe 7 — LT (Mittelalter).** Die Burg ___ im 12. Jahrhundert gebaut. (werden, Präteritum)
+**Lösung:** wurde. *DE:* Passiv Präteritum Singular → wurde. *RU:* Passiv Präteritum Singular → wurde.
+
+
+**Aufgabe 8 — SB (Alltag).** das / Dokument / wird / morgen / kopiert
+**Lösung:** Das Dokument wird morgen kopiert. *DE:* Passiv Präsens Singular: „wird“ + Partizip II. *RU:* Passiv Präsens Singular: «wird» + Partizip II.
+
+
+**Aufgabe 9 — FS (Mittelalter).** Die Ritter werden von dem König eingeladen. (корректно) — замените: Die Ritter wird von dem König eingeladen.
+**Lösung:** Die Ritter werden von dem König eingeladen. *DE:* Subjekt im Plural → „werden“. *RU:* подлежащее во Plural → «werden».
+
+
+**Aufgabe 10 — SA (Alltag).** Bilde das Passiv im Präteritum: Der Arzt untersuchte den Patienten.
+**Lösung:** Der Patient wurde vom Arzt untersucht. *DE:* Akkusativobjekt wird Subjekt; „wurde“ + Partizip II. *RU:* Akkusativ-объект становится подлежащим; «wurde» + Partizip II.
+
+
+**Aufgabe 11 — MC (Mittelalter).** Das Lied ___ vom Barden gesungen.
+a) wird b) werden c) wurde
+**Lösung:** a) wird. *DE:* Präsens Passiv Singular → wird (das Lied). *RU:* Präsens Passiv Singular → wird (das Lied).
+
+
+**Aufgabe 12 — LT (Alltag).** Die Tickets ___ am Bahnhof verkauft. (werden, Präsens)
+**Lösung:** werden. *DE:* Passiv Präsens Plural → werden. *RU:* Passiv Präsens Plural → werden.
+
+
+**Aufgabe 13 — SB (Mittelalter).** der / König / wird / von / dem / Barden / gelobt
+**Lösung:** Der König wird von dem Barden gelobt. *DE:* Passiv Präsens: „wird“ + Partizip II; der Handelnde mit „von“ + Dativ. *RU:* Passiv Präsens: «wird» + Partizip II; действующее лицо с «von» + Dativ.
+
+
+**Aufgabe 14 — FS (Alltag).** Das Fenster wurde gestern repariert. (корректно) — замените: Das Fenster wurde gestern reparieren.
+**Lösung:** Das Fenster wurde gestern repariert. *DE:* Im Passiv steht das Partizip II, nicht der Infinitiv. *RU:* в пассиве стоит Partizip II, а не инфинитив.
+
+
+**Aufgabe 15 — SA (Mittelalter).** Bilde das Passiv im Präsens: Die Ritter schützen die Burg.
+**Lösung:** Die Burg wird von den Rittern geschützt. *DE:* Akkusativobjekt wird Subjekt; „wird“ + Partizip II. *RU:* Akkusativ-объект становится подлежащим; «wird» + Partizip II.
+
+
+**Aufgabe 16 — MC (Alltag).** Die Straße ___ letzte Woche renoviert.
+a) wird b) wurde c) werden
+**Lösung:** b) wurde. *DE:* Präteritum Passiv Singular → wurde. *RU:* Präteritum Passiv Singular → wurde.
+
+
+**Aufgabe 17 — LT (Mittelalter).** Das Fest ___ jedes Jahr gefeiert. (werden, Präsens)
+**Lösung:** wird. *DE:* Passiv Präsens Singular → wird. *RU:* Passiv Präsens Singular → wird.
+
+
+**Aufgabe 18 — SB (Alltag).** die / Briefe / wurden / gestern / geschickt
+**Lösung:** Die Briefe wurden gestern geschickt. *DE:* Passiv Präteritum Plural → wurden + Partizip II. *RU:* Passiv Präteritum Plural → wurden + Partizip II.
+
+
+**Aufgabe 19 — FS (Mittelalter).** Die Burg wird von den Rittern geschützt. (корректно) — замените: Die Burg wird von den Rittern schützen.
+**Lösung:** Die Burg wird von den Rittern geschützt. *DE:* Im Passiv steht das Partizip II. *RU:* в пассиве стоит Partizip II.
+
+
+**Aufgabe 20 — SA (Alltag).** Bilde das Passiv im Präteritum: Die Firma stellte neue Mitarbeiter ein.
+**Lösung:** Neue Mitarbeiter wurden von der Firma eingestellt. *DE:* Akkusativobjekt wird Subjekt; „wurden“ + Partizip II; trennbares Verb → eingestellt. *RU:* Akkusativ-объект становится подлежащим; «wurden» + Partizip II; отделяемый глагол → eingestellt.
+
+
+**Aufgabe 21 — MC (Mittelalter).** Die Lieder ___ vom Barden geschrieben.
+a) werden b) wird c) wurde
+**Lösung:** a) werden. *DE:* Präsens Passiv Plural → werden. *RU:* Präsens Passiv Plural → werden.
+
+
+**Aufgabe 22 — LT (Alltag).** Das Auto ___ in der Werkstatt repariert. (werden, Präteritum)
+**Lösung:** wurde. *DE:* Präteritum Passiv Singular → wurde. *RU:* Präteritum Passiv Singular → wurde.
+
+
+**Aufgabe 23 — SB (Mittelalter).** das / Schwert / wurde / von / dem / Schmied / geschmiedet
+**Lösung:** Das Schwert wurde von dem Schmied geschmiedet. *DE:* Passiv Präteritum: „wurde“ + Partizip II; der Handelnde mit „von“ + Dativ. *RU:* Passiv Präteritum: «wurde» + Partizip II; действующее лицо с «von» + Dativ.
+
+
+**Aufgabe 24 — FS (Alltag).** Die Kinder werden von den Eltern abgeholt. (корректно) — замените: Die Kinder werden von den Eltern abholen.
+**Lösung:** Die Kinder werden von den Eltern abgeholt. *DE:* Im Passiv steht das Partizip II. *RU:* в пассиве стоит Partizip II.
+
+
+**Aufgabe 25 — SA (Mittelalter).** Bilde das Passiv im Präsens: Der König ruft den Barden.
+**Lösung:** Der Barde wird vom König gerufen. *DE:* Akkusativobjekt wird Subjekt; „wird“ + Partizip II. *RU:* Akkusativ-объект становится подлежащим; «wird» + Partizip II.
+
+
+---
+
+
+## Итоговая структура (для презентации/методички)
+
+
+| № | Thema | Niveau | Anzahl Aufgaben | Typen |
+|---|-------|--------|-----------------|-------|
+| 1 | Bestimmter und unbestimmter Artikel | A1 | 25 | MC, LT, SB, FS, SA |
+| 2 | Plural der Substantive | A1 | 25 | MC, LT, SB, FS, SA |
+| 3 | Personalpronomen und Verben im Präsens | A1 | 25 | MC, LT, SB, FS, SA |
+| 4 | Negation: nicht/kein | A1 | 25 | MC, LT, SB, FS, SA |
+| 5 | Modalverben: können, müssen, wollen | A1 | 25 | MC, LT, SB, FS, SA |
+| 6 | Trennbare und nicht trennbare Verben | A1 | 25 | MC, LT, SB, FS, SA |
+| 7 | Akkusativ und Dativ | A1–A2 | 25 | MC, LT, SB, FS, SA |
+| 8 | Perfekt mit haben/sein | A1–A2 | 25 | MC, LT, SB, FS, SA |
+| 9 | Präteritum von sein, haben und Modalverben | A1–A2 | 25 | MC, LT, SB, FS, SA |
+| 10 | Nebensätze: weil, dass, wenn, als, obwohl, während, bevor, nachdem + Aduso-Konnektoren (indem, sodass, sofern, falls, da, zumal, es sei denn, dass) | A2 | 25 | MC, LT, SB, FS, SA |
+| 11 | Adjektivdeklination | A2 | 25 | MC, LT, SB, FS, SA |
+| 12 | Passiv (Präsens, Präteritum) | A2 | 25 | MC, LT, SB, FS, SA |
+
+
+Всего: **300 заданий** (по 25 на каждую из 12 тем). Если для промежуточной презентации нужно минимум 60 — можно взять по 5 заданий из каждой темы (60) или по 10 из шести тем (60). Для полного пула — все 300.
