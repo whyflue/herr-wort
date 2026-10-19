@@ -1,15 +1,12 @@
 """Точка входа бота: longpoll VK и отправка сообщений.
 
-Режим работы задаётся в .env переменной BOT_MODE:
-
-* BOT_MODE=group (рекомендуется) — бот отвечает от имени сообщества
-  (паблика): нужен токен сообщества VK_GROUP_TOKEN, имя и аватар
-  сообщества видны собеседнику, личный аккаунт не используется.
-* BOT_MODE=user — бот отвечает от имени обычного аккаунта:
-  нужен токен пользователя VK_TOKEN с правом messages.
+Бот работает только в режиме сообщества (паблика): отвечает от имени
+сообщества, поэтому собеседник видит его название и аватар, а личный
+аккаунт нигде не используется. Нужен токен сообщества VK_GROUP_TOKEN
+и включённый Bots Long Poll API.
 
 Запуск:  python main.py
-Как получить токен — описано в README.md.
+Как получить токен — описано в README.md, раздел «Работа от имени сообщества».
 """
 
 import logging
@@ -19,7 +16,6 @@ import time
 
 import vk_api
 from vk_api.bot_longpoll import VkBotEventType, VkBotLongPoll
-from vk_api.longpoll import VkEventType, VkLongPoll
 
 import config
 from bot import keyboards
@@ -47,17 +43,16 @@ class Sender:
     """Отправка и правка сообщений. Пауза между отправками снижает риск
     срабатывания антифлуда.
 
-    target — кому отвечаем: в режиме user это id пользователя
-    (messages.send → user_id), в режиме group — peer_id диалога
-    с сообществом (messages.send → peer_id). Правка всегда идёт по peer_id.
+    target — peer_id диалога с сообществом (messages.send → peer_id).
+    В личном диалоге с сообществом это id пользователя, который пишет боту.
+    Правка всегда идёт по peer_id.
 
     api — объект vk_api.VkApi (сессия): вызовы идут через api.method(...),
     потому что у vk_method-обёрток иная сигнатура вызова."""
 
-    def __init__(self, api, delay: float, mode: str = "user"):
+    def __init__(self, api, delay: float):
         self.api = api
         self.delay = max(0.0, delay)
-        self.mode = mode
         self._last = {}
         self._sent_at = 0.0
 
@@ -82,10 +77,8 @@ class Sender:
                 return
             except vk_api.exceptions.ApiError as exc:
                 log.debug("Правка сообщения не удалась (%s), отправляю новое", exc)
-        params = {"random_id": random_id(), "message": text}
-        # В режиме сообщества адресат — peer_id диалога, в режиме аккаунта —
-        # id пользователя. В личном диалоге эти числа совпадают.
-        params["peer_id" if self.mode == "group" else "user_id"] = target
+        params = {"random_id": random_id(), "message": text,
+                  "peer_id": target}
         if packed:
             params["keyboard"] = packed
         message_id = self._send(params)
@@ -113,57 +106,13 @@ class Sender:
 
 
 def build_core():
-    """База и движок — общие для обоих режимов, от VK не зависят."""
+    """База и движок: от VK не зависят."""
     db = Database(config.DB_PATH)
     return db, Engine(db)
 
 
-def run_user() -> int:
-    if not config.TOKEN:
-        log.error("В .env не задан VK_TOKEN. Как получить токен — см. README.md")
-        return 1
-
-    session = vk_api.VkApi(token=config.TOKEN)
-    vk = session.get_api()
-    try:
-        me = vk.users.get()[0]
-    except Exception as exc:
-        log.error("VK не принял токен: %s", exc)
-        return 1
-    log.info("Бот запущен от имени %s %s (id%s)",
-             me.get("first_name"), me.get("last_name"), me.get("id"))
-
-    db, engine = build_core()
-    sender = Sender(session, config.SEND_DELAY, mode="user")
-    log.info("База: %s. Жду сообщения — напишите боту с другого аккаунта.", config.DB_PATH)
-
-    while True:
-        try:
-            longpoll = VkLongPoll(session, wait=25)
-            for event in longpoll.listen():
-                if event.type != VkEventType.MESSAGE_NEW:
-                    continue
-                if event.from_me or not event.to_me or not event.user_id:
-                    continue
-                user_id = int(event.user_id)
-                if user_id < 0:
-                    continue
-                text = event.text or ""
-                log.info("← %s: %s", user_id, " ".join(text.split())[:120])
-                for action in engine.handle(user_id, text):
-                    sender.push(user_id, action)
-        except KeyboardInterrupt:
-            log.info("Остановлено с клавиатуры")
-            break
-        except Exception as exc:
-            log.error("Longpoll упал: %s. Переподключение через 5 с", exc)
-            time.sleep(5)
-
-    db.close()
-    return 0
-
-
-def run_group() -> int:
+def run() -> int:
+    setup_logging()
     if not config.GROUP_TOKEN:
         log.error("В .env не задан VK_GROUP_TOKEN. Как получить токен сообщества — "
                   "см. README.md, раздел «Работа от имени сообщества»")
@@ -191,7 +140,7 @@ def run_group() -> int:
              group.get("name"), group_id, link)
 
     db, engine = build_core()
-    sender = Sender(session, config.SEND_DELAY, mode="group")
+    sender = Sender(session, config.SEND_DELAY)
     log.info("База: %s. Жду сообщения — напишите сообществу в личные сообщения.",
              config.DB_PATH)
 
@@ -232,18 +181,6 @@ def run_group() -> int:
 
     db.close()
     return 0
-
-
-def run() -> int:
-    setup_logging()
-    mode = config.BOT_MODE
-    if mode not in ("user", "group"):
-        log.warning("Неизвестный BOT_MODE=%r — работаю в режиме user", config.BOT_MODE)
-        mode = "user"
-    log.info("Режим работы: %s", mode)
-    if mode == "group":
-        return run_group()
-    return run_user()
 
 
 if __name__ == "__main__":
