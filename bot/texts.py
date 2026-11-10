@@ -8,34 +8,36 @@
 import re
 
 # ---------- подписи кнопок ----------
-# Навигация подписана на двух языках: русском и немецком. Так студент видит
-# немецкий эквивалент команды, а бот по-прежнему понимает и старые подписи
-# (они перечислены в ALIASES ниже).
+# Навигация подписана на двух языках: сначала немецком, затем русском. Так
+# студент видит немецкий эквивалент команды, а бот по-прежнему понимает и
+# старые подписи (они перечислены в ALIASES и LEGACY_COMMANDS ниже).
 
-BTN_MENU = "🏠 Меню / Menü"
-BTN_HELP = "❓ Помощь / Hilfe"
-BTN_STATS = "📊 Статистика / Statistik"
-BTN_STORY = "📖 Сюжет / Handlung"
-BTN_TRAIN = "🎯 Тренировка по темам / Themen üben"
-BTN_NOSTALGIA = "🏰 Побывать в местах / Orte besuchen"
-BTN_LISTEN = "🎧 Прислушаться / Zuhören"
-BTN_TO_TASKS = "✍️ К заданиям / Zu den Aufgaben"
-BTN_SHOW_RULE = "📖 Показать правило / Regel zeigen"
-BTN_START_NO_RULE = "✍️ Начать без правила / Ohne Regel"
-BTN_NEXT = "➡️ Дальше / Weiter"
-BTN_NEXT_LOCATION = "➡️ Следующая локация / Nächste Station"
-BTN_FINALE = "🏁 Финал / Finale"
-BTN_RETRY_MISTAKES = "🔁 Отработать ошибки / Fehler üben"
-BTN_SKIP_RETRY = "➡️ Продолжить путь / Weitergehen"
-BTN_RESTART = "🔄 Начать сюжет заново / Neu starten"
-BTN_RESTART_YES = "✅ Да, начать заново / Ja, neu starten"
-BTN_RESTART_NO = "↩️ Отмена / Abbrechen"
-BTN_TO_TOPICS = "🎯 К списку тем / Zur Themenliste"
-BTN_TO_PLACES = "🏰 К местам / Zu den Orten"
-BTN_AGAIN = "🔄 Пройти заново / Wiederholen"
-BTN_CHECK = "✅ Проверить / Prüfen"
-BTN_UNDO = "⬅️ Убрать слово / Wort entfernen"
-BTN_CLEAR = "🔄 Сбросить / Zurücksetzen"
+BTN_MENU = "🏠 Menü / Меню"
+BTN_HELP = "❓ Hilfe / Помощь"
+BTN_STATS = "📊 Statistik / Статистика"
+BTN_STORY = "📖 Handlung / Сюжет"
+BTN_TRAIN = "🎯 Themen üben / Тренировка по темам"
+BTN_NOSTALGIA = "🏰 Orte besuchen / Побывать в местах"
+BTN_LISTEN = "🎧 Zuhören / Прислушаться"
+BTN_TO_TASKS = "✍️ Zu den Aufgaben / К заданиям"
+BTN_SHOW_RULE = "📖 Regel zeigen / Показать правило"
+BTN_START_NO_RULE = "✍️ Ohne Regel / Начать без правила"
+BTN_NEXT = "➡️ Weiter / Дальше"
+BTN_NEXT_LOCATION = "➡️ Nächste Station / Следующая локация"
+BTN_FINALE = "🏁 Finale / Финал"
+BTN_RETRY_MISTAKES = "🔁 Fehler üben / Отработать ошибки"
+BTN_SKIP_RETRY = "➡️ Weitergehen / Продолжить путь"
+BTN_RESTART = "🔄 Neu starten / Начать сюжет заново"
+BTN_RESTART_YES = "✅ Ja, neu starten / Да, начать заново"
+BTN_RESTART_NO = "↩️ Abbrechen / Отмена"
+BTN_TO_TOPICS = "🎯 Zur Themenliste / К списку тем"
+BTN_TO_PLACES = "🏰 Zu den Orten / К местам"
+BTN_AGAIN = "🔄 Wiederholen / Пройти заново"
+BTN_CHECK = "✅ Prüfen / Проверить"
+BTN_UNDO = "⬅️ Wort entfernen / Убрать слово"
+BTN_CLEAR = "🔄 Zurücksetzen / Сбросить"
+BTN_FEEDBACK = "📝 Feedback / Обратная связь"
+BTN_OPEN_FORM = "📋 Fragebogen öffnen / Открыть анкету"
 
 #: Подписи кнопок-команд: нормализованный текст -> ключ команды.
 COMMANDS = {
@@ -63,7 +65,36 @@ COMMANDS = {
     BTN_CHECK: "check",
     BTN_UNDO: "undo",
     BTN_CLEAR: "clear",
+    BTN_FEEDBACK: "feedback",
 }
+
+
+def _reverse_label(label: str) -> str:
+    """Меняет местами немецкую и русскую половины подписи «DE / RU».
+
+    Нужно для совместимости: кнопки в уже отправленных сообщениях подписаны
+    по-старому («Меню / Menü»), и нажатие на них должно продолжать работать.
+    """
+    if " / " not in label:
+        return ""
+    first, second = label.split(" / ", 1)
+    prefix, rest = first.split(" ", 1)
+    return "{} {} / {}".format(prefix, second, rest)
+
+
+#: Старые подписи (русский вариант первым) -> ключ команды.
+LEGACY_COMMANDS = {}
+for _label, _command in COMMANDS.items():
+    _old = _reverse_label(_label)
+    if _old:
+        LEGACY_COMMANDS[_old] = _command
+
+#: Онлайн-анкета обратной связи для кнопки в главном меню.
+FEEDBACK_URL = (
+    "https://docs.google.com/forms/d/e/"
+    "1FAIpQLSccrtF43ttt2AU_5RHNXVlhwqGnH4qOOijC__-Z5N6MMv_l8Q/"
+    "viewform?usp=publish-editor"
+)
 
 #: Дополнительные слова, которые пользователь может набрать руками.
 #: Сюда же добавлены старые русские подписи кнопок, чтобы кнопки в уже
@@ -107,6 +138,11 @@ ALIASES = {
     "проверить": "check",
     "убрать слово": "undo",
     "сбросить": "clear",
+    "обратная связь": "feedback",
+    "анкета": "feedback",
+    "опрос": "feedback",
+    "опросник": "feedback",
+    "открыть анкету": "feedback",
     # немецкие команды: можно набрать вручную, без кнопок
     "menü": "menu",
     "menue": "menu",
@@ -141,11 +177,18 @@ ALIASES = {
     "wort entfernen": "undo",
     "zurücksetzen": "clear",
     "zuruecksetzen": "clear",
+    "feedback": "feedback",
+    "rückmeldung": "feedback",
+    "rueckmeldung": "feedback",
+    "fragebogen": "feedback",
+    "fragebogen öffnen": "feedback",
+    "fragebogen oeffnen": "feedback",
+    "umfrage": "feedback",
 }
 
 #: Команды, которые всегда обрабатываются, даже если похожий текст есть
 #: среди вариантов ответа текущего задания.
-_FORCE = {"menu", "help", "stats", "restart", "restart_no"}
+_FORCE = {"menu", "help", "stats", "restart", "restart_no", "feedback"}
 
 _EMOJI_RE = re.compile(
     "[\U0001F000-\U0001FAFF\u2190-\u21FF\u2600-\u27BF\uFE0F\u2B00-\u2BFF]"
@@ -169,7 +212,25 @@ def resolve(text: str) -> str:
     for label, command in COMMANDS.items():
         if normalize(label) == key:
             return command
+    for label, command in LEGACY_COMMANDS.items():
+        if normalize(label) == key:
+            return command
     return ALIASES.get(key, "")
+
+
+def bi(de: str, ru: str, block: bool = True) -> str:
+    """Двуязычный фрагмент: сначала немецкий, затем русский.
+
+    Пустые половины пропускаются, чтобы экран не показывал пустую метку.
+    """
+    de = (de or "").strip()
+    ru = (ru or "").strip()
+    if not de:
+        return ru
+    if not ru:
+        return de
+    sep = "\n\n" if block else "\n"
+    return "🇩🇪 {}{}🇷🇺 {}".format(de, sep, ru)
 
 
 _ANSWER_FOLD = str.maketrans({

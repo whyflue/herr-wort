@@ -16,17 +16,30 @@ class KeyboardError(ValueError):
     """Клавиатура нарушает ограничения VK."""
 
 
-def _button(label: str) -> dict:
-    label = label.strip()
+def _button(item) -> dict:
+    """Кнопка-текст из строки или кнопка-ссылка из пары (подпись, URL)."""
+    link = None
+    if isinstance(item, (tuple, list)):
+        if len(item) != 2:
+            raise KeyboardError("Кнопка-ссылка задаётся парой (подпись, URL)")
+        label, link = item
+    else:
+        label = item
+    label = str(label).strip()
     if not label:
         raise KeyboardError("Пустая подпись кнопки")
     if len(label) > MAX_LABEL:
         raise KeyboardError(f"Слишком длинная подпись ({len(label)}): {label!r}")
+    if link is not None:
+        link = str(link).strip()
+        if not link:
+            raise KeyboardError("Пустая ссылка кнопки")
+        return {"action": {"type": "open_link", "link": link, "label": label}}
     return {"action": {"type": "text", "label": label}}
 
 
 def build(rows: list) -> dict:
-    """rows: список рядов, каждый ряд — список подписей."""
+    """rows: список рядов; элемент ряда — подпись или пара (подпись, URL)."""
     rows = [row for row in rows if row]
     if len(rows) > MAX_ROWS:
         raise KeyboardError(f"Слишком много рядов: {len(rows)}")

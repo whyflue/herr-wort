@@ -12,10 +12,19 @@ TOPIC = {'id': 'praesens',
           'разносит блюда, хозяин расспрашивает гостей, а за столом кто-то хвастается дальней '
           'дорогой. Бард понимает: чтобы рассказать о себе, нужно менять глагол под каждое '
           'местоимение — ich singe, du singst, er singt. Он берёт лютню и пробует спеть о себе.',
+ 'intro_de': 'In Bremen biegt der Barde zum Rathaus ab und betritt ein Wirtshaus. Hier ist'
+             ' es warm und laut: Die Magd trägt Speisen, der Wirt befragt die Gäste, und am'
+             ' Tisch prahlt jemand mit einer weiten Reise. Der Barde begreift: Um von sich'
+             ' zu erzählen, muss sich das Verb an jedes Pronomen anpassen — ich singe, du'
+             ' singst, er singt. Er nimmt die Laute und versucht, von sich zu singen.',
  'listen': 'Бард слушает трактир: хозяин спрашивает «Was trinkst du?», служанка напевает «Ich '
            'bringe Brot und Bier», а сосед за столом хвастается: «Ich fahre morgen nach Köln». '
            'Каждое лицо — своё окончание.',
+ 'listen_de': 'Der Barde lauscht dem Wirtshaus: Der Wirt fragt „Was trinkst du?“, die Magd'
+              ' summt „Ich bringe Brot und Bier“, und der Nachbar am Tisch prahlt: „Ich'
+              ' fahre morgen nach Köln“. Jede Person hat ihre eigene Endung.',
  'theory': [{'title': 'Личные местоимения',
+             'title_de': 'Personalpronomen',
              'body': 'ich — я, du — ты, er — он, sie — она, es — оно, wir — мы, ihr — вы (друзья, '
                      'не вежливая форма), sie — они, Sie — Вы (вежливо, всегда с большой буквы).\n'
                      '\n'
@@ -43,6 +52,7 @@ TOPIC = {'id': 'praesens',
                         'sie kann „sie“ (Singular) oder „sie“ (Plural) bedeuten; die Verbform '
                         'zeigt es: sie singt (Sg.) — sie singen (Pl.).'},
             {'title': 'Окончания в Präsens',
+             'title_de': 'Endungen im Präsens',
              'body': 'Слабые глаголы меняются по образцу machen:\n'
                      '\n'
                      'ich mache\n'
@@ -78,6 +88,7 @@ TOPIC = {'id': 'praesens',
                         'Das Verb steht im Aussagesatz an zweiter Stelle: Der Barde singt ein '
                         'Lied. Heute singt der Barde ein Lied.'},
             {'title': 'Сильные глаголы меняют гласную',
+             'title_de': 'Starke Verben ändern den Vokal',
              'body': 'Во 2-м и 3-м лице единственного числа у многих сильных глаголов меняется '
                      'гласная в корне:\n'
                      '\n'

@@ -12,11 +12,21 @@ TOPIC = {'id': 'praeteritum',
           'рассказывают о королях и певцах: кто здесь жил, чего хотел и что мог. Бард слушает и '
           'пересказывает истории дальше, а для рассказа о прошлом нужны самые частые формы: war, '
           'hatte, konnte, musste, wollte.',
+ 'intro_de': 'Die Straße führt den Barden zur Wartburg — einer Burg, deren Mauern die'
+             ' Legenden bewahren. Im Saal am Kamin erzählen die Alten von Königen und'
+             ' Sängern: wer hier lebte, was er wollte und was er konnte. Der Barde hört zu'
+             ' und gibt die Geschichten weiter, und für das Erzählen von der Vergangenheit'
+             ' braucht er die häufigsten Formen: war, hatte, konnte, musste, wollte.',
  'listen': 'Бард слушает, как гудят своды Вартбурга. У очага старик ведёт рассказ: «Es war einmal '
            'ein König. Er hatte eine Tochter. Sie wollte singen, aber sie konnte nicht.» Каждое '
            'слово о прошлом — это war, hatte, wollte, konnte; их форма зависит от того, кто '
            'действует.',
+ 'listen_de': 'Der Barde lauscht dem Summen der Wartburg-Gewölbe. Am Kamin erzählt ein'
+              ' Alter: „Es war einmal ein König. Er hatte eine Tochter. Sie wollte singen,'
+              ' aber sie konnte nicht.“ Jedes Wort über die Vergangenheit ist war, hatte,'
+              ' wollte, konnte; ihre Form hängt davon ab, wer handelt.',
  'theory': [{'title': 'Präteritum: sein и haben',
+             'title_de': 'Präteritum: sein und haben',
              'body': 'В рассказе о прошлом важнее всего две таблицы.\n'
                      '\n'
                      'sein: ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren.\n'
@@ -42,6 +52,7 @@ TOPIC = {'id': 'praeteritum',
                         'Die Formen von ich und er sind gleich: ich war, er war; ich hatte, er '
                         'hatte. Nur du unterscheidet sich: du warst, du hattest.'},
             {'title': 'Модальные глаголы в Präteritum',
+             'title_de': 'Modalverben im Präteritum',
              'body': 'Модальные глаголы теряют умляут и получают окончания как у sein и haben:\n'
                      '\n'
                      'können → konnte, müssen → musste, wollen → wollte, dürfen → durfte, sollen → '
@@ -64,6 +75,7 @@ TOPIC = {'id': 'praeteritum',
                         'Bei ich und er gibt es keine Endung: ich musste, er musste. Bei du steht '
                         '-st: du musstest. Bei wir und sie steht -en: wir mussten.'},
             {'title': 'Präteritum в рассказе',
+             'title_de': 'Präteritum in der Erzählung',
              'body': 'Präteritum — время рассказчика: так звучат легенды, сказки и старые истории. '
                      'В разговоре чаще говорят в Perfekt.\n'
                      '\n'

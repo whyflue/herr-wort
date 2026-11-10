@@ -12,10 +12,20 @@ TOPIC = {'id': 'kasus',
           'музыканты, дамы в тяжёлых платьях. Барда просят спеть перед императором, и он понимает, '
           'что одного именительного падежа мало: по-немецки нужно различать, кого он видит '
           '(Akkusativ) и кому поёт (Dativ).',
+ 'intro_de': 'Die Straße von Weimar führt den Barden nach Wien, an den Hof des Kaisers.'
+             ' Hier ist alles feierlich: die Wache, die Musiker, die Damen in schweren'
+             ' Kleidern. Der Barde soll vor dem Kaiser singen, und er begreift, dass der'
+             ' Nominativ allein nicht reicht: Auf Deutsch muss man unterscheiden, wen man'
+             ' sieht (Akkusativ) und wem man singt (Dativ).',
  'listen': 'Бард слышит, как переговаривается двор: «Ich sehe den Kaiser», «Der Barde singt dem '
            'Kaiser ein Lied», «Ich helfe dem Sänger». Одни и те же слова меняют форму: вижу '
            'кого-то — den Kaiser, помогаю кому-то — dem Sänger.',
+ 'listen_de': 'Der Barde hört, wie der Hof miteinander spricht: „Ich sehe den Kaiser“, „Der'
+              ' Barde singt dem Kaiser ein Lied“, „Ich helfe dem Sänger“. Dieselben Wörter'
+              ' ändern ihre Form: Ich sehe jemanden — den Kaiser, ich helfe jemandem — dem'
+              ' Sänger.',
  'theory': [{'title': 'Akkusativ: кого? что?',
+             'title_de': 'Akkusativ: wen? was?',
              'body': 'Винительный падеж отвечает на вопросы «кого? что?». Его требуют многие '
                      'глаголы: sehen, kaufen, haben, singen, suchen, finden, essen, trinken.\n'
                      '\n'
@@ -46,6 +56,7 @@ TOPIC = {'id': 'kasus',
                         '\n'
                         'Ich sehe ihn. Kennst du mich?'},
             {'title': 'Dativ: кому?',
+             'title_de': 'Dativ: wem?',
              'body': 'Дательный падеж отвечает на вопрос «кому?». С ним идут глаголы helfen, '
                      'danken, geben, schenken, gefallen, gehören, antworten.\n'
                      '\n'
@@ -73,6 +84,7 @@ TOPIC = {'id': 'kasus',
                         '\n'
                         'Helft ihr mir? Ich danke dir.'},
             {'title': 'Два дополнения в предложении',
+             'title_de': 'Zwei Objekte im Satz',
              'body': 'Если при глаголе стоят оба дополнения, сначала идёт Dativ (кому), потом '
                      'Akkusativ (что):\n'
                      '\n'

@@ -11,10 +11,20 @@ TOPIC = {'id': 'plural',
  'intro': 'Бард доходит до Гамбурга по берегу и спускается в порт. Ветер несёт крик чаек, матросы '
           'катят бочки, на причале громоздятся тюки и ящики. Бард хочет воспеть весь этот шум, но '
           'одна бочка — das Fass, а их много... как сказать? Перо замирает над пергаментом.',
+ 'intro_de': 'Der Barde geht am Ufer entlang nach Hamburg und steigt zum Hafen hinunter.'
+             ' Der Wind trägt den Schrei der Möwen, Matrosen rollen Fässer, am Kai türmen'
+             ' sich Ballen und Kisten. Der Barde möchte all diesen Lärm besingen, doch ein'
+             ' Fass ist das Fass, und es sind viele ... wie sagt man das? Die Feder'
+             ' verharrt über dem Pergament.',
  'listen': 'Бард садится на перевёрнутый ящик и слушает порт: волны бьют в борта (das Schiff — die '
            'Schiffe), чайки кричат над мачтами (die Möwe — die Möwen), а старый боцман считает '
            'бочки: «ein Fass, zwei Fässer, drei Fässer».',
+ 'listen_de': 'Der Barde setzt sich auf eine umgedrehte Kiste und lauscht dem Hafen: Wellen'
+              ' schlagen gegen die Schiffe (das Schiff — die Schiffe), Möwen schreien über'
+              ' den Masten (die Möwe — die Möwen), und der alte Bootsmann zählt die Fässer:'
+              ' „ein Fass, zwei Fässer, drei Fässer“.',
  'theory': [{'title': 'Пять окончаний множественного числа',
+             'title_de': 'Fünf Pluralendungen',
              'body': 'Во множественном числе существительное получает одно из окончаний: -e, '
                      '-en/-n, -er, -s — или не меняется вовсе.\n'
                      '\n'
@@ -43,6 +53,7 @@ TOPIC = {'id': 'plural',
                         '\n'
                         'Die Endung lernt man zusammen mit dem Wort: der Sack — die Säcke.'},
             {'title': 'Артикль во множественном числе — всегда die',
+             'title_de': 'Der Artikel im Plural — immer die',
              'body': 'Во множественном числе у всех существительных артикль die, независимо от '
                      'рода в единственном числе:\n'
                      '\n'
@@ -70,6 +81,7 @@ TOPIC = {'id': 'plural',
                         'Auch das Verb steht im Plural: Das Schiff kommt. → Die Schiffe kommen. '
                         'Der Matrose trägt. → Die Matrosen tragen.'},
             {'title': 'Как выбрать окончание',
+             'title_de': 'Wie wählt man die Endung?',
              'body': 'Женские слова чаще всего берут -(e)n: die Frau → die Frauen, die Möwe → die '
                      'Möwen, die Kiste → die Kisten. Слова на -in удваивают n: die Sängerin → die '
                      'Sängerinnen.\n'

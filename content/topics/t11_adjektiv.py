@@ -13,10 +13,22 @@ TOPIC = {'id': 'adjektiv',
           'серебро, маленькая лютня. Бард выбирает то, о чём хочется спеть, и понимает: мало '
           'сказать «schön» — слово должно встать рядом с вещью правильно. Весь вечер он '
           'приделывает к прилагательным верные окончания.',
+ 'intro_de': 'Der Barde kommt nach Straßburg und bleibt auf dem Platz vor dem Münster'
+             ' stehen, wo ein großer Jahrmarkt lärmt. Auf den Ständen liegen Dinge, und'
+             ' jedes hat seinen eigenen Charakter: ein buntes Tuch, altes Silber, eine'
+             ' kleine Laute. Der Barde wählt aus, worüber er singen möchte, und begreift:'
+             ' Es reicht nicht, „schön“ zu sagen — das Wort muss richtig neben dem Ding'
+             ' stehen. Den ganzen Abend setzt er die richtigen Endungen an die Adjektive.',
  'listen': 'Бард слушает ярмарку: торговка расхваливает «ein schönes Tuch», старик вертит в руках '
            '«das alte Buch», а про зиму здесь говорят «kalte Nächte». В каждом слове звенит '
            'последний слог — в нём спрятаны род и падеж. Бард ловит эти слоги на слух, как ноты.',
+ 'listen_de': 'Der Barde lauscht dem Jahrmarkt: Die Händlerin preist „ein schönes Tuch“,'
+              ' der Alte dreht „das alte Buch“ in den Händen, und vom Winter sagt man hier'
+              ' „kalte Nächte“. In jedem Wort klingt die letzte Silbe — in ihr verstecken'
+              ' sich Genus und Kasus. Der Barde fängt diese Silben mit dem Ohr ein wie'
+              ' Noten.',
  'theory': [{'title': 'Три типа склонения — всё решает артикль',
+             'title_de': 'Drei Deklinationstypen — der Artikel entscheidet',
              'body': 'Прилагательное перед существительным всегда стоит с окончанием, и это '
                      'окончание показывает род и падеж: das alte Buch, die alte Laute, der alte '
                      'Meister.\n'
@@ -41,6 +53,7 @@ TOPIC = {'id': 'adjektiv',
                         'die, der), genügt dem Adjektiv die schwache Endung -e oder -en. Ohne '
                         'Artikel übernimmt das Adjektiv die Endung des Artikels: -er, -es, -e.'},
             {'title': 'Слабое склонение: только -e и -en',
+             'title_de': 'Schwache Deklination: nur -e und -en',
              'body': 'После определённого артикля у прилагательного всего два окончания: -e и '
                      '-en.\n'
                      '\n'
@@ -70,6 +83,7 @@ TOPIC = {'id': 'adjektiv',
                         'allen anderen Formen, auch im ganzen Plural, steht -en: mit dem jungen '
                         'Meister, mit der alten Laute.'},
             {'title': 'Смешанное и сильное склонение',
+             'title_de': 'Gemischte und starke Deklination',
              'body': 'Смешанное склонение (ein, eine, kein, mein). Артикль показывает род не '
                      'всегда, поэтому прилагательное берёт сильное окончание там, где у ein '
                      'окончание «пустое».\n'

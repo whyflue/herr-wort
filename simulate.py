@@ -14,7 +14,7 @@ import argparse
 import sys
 
 import content
-from bot import texts
+from bot import render, texts
 from bot.engine import Engine
 from db import Database
 
@@ -75,7 +75,7 @@ PREFERENCES = {
 def topic_label(nr: int) -> str:
     for topic in content.TOPICS:
         if topic["nr"] == nr:
-            return "{}. {}".format(topic["nr"], topic["short"])
+            return render.topic_label(topic, False)
     raise KeyError("Тема с номером {} не найдена".format(nr))
 
 

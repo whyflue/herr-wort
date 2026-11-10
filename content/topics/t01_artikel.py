@@ -12,10 +12,19 @@ TOPIC = {'id': 'artikel',
           'торговцы раскладывают товар и называют его по имени. Бард достаёт перо, чтобы записать '
           'первую строчку. Но спеть о вещах нельзя, пока не научишься их называть — вместе с '
           'артиклем.',
+ 'intro_de': 'Der Anfänger-Barde betritt Lübeck durch das Holstentor. Der Morgen riecht'
+             ' nach Brot und Salz: Die Händler legen ihre Ware aus und nennen sie beim'
+             ' Namen. Der Barde holt die Feder heraus, um die erste Zeile zu schreiben.'
+             ' Doch über Dinge kann man nicht singen, bevor man sie benennen kann —'
+             ' zusammen mit dem Artikel.',
  'listen': 'Бард прикладывает ладонь к стене склада и слушает рынок: торговка пересчитывает яблоки '
            '— «ein Apfel, noch ein Apfel», мальчишка гонит кота — «die Katze!». Три ключа к любому '
            'существительному: der, die, das.',
+ 'listen_de': 'Der Barde legt die Hand an die Wand des Lagers und lauscht dem Markt: Die'
+              ' Händlerin zählt Äpfel — „ein Apfel, noch ein Apfel“, ein Junge jagt die'
+              ' Katze — „die Katze!“. Drei Schlüssel zu jedem Substantiv: der, die, das.',
  'theory': [{'title': 'Три рода — три артикля',
+             'title_de': 'Drei Genera — drei Artikel',
              'body': 'У каждого немецкого существительного есть род, и артикль его показывает: der '
                      '(мужской), die (женский), das (средний). Род часто не совпадает с русским, '
                      'поэтому слово учат сразу с артиклем.\n'
@@ -32,6 +41,7 @@ TOPIC = {'id': 'artikel',
                         'die Laute, die Stadt, die Nacht\n'
                         'das Lied, das Brot, das Wasser'},
             {'title': 'Неопределённый артикль: говорю впервые',
+             'title_de': 'Der unbestimmte Artikel: zum ersten Mal genannt',
              'body': 'Если предмет упоминается впервые и мы не знаем, какой именно, ставим ein '
                      '(для der и das) или eine (для die).\n'
                      '\n'
@@ -48,6 +58,7 @@ TOPIC = {'id': 'artikel',
                         '\n'
                         'Im Plural gibt es keinen unbestimmten Artikel: Bäcker, Lieder, Städte.'},
             {'title': 'Определённый артикль и Akkusativ',
+             'title_de': 'Der bestimmte Artikel und der Akkusativ',
              'body': 'der/die/das ставим, когда предмет уже назван или единственный в своём роде: '
                      'Der Barde ist müde. Die Sonne scheint.\n'
                      '\n'

@@ -12,10 +12,20 @@ TOPIC = {'id': 'negation',
           'служка строго шепчет: «Hier singt man nicht». У барда нет денег на ночлег, но это не '
           'беда. Он учится говорить «нет» по-немецки: nicht или kein — от этого зависит, поймут ли '
           'его люди у собора.',
+ 'intro_de': 'Der Barde kommt nach Köln und bleibt stehen: Über ihm erhebt sich der Dom.'
+             ' Drinnen darf man keinen Lärm machen, und der Küster flüstert streng: „Hier'
+             ' singt man nicht“. Der Barde hat kein Geld für eine Herberge, aber das ist'
+             ' kein Unglück. Er lernt, auf Deutsch „nein“ zu sagen: nicht oder kein — davon'
+             ' hängt ab, ob die Menschen am Dom ihn verstehen.',
  'listen': 'Бард слушает собор: служка шепчет «Hier singt man nicht», нищенка у входа вздыхает '
            '«Ich habe kein Geld», а колокол гудит так, что слов не нужно. Отрицание звучит даже в '
            'тишине: nicht, kein, keine.',
+ 'listen_de': 'Der Barde lauscht dem Dom: Der Küster flüstert „Hier singt man nicht“, eine'
+              ' Bettlerin am Eingang seufzt „Ich habe kein Geld“, und die Glocke dröhnt so,'
+              ' dass keine Worte nötig sind. Die Verneinung klingt sogar in der Stille:'
+              ' nicht, kein, keine.',
  'theory': [{'title': 'kein — отрицание для существительных',
+             'title_de': 'kein — die Verneinung für Substantive',
              'body': 'kein ставим перед существительным, если в утверждении был бы ein или артикля '
                      'не было вовсе. Оно склоняется как ein:\n'
                      '\n'
@@ -39,6 +49,7 @@ TOPIC = {'id': 'negation',
                         'Wenn vor dem Substantiv ein bestimmter Artikel steht, ist kein nicht '
                         'möglich: Ich kenne den Mann — Ich kenne den Mann nicht.'},
             {'title': 'nicht — для всего остального',
+             'title_de': 'nicht — für alles andere',
              'body': 'nicht отрицает глаголы, прилагательные, наречия, имена и целые предложения:\n'
                      '\n'
                      'Der Barde singt nicht. Der Dom ist nicht alt. Ich heiße nicht Peter. Wir '
@@ -62,6 +73,7 @@ TOPIC = {'id': 'negation',
                         'Vergleiche: Ich sehe keinen Wirt (Substantiv ohne Artikel) — Ich sehe den '
                         'Wirt nicht (Substantiv mit dem Artikel den).'},
             {'title': 'Где стоит nicht',
+             'title_de': 'Wo steht nicht?',
              'body': 'nicht стоит в конце предложения или перед тем словом, которое отрицает:\n'
                      '\n'
                      'Der Barde singt nicht. Ich singe heute nicht. Ich singe nicht im Dom. Der '

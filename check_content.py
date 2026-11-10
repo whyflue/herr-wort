@@ -58,6 +58,10 @@ def _label_problems() -> list:
                 keyboards.build([[label]])
             except keyboards.KeyboardError as exc:
                 problems.append("кнопка темы {}: {}".format(topic["id"], exc))
+    try:
+        render.feedback_screen()
+    except keyboards.KeyboardError as exc:
+        problems.append("экран обратной связи: {}".format(exc))
     return problems
 
 

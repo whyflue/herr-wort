@@ -12,10 +12,21 @@ TOPIC = {'id': 'passiv',
           'камни помнят мастеров: собор строили веками, его освящали, в нём короновали королей. '
           'Здесь о великом говорят не «кто это сделал», а «что было сделано». Бард записывает '
           'последнюю строчку: теперь и его песня «wird gebaut».',
+ 'intro_de': 'Aachen ist die letzte Station der Ballade. Der Barde tritt unter die Gewölbe'
+             ' des Karlsdoms, wo die Steine die Meister in Erinnerung rufen: Der Dom wurde'
+             ' über Jahrhunderte gebaut, geweiht, und in ihm wurden Könige gekrönt. Hier'
+             ' spricht man vom Großen nicht als „wer hat das gemacht“, sondern als „was'
+             ' wurde getan“. Der Barde schreibt die letzte Zeile: Nun „wird“ auch sein Lied'
+             ' „gebaut“.',
  'listen': 'Бард прислоняется к холодной колонне и слушает собор. Внизу кто-то говорит: «der Stein '
            'wird gelegt», на башне — «die Glocken werden geläutet», а под сводами звучит старое '
            'торжественное «der Dom wurde gebaut». Ни одного имени мастера — только само дело.',
+ 'listen_de': 'Der Barde lehnt sich an die kalte Säule und lauscht dem Dom. Unten sagt'
+              ' jemand: „der Stein wird gelegt“, auf dem Turm: „die Glocken werden'
+              ' geläutet“, und unter den Gewölben klingt das alte feierliche „der Dom wurde'
+              ' gebaut“. Kein Name eines Meisters — nur die Tat selbst.',
  'theory': [{'title': 'Что такое пассив и как он устроен',
+             'title_de': 'Was ist das Passiv und wie ist es aufgebaut?',
              'body': 'Passiv отвечает на вопрос «что происходит с предметом?», а не «кто это '
                      'делает?».\n'
                      '\n'
@@ -44,6 +55,7 @@ TOPIC = {'id': 'passiv',
                         'wurde, er wurde; wir wurden, sie wurden. Das Partizip II bleibt '
                         'unverändert.'},
             {'title': 'Порядок слов, время и исполнитель',
+             'title_de': 'Wortstellung, Zeit und Handelnder',
              'body': 'В простом предложении werden (wurde) стоит на втором месте, Partizip II — в '
                      'самом конце: Der Dom wird von den Meistern gebaut.\n'
                      '\n'
@@ -73,6 +85,7 @@ TOPIC = {'id': 'passiv',
                         'Aktiv → Passiv: Der Baumeister baut den Dom. → Der Dom wird gebaut. Das '
                         'Akkusativobjekt wird zum Subjekt.'},
             {'title': 'Präsens или Präteritum: выбирает werden',
+             'title_de': 'Präsens oder Präteritum: werden entscheidet',
              'body': 'Время в пассиве показывает вспомогательный глагол — форма Partizip II не '
                      'меняется.\n'
                      '\n'

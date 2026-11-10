@@ -9,6 +9,7 @@
 """
 
 import importlib
+import re
 from pathlib import Path
 
 from bot import texts
@@ -16,7 +17,12 @@ from bot import texts
 TOPICS_DIR = Path(__file__).parent / "topics"
 
 #: Заголовок и зачин баллады, которую пишет бард по мере прохождения сюжета.
+BALLAD_TITLE_DE = "Die Ballade vom Barden, der Deutsch lernte"
 BALLAD_TITLE = "Баллада о барде, который учил немецкий"
+BALLAD_INTRO_DE = (
+    "Auftakt: „Ich sang von dem, was ich nicht wusste — und nun nehme ich "
+    "die Feder …“"
+)
 BALLAD_INTRO = (
     "Запев: «Я пел о том, чего не знал, — и вот перо беру…»"
 )
@@ -35,26 +41,38 @@ KINDS = {
 }
 
 KIND_TITLES = {
-    "mc": "Выбери правильный вариант",
-    "gap": "Заполни пропуск",
-    "input": "Напиши ответ",
-    "join": "Соедини два предложения в одно",
-    "transform": "Преобразуй предложение",
-    "translate": "Переведи фрагмент на немецкий",
-    "order": "Собери предложение из слов",
-    "error": "Найди ошибку в предложении",
+    "mc": ("Wähle die richtige Variante", "Выбери правильный вариант"),
+    "gap": ("Fülle die Lücke", "Заполни пропуск"),
+    "input": ("Schreibe die Antwort", "Напиши ответ"),
+    "join": ("Verbinde zwei Sätze zu einem", "Соедини два предложения в одно"),
+    "transform": ("Forme den Satz um", "Преобразуй предложение"),
+    "translate": ("Übersetze den Teil auf Deutsch", "Переведи фрагмент на немецкий"),
+    "order": ("Bilde einen Satz aus den Wörtern", "Собери предложение из слов"),
+    "error": ("Finde den Fehler im Satz", "Найди ошибку в предложении"),
 }
 
 _KIND_HINTS = {
-    "mc": "нажми на правильный вариант",
-    "gap": "напиши пропущенное слово или форму сообщением",
-    "input": "напиши ответ сообщением",
-    "join": "нажми на правильный вариант",
-    "transform": "нажми на правильный вариант",
-    "translate": "нажми на правильный вариант",
-    "order": "нажимай на слова по порядку, затем «Проверить»",
-    "error": "нажми на слово, в котором ошибка",
+    "mc": ("Klicke die richtige Variante an", "нажми на правильный вариант"),
+    "gap": ("Schreibe das fehlende Wort oder die Form als Nachricht",
+            "напиши пропущенное слово или форму сообщением"),
+    "input": ("Schreibe die Antwort als Nachricht", "напиши ответ сообщением"),
+    "join": ("Klicke die richtige Variante an", "нажми на правильный вариант"),
+    "transform": ("Klicke die richtige Variante an", "нажми на правильный вариант"),
+    "translate": ("Klicke die richtige Variante an", "нажми на правильный вариант"),
+    "order": ("Klicke die Wörter der Reihe nach an, dann „Prüfen“",
+              "нажимай на слова по порядку, затем «Проверить»"),
+    "error": ("Klicke das Wort an, in dem der Fehler ist",
+              "нажми на слово, в котором ошибка"),
 }
+
+#: Стандартные русские инструкции в заданиях и их немецкие переводы.
+STANDARD_PROMPTS_DE = {
+    "Собери предложение из слов.": "Bilde einen Satz aus den Wörtern.",
+    "В предложении есть ошибка — найди слово, в котором она.":
+        "Im Satz ist ein Fehler — finde das falsche Wort.",
+}
+
+_CYRILLIC_RE = re.compile("[\u0400-\u04FF]")
 
 
 def _load_topics() -> list:
@@ -92,12 +110,24 @@ def kind_mechanics(kind: str) -> str:
     return KINDS[kind]
 
 
-def kind_title(kind: str) -> str:
-    return KIND_TITLES[kind]
+def kind_title(kind: str, lang: str = "ru") -> str:
+    de, ru = KIND_TITLES[kind]
+    return de if lang == "de" else ru
 
 
-def kind_hint(kind: str) -> str:
-    return _KIND_HINTS[kind]
+def kind_hint(kind: str, lang: str = "ru") -> str:
+    de, ru = _KIND_HINTS[kind]
+    return de if lang == "de" else ru
+
+
+def has_cyrillic(text: str) -> bool:
+    return bool(isinstance(text, str) and _CYRILLIC_RE.search(text))
+
+
+def prompt_de(exercise: dict) -> str:
+    """Немецкий вариант условия: поле prompt_de или стандартная инструкция."""
+    return (exercise.get("prompt_de")
+            or STANDARD_PROMPTS_DE.get(exercise.get("prompt", ""), "")).strip()
 
 
 def variant(exercise: dict, retry: bool) -> dict:
@@ -230,8 +260,12 @@ def _check_exercise(exercise: dict, topic_id: str, where: str, problems: list) -
     if kind not in KINDS:
         problems.append("{}: неизвестный вид задания {!r}".format(where, kind))
         return
-    if not isinstance(exercise.get("prompt"), str) or not exercise["prompt"].strip():
+    prompt = exercise.get("prompt")
+    if not isinstance(prompt, str) or not prompt.strip():
         problems.append("{}: пустой prompt".format(where))
+    elif has_cyrillic(prompt) and not prompt_de(exercise):
+        problems.append(
+            "{}: русский prompt без немецкого перевода prompt_de".format(where))
     if not isinstance(exercise.get("explain"), str) or not exercise["explain"].strip():
         problems.append("{}: пустое explain".format(where))
     if not isinstance(exercise.get("explain_de"), str) or not exercise["explain_de"].strip():
@@ -264,7 +298,8 @@ def validate() -> list:
     for topic in TOPICS:
         required = (
             "id", "nr", "title", "short", "short_de", "title_de", "location",
-            "location_de", "intro", "listen", "theory", "song_line", "exercises",
+            "location_de", "intro", "intro_de", "listen", "listen_de", "theory",
+            "song_line", "exercises",
         )
         for field in required:
             if not topic.get(field):
@@ -289,6 +324,10 @@ def validate() -> list:
             if len(body) > 900:
                 problems.append("Тема {}: страница теории длиннее 900 символов: {}".format(
                     topic["id"], page.get("title")))
+            if not (page or {}).get("title_de", "").strip():
+                problems.append(
+                    "Тема {}: у страницы {!r} нет немецкого заголовка title_de".format(
+                        topic["id"], page.get("title")))
             body_de = (page or {}).get("body_de", "")
             if not body_de.strip():
                 problems.append(

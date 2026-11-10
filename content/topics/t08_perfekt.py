@@ -12,11 +12,22 @@ TOPIC = {'id': 'perfekt',
           'всю долину, а вечером здесь собираются путники: каждый рассказывает, где он был и что '
           'успел сделать. Бард тоже хочет рассказать о своей дороге, но для прошедшего времени '
           'одного глагола мало.',
+ 'intro_de': 'Die Straße führt den Barden nach Rothenburg, und er steigt auf die'
+             ' Stadtmauer. Von hier sieht man das ganze Tal, und am Abend versammeln sich'
+             ' Reisende: Jeder erzählt, wo er war und was er geschafft hat. Der Barde'
+             ' möchte auch von seinem Weg erzählen, doch für die Vergangenheit reicht ein'
+             ' Verb nicht.',
  'listen': 'Бард прижимается ухом к тёплым камням стены. Внизу скрипят телеги и звучат чужие '
            'рассказы: «Ich bin heute früh gekommen», «Er hat die ganze Nacht gesungen», «Wir sind '
            'bis zum Tor gegangen». В каждом — два глагола: haben или sein на втором месте и '
            'Partizip II в самом конце.',
+ 'listen_de': 'Der Barde legt das Ohr an die warmen Steine der Mauer. Unten knarren Wagen'
+              ' und fremde Geschichten klingen herauf: „Ich bin heute früh gekommen“, „Er'
+              ' hat die ganze Nacht gesungen“, „Wir sind bis zum Tor gegangen“. In jedem'
+              ' Satz stehen zwei Verben: haben oder sein an zweiter Stelle und das Partizip'
+              ' II ganz am Ende.',
  'theory': [{'title': 'Рамка Perfekt: два глагола',
+             'title_de': 'Der Perfekt-Rahmen: zwei Verben',
              'body': 'Perfekt — прошедшее время для разговора и рассказа. Сказуемое состоит из '
                      'двух частей, они образуют рамку:\n'
                      '\n'
@@ -44,6 +55,7 @@ TOPIC = {'id': 'perfekt',
                         'Alle anderen Wörter stehen dazwischen: Ich habe gestern auf der Mauer '
                         'gesungen.'},
             {'title': 'haben или sein?',
+             'title_de': 'haben oder sein?',
              'body': 'С sein идут глаголы движения и смены состояния: gehen, fahren, kommen, '
                      'laufen, aufstehen, einschlafen.\n'
                      '\n'
@@ -71,6 +83,7 @@ TOPIC = {'id': 'perfekt',
                         'Tipp: Bewegung „wohin“ und Zustandsänderung — sein; eine gewöhnliche '
                         'Handlung — haben.'},
             {'title': 'Partizip II: как построить',
+             'title_de': 'Partizip II: wie bildet man es?',
              'body': 'Слабые глаголы: ge- + основа + -t: machen → gemacht, kaufen → gekauft, sagen '
                      '→ gesagt.\n'
                      '\n'

@@ -33,8 +33,12 @@ class Engine:
             log.exception("Сбой в диалоге с %s", vk_id)
             state = {"phase": "menu"}
             actions = [
-                send("⚙️ Что-то заело в струнах. Бард начинает заново.\n"
-                     "Если ошибка повторится — сообщите автору бота."),
+                send(texts.bi(
+                    "⚙️ Etwas hakt in den Saiten. Der Barde beginnt von vorn.\n"
+                    "Wenn der Fehler bleibt — melde dich beim Autor des Bots.",
+                    "⚙️ Что-то заело в струнах. Бард начинает заново.\n"
+                    "Если ошибка повторится — сообщите автору бота.",
+                )),
                 *self._menu(vk_id, state, greeting=False),
             ]
         self.db.set_state(vk_id, {k: v for k, v in state.items() if k != "_tmp"})
@@ -53,6 +57,9 @@ class Engine:
         if command == "stats":
             st["phase"] = "stats"
             return [send(*self._stats(vk_id))]
+        if command == "feedback":
+            st["phase"] = "feedback_info"
+            return [send(*render.feedback_screen())]
         if command == "restart":
             st["phase"] = "restart_confirm"
             return [send(*render.restart_confirm())]
@@ -63,10 +70,22 @@ class Engine:
             st.clear()
             st["phase"] = "menu"
             return [
-                send("🔄 Свиток порван, бард снова в Любеке. Историю ошибок "
-                     "и статистику оставили — они пригодятся."),
+                send(texts.bi(
+                    "🔄 Die Rolle ist zerrissen, der Barde ist wieder in "
+                    "Lübeck. Die Fehlerhistorie und die Statistik bleiben — "
+                    "sie helfen beim Training.",
+                    "🔄 Свиток порван, бард снова в Любеке. Историю ошибок "
+                    "и статистику оставили — они пригодятся.",
+                )),
                 *self._menu(vk_id, st, greeting=False),
             ]
+
+        # Режимы из главного меню работают с любого экрана: так кнопки
+        # «Handlung», «Themen üben» и «Orte besuchen» не теряются.
+        if command in ("story", "train", "nostalgia"):
+            result = self._on_menu(vk_id, st, text, command)
+            if result is not None:
+                return result
 
         handler = getattr(self, "_on_" + phase, None)
         result = None
@@ -92,14 +111,22 @@ class Engine:
         text, keyboard = render.main_menu(len(done), bool(done), complete)
         actions = []
         if greeting:
-            actions.append(send(
+            actions.append(send(texts.bi(
+                "🎻 Hallo, Reisender! Ich bin ein Barde: Ich ziehe durch "
+                "deutsche Städte, lerne sprechen und dichte eine Ballade. "
+                "Komm mit — du sagst mir die Regeln, und ich singe.\n\n"
+                "Wähle, wohin es geht:",
                 "🎻 Привет, путник! Я бард: хожу по немецким городам, учусь "
                 "говорить и складываю балладу. Пойдём со мной — подскажешь "
-                "мне правила, а я спою.\n\nВыбери, куда идти:"
-            ))
+                "мне правила, а я спою.\n\nВыбери, куда идти:",
+            )))
         if complete:
-            actions.append(send("🏁 Баллада уже дописана. Можно вернуться "
-                                "в знакомые места или начать путь заново."))
+            actions.append(send(texts.bi(
+                "🏁 Die Ballade ist schon fertig. Du kannst an vertraute Orte "
+                "zurückkehren oder den Weg neu beginnen.",
+                "🏁 Баллада уже дописана. Можно вернуться в знакомые места "
+                "или начать путь заново.",
+            )))
         actions.append(send(text, keyboard))
         return actions
 
@@ -154,6 +181,8 @@ class Engine:
             return [send(*self._stats(vk_id))]
         if phase == "help":
             return [send(*render.help_screen())]
+        if phase == "feedback_info":
+            return [send(*render.feedback_screen())]
         return self._menu(vk_id, st)
 
     # ---------- меню: вход в режимы ----------
@@ -186,8 +215,13 @@ class Engine:
         if not done:
             st["phase"] = "menu"
             return [
-                send("🏰 Пока баллада не написана — и вспоминать нечего. "
-                     "Начни с сюжета: бард ждёт в Любеке."),
+                send(texts.bi(
+                    "🏰 Solange die Ballade nicht geschrieben ist, gibt es "
+                    "nichts zu erinnern. Beginne mit der Handlung: Der Barde "
+                    "wartet in Lübeck.",
+                    "🏰 Пока баллада не написана — и вспоминать нечего. "
+                    "Начни с сюжета: бард ждёт в Любеке.",
+                )),
                 *self._menu(vk_id, st),
             ]
         st["phase"] = "place_list"

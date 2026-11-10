@@ -12,11 +12,23 @@ TOPIC = {'id': 'modalverben',
           'ворот стоит стража: без разрешения мастера внутрь нельзя. «Was willst du hier?», — '
           'спрашивает стражник. Бард хочет увидеть мастера, должен объяснить своё дело и не может '
           'найти нужных слов — а без них не скажешь ни «хочу», ни «должен».',
+ 'intro_de': 'Aus Köln führt die Straße in die Berge, und vor dem Barden wächst die'
+             ' Nürnberger Burg empor. Am Tor steht die Wache: Ohne die Erlaubnis des'
+             ' Meisters kommt niemand hinein. „Was willst du hier?“, fragt der Wächter. Der'
+             ' Barde will den Meister sehen, muss sein Anliegen erklären und kann die'
+             ' richtigen Worte nicht finden — und ohne sie sagt man weder „ich will“ noch'
+             ' „ich muss“.',
  'listen': 'Бард прижимается к каменной стене и слышит, как перекликаются в замке: «Ich muss noch '
            'arbeiten», «Kannst du mir helfen?», «Wir wollen heute nicht warten». В каждом '
            'предложении два глагола: один говорит, как относится к делу говорящий, а второй, в '
            'самом конце, — что именно делают.',
+ 'listen_de': 'Der Barde drückt sich an die Steinmauer und hört, wie man sich in der Burg'
+              ' zuruft: „Ich muss noch arbeiten“, „Kannst du mir helfen?“, „Wir wollen heute'
+              ' nicht warten“. In jedem Satz stehen zwei Verben: Das eine sagt, wie der'
+              ' Sprecher zu der Sache steht, das andere ganz am Ende sagt, was genau getan'
+              ' wird.',
  'theory': [{'title': 'Два глагола: модальный и инфинитив',
+             'title_de': 'Zwei Verben: Modalverb und Infinitiv',
              'body': 'Модальные глаголы говорят не о действии, а об отношении к нему: могу, '
                      'должен, хочу.\n'
                      '\n'
@@ -48,6 +60,7 @@ TOPIC = {'id': 'modalverben',
                         '\n'
                         'Die Negation nicht steht vor dem Infinitiv: Ich will nicht warten.'},
             {'title': 'Спряжение: у ich и er одна форма',
+             'title_de': 'Konjugation: ich und er haben eine Form',
              'body': 'ich kann / muss / will\n'
                      'du kannst / musst / willst\n'
                      'er, sie, es kann / muss / will\n'
@@ -77,6 +90,7 @@ TOPIC = {'id': 'modalverben',
                         'wollen ändert sich nur du: du willst. Im Plural sind die Formen '
                         'regelmäßig: wir können, ihr könnt.'},
             {'title': 'Что значит какой глагол',
+             'title_de': 'Was bedeutet welches Verb?',
              'body': 'können — уметь или иметь возможность: Ich kann singen. Kann ich hier '
                      'bleiben?\n'
                      '\n'

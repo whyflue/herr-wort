@@ -12,11 +12,22 @@ TOPIC = {'id': 'nebensaetze',
           'пылью и воском, а в книгах предложения длинные: одно объясняет другое. Барду тоже пора '
           'объяснять — почему он поёт и что он знает, — а для этого нужны придаточные с weil, dass '
           'и wenn.',
+ 'intro_de': 'Von der Wartburg führt die Straße den Barden nach Heidelberg, zu einer alten'
+             ' Bibliothek. Hier ist es still, es riecht nach Staub und Wachs, und in den'
+             ' Büchern sind die Sätze lang: Einer erklärt den anderen. Auch der Barde soll'
+             ' nun erklären — warum er singt und was er weiß —, und dafür braucht er'
+             ' Nebensätze mit weil, dass und wenn.',
  'listen': 'Бард слушает библиотеку: скрипят переплёты, шелестят страницы. Рядом бормочет студент: '
            '«Ich lese, weil ich eine Prüfung habe ... ich weiß, dass das schwer ist ... wenn ich '
            'Zeit habe, komme ich wieder.» Три союза — weil, dass, wenn, — а глагол в придаточном '
            'всегда уходит в конец.',
+ 'listen_de': 'Der Barde lauscht der Bibliothek: Die Einbände knarren, die Seiten rascheln.'
+              ' Neben ihm murmelt ein Student: „Ich lese, weil ich eine Prüfung habe ... ich'
+              ' weiß, dass das schwer ist ... wenn ich Zeit habe, komme ich wieder.“ Drei'
+              ' Konjunktionen — weil, dass, wenn —, und das Verb im Nebensatz geht immer ans'
+              ' Ende.',
  'theory': [{'title': 'Три союза: weil, dass, wenn',
+             'title_de': 'Drei Konjunktionen: weil, dass, wenn',
              'body': 'Придаточное предложение (Nebensatz) начинается с союза и отвечает на '
                      'вопрос:\n'
                      '\n'
@@ -36,6 +47,7 @@ TOPIC = {'id': 'nebensaetze',
                         'Die Konjunktion steht immer am Anfang des Nebensatzes und zählt nicht als '
                         'Satzglied: Das Subjekt folgt direkt nach ihr.'},
             {'title': 'Глагол уходит в конец',
+             'title_de': 'Das Verb geht ans Ende',
              'body': 'Главное правило придаточного: спрягаемый глагол стоит в самом конце.\n'
                      '\n'
                      'Ich lese, weil das Buch alt ist.\n'
@@ -60,6 +72,7 @@ TOPIC = {'id': 'nebensaetze',
                         'Die Konjunktion denn ändert die Wortstellung nicht — das ist ein häufiger '
                         'Fehler: ..., weil der Tag lang war, aber ..., denn der Tag war lang.'},
             {'title': 'Придаточное в начале предложения',
+             'title_de': 'Der Nebensatz am Satzanfang',
              'body': 'Если придаточное стоит первым, то в главном предложении глагол идёт сразу '
                      'после запятой, а потом подлежащее:\n'
                      '\n'
@@ -81,6 +94,7 @@ TOPIC = {'id': 'nebensaetze',
                         'Ein typischer Fehler: „Ich lese, weil das Buch ist gut.“ — Das Verb ist '
                         'muss am Ende stehen: ..., weil das Buch gut ist.'},
             {'title': 'Другие союзы: als, obwohl, während, nachdem…',
+             'title_de': 'Weitere Konjunktionen: als, obwohl, während, nachdem…',
              'body': 'Кроме weil, dass и wenn придаточное вводят и другие союзы — спрягаемый '
                      'глагол тоже стоит в конце.\n'
                      'als — однократное событие в прошлом.\n'

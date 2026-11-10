@@ -12,10 +12,20 @@ TOPIC = {'id': 'trennbare',
           'Мельник рад помощнику: надо открыть воду, принести мешки, продать муку. Бард слушает '
           'хозяина и замечает странность: короткие словечки вроде auf, mit, zu стоят не рядом с '
           'глаголом, а в самом конце фразы.',
+ 'intro_de': 'Von Nürnberg geht der Barde hinunter nach Weimar und kommt an den Fluss, wo'
+             ' eine alte Mühle rauscht. Der Müller freut sich über einen Helfer: Wasser'
+             ' aufmachen, Säcke bringen, Mehl verkaufen. Der Barde hört dem Herrn zu und'
+             ' bemerkt etwas Seltsames: Kurze Wörter wie auf, mit, zu stehen nicht neben'
+             ' dem Verb, sondern ganz am Ende des Satzes.',
  'listen': 'Бард садится у мельничного колеса и слушает: «Ich stehe um vier Uhr auf», «Der Müller '
            'macht die Mühle auf», «Kommst du morgen mit?». Глагол понятен, а его приставка убежала '
            'в конец предложения — так немецкий отделяет то, что должно отделяться.',
+ 'listen_de': 'Der Barde setzt sich ans Mühlrad und lauscht: „Ich stehe um vier Uhr auf“,'
+              ' „Der Müller macht die Mühle auf“, „Kommst du morgen mit?“. Das Verb ist'
+              ' klar, doch seine Vorsilbe ist ans Satzende gelaufen — so trennt das'
+              ' Deutsche, was getrennt werden muss.',
  'theory': [{'title': 'Отделяемая приставка уходит в конец',
+             'title_de': 'Die trennbare Vorsilbe geht ans Ende',
              'body': 'Многие немецкие глаголы носят приставку: aufstehen, aufmachen, mitkommen, '
                      'anfangen, einkaufen.\n'
                      '\n'
@@ -46,6 +56,7 @@ TOPIC = {'id': 'trennbare',
                         '\n'
                         'Die Bedeutung bleibt erkennbar: aufstehen = stehen + auf.'},
             {'title': 'Неотделяемые приставки',
+             'title_de': 'Untrennbare Vorsilben',
              'body': 'Приставки be-, ge-, er-, ver-, zer-, ent-, emp-, miss- не отделяются '
                      'никогда, они остаются с глаголом:\n'
                      '\n'
@@ -69,6 +80,7 @@ TOPIC = {'id': 'trennbare',
                         'Die Betonung hilft: Ein trennbares Präfix ist betont (ÁUFstehen, '
                         'MÍTkommen), ein untrennbares unbetont (verSTÉHen, erzÄHlen).'},
             {'title': 'Что делать с модальным глаголом',
+             'title_de': 'Was macht man mit einem Modalverb?',
              'body': 'Если рядом модальный глагол, он занимает второе место, а основной глагол '
                      'встаёт в конец инфинитивом — и приставка остаётся на месте:\n'
                      '\n'
